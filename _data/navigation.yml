@@ -19,3 +19,8 @@ main:
 #     children:
 #       - title: "Category"
 #         url: /categories/test
+counts:
+  - title: "Category"
+    use: true
+  - title: "tags"
+    use: false
