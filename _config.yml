@@ -116,7 +116,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/coolho1129/"  
     - label: "Solved.ac"
-      icon: "fab fa-fw fa-code"
+      icon: "fab fa-fw fa-link"
       url: "https://solved.ac/profile/coolho123"
     
     - label: "Website"
