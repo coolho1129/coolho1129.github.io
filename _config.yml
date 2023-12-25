@@ -112,6 +112,13 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "coolho123@knu.ac.kr"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/coolho1129/"  
+    - label: "Solved.ac"
+      icon: "fab fa-fw fa-code"
+      url: "https://solved.ac/profile/coolho123"
+    
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -121,15 +128,11 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/coolho1129/"
+    
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-    - label: "Solved.ac"
-      icon: "fab fa-fw fa-code"
-      url: "https://solved.ac/profile/coolho123"
+
 
 # Site Footer
 footer:
