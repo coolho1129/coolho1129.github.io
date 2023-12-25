@@ -128,7 +128,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
     - label: "Solved.ac"
-      icon: "fab fa-fw fa-Solved.ac"
+      icon: "fab fa-fw fa-code"
       url: "https://solved.ac/profile/coolho123"
 
 # Site Footer
