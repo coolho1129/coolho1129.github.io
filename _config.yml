@@ -20,7 +20,7 @@ title: "CooLAB"
 title_separator: "-"
 subtitle:  "for AI, ML ,DL, CV"
 name: "CoolHo"
-description: ""
+description: "CoolHo의 블로그"
 url: "https://coolho1129.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "coolho1129/coolho1129.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -145,7 +145,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      #url: "https://github.com/coolho1129/"
+      url: "https://github.com/coolho1129/"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
