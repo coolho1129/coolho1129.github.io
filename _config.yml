@@ -262,10 +262,10 @@ defaults:
       read_time: False #true
       comments: False #true
       share: true
-      related: true
+      related: False
       show_date: true
       toc: true
-      toc_label: 목차
+      toc_label: Contents
       toc_sticky: true
       use_math: true
       sidebar:
