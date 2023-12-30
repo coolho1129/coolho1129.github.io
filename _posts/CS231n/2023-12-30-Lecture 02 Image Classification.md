@@ -23,7 +23,7 @@ tag: [AI, ML,DL,CS231,CS231n]
 
 **Image Classification**을 한다고 하면 우선 이미지를 입력하고 시스템에는 미리 카테고리 집합을 정해둡니다. 컴퓨터가 해야 할 일은 이미지를 보고 어떤 카테고리에 이미지가 속하는 지를 고르는 것입니다.  우리는 이 작업을 아주 쉽게 할 수 있지만 기계에게는 정말 어려운 작업입니다.
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled.png)
+![img1.png]({site.url}/images/CS231n/lecture02/img1.png){: .align-center}
 
  예를 들어 입력데이터로 고양이 사진이 한 장 주어지고 카테고리에는 개, 고양이,트럭, 비행기 등이 주어졌다고 합시다. 컴퓨터가 해야할 일은 고양이 사진을 보고 주어진 카테고리 내에서 고양이를 찾는 것이  될 것입니다.  앞서 말했듯이 이는 우리에게는 아주 쉬운 작업이지만 컴퓨터에게는 어려운 작업입니다.  지금부터 이 작업이 왜 컴퓨터에게는 어려운 작업인지에 대해 알아보겠습니다. 
 
@@ -31,7 +31,7 @@ tag: [AI, ML,DL,CS231,CS231n]
 
 ### Semantic Gap
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%201.png)
+![img2.png]({site.url}/images/CS231n/lecture02/img2.png){: .align-center}
 
 우선, 컴퓨터가 입력으로 받은 고양이 이미지를 어떻게 인식하는지를 알아봅시다. 컴퓨터는 이미지를 아주 큰 격자 모양의 숫자 집합으로 인식합니다. 그리고 각 픽셀은 세 개의 숫자로 표현되며 숫자 각각은 red, green, blue를 의미합니다. 이처럼 컴퓨터에게 이미지는 단지 거대한 숫자집합에 불과하기 때문에 고양이 이미지를 인식하는 것은 상당히 어려운 일입니다. **`“고양이”라는 레이블은 우리가 이 이미지에 붙힌 의미상의 레이블이고 이는 이 이미지가 고양이 사진이라는 사실과 실제 컴퓨터가 보는 픽셀 값과는 큰 차이가 있습니다.`**
 
@@ -39,9 +39,9 @@ tag: [AI, ML,DL,CS231,CS231n]
 
 ### Viewpoint variation and Illumination
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%202.png)
+![img3.png]({site.url}/images/CS231n/lecture02/img3.png){: .align-center}
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%203.png)
+![img4.png]({site.url}/images/CS231n/lecture02/img4.png){: .align-center}
 
 컴퓨터는 픽셀 값을 통해 이미지를 인식합니다. 그러나 주어진 이미지에 아주 미묘한 변화만 발생한다더라고 픽셀을 값들은 모두 변하게 됩니다. 예를 들어, 카메라 각도를 조금만 변하게 해도 모든 픽셀의 값들은 변할 것입니다. 하지만, 이 경우 픽셀 값이이 바뀌더라도 위 이미지가 고양이라는 사실은 변치 않습니다. 
 
@@ -49,11 +49,11 @@ tag: [AI, ML,DL,CS231,CS231n]
 
 ### Deformation, Occlusion and Background Clustter
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%204.png)
+![img5.png]({site.url}/images/CS231n/lecture02/img5.png){: .align-center}
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%205.png)
+![img6.png]({site.url}/images/CS231n/lecture02/img6.png){: .align-center}
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%206.png)
+![img7.png]({site.url}/images/CS231n/lecture02/img7.png){: .align-center}
 
 또한, **Deforamtion**(객체 자체의 변화)이 있을 수도 있고 **Occlusion**(가려짐)도 있을 수 있고, **Background clutter**(배경과 비슷한 경우)도 있을 수 있습니다.
 
@@ -63,7 +63,7 @@ tag: [AI, ML,DL,CS231,CS231n]
 
 ### polymorphism
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%207.png)
+![img8.png]({site.url}/images/CS231n/lecture02/img8.png){: .align-center}
 
 마지막으로 하나의 클래스 내에서도 다양한 형태를 지닐 수 있는 **polymorphism(**다형성)을 고려해야 합니다.
 
@@ -97,7 +97,7 @@ def classify_image(imaage):
 
  
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%208.png)
+![img9.png]({site.url}/images/CS231n/lecture02/img9.png){: .align-center}
 
 고양이 인식을 예로 들어 앞서 언급한 시도를 살펴보겠습니다. 우리는 고양이는 두 개의 귀와 하나의 코가 있다는 것을 알고 있습니다. 또한,  Hubel과 Wiesel의 연구 덕분에 Eedges가 대단히 중요하다는 것도 알고 있습니다. 이를 이용하여 “명시적 규칙 집합”을 써내려가면 다음과 같이 쓸 수 있을 것입니다. 우선 이미지에서 edges를 계산합니다.그리고 다양한 Corners와 Edges를 각 카테고리로 분류합니다.가령 세 개의 선이 만나는 지점이면 corner라고 했을 때 오른쪽 귀에도  corner가 있고 왼쪽 귀에도  corner가 있고 이외에도 많은 corner가 있습니다. 하지만 이와 같은 방식으로 고양이를 인식하고자 하면 잘 동작하지 않습니다. **`첫 번째 문제는 이와 같은 알고리즘은 앞서 말한 문제들을 해결하지 못한다`**는 것입니다. **`두 번째는 확장성이 없는 방법이라는 것`**입니다.  만약 트럭이나, 개와 같은 다른 객체를 인식해야 한다면  별도로 새로운 명시적 규칙 집합을 작성해야할 것입니다.
 
@@ -107,7 +107,7 @@ def classify_image(imaage):
 
 Data-Driven Approch에서는 직접 규칙을 정하는 대신 **`많은 양의 데이터를 수집`**합니다. 이를 이용하여 image dataset과 labels datasets을 만듭니다. 다음으로, 앞서 모은  image dataset과 labels datasets를 활용하여 `**Machine Learning을 진행하여 classifier을 학습**`시킵니다. 마지막으로 **`new images에 대해 classifier를 평가`**합니다. 
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%209.png)
+![img10.png]({site.url}/images/CS231n/lecture02/img10.png){: .align-center}
 
 이제 Image Classifier API를 만들기 위해서는 함수가 하나가 아니라  2개가 필요합니다.
 
@@ -153,12 +153,12 @@ predict step에서는 새로운 이미지가 들어오면 새로운 이미지과
 
 NN은 아주 단순한 알고리즘이지만 Data-driven Approch를 활용한 아주 좋은 알고리즘입니다.
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%2010.png)
+![img11.png]({site.url}/images/CS231n/lecture02/img10.png){: .align-center}
 
 CIFAR-10을 data set으로 이용한  NN예제를 살펴보겠습니다. 아래 그림의 맨 왼쪽 열은
 CIFAR-10 테스트 이미지입니다. 그리고 오른쪽 방향으로는 학습 이미지 중 테스트 이미지와 유사한 순으로 정렬했습니다.  테스트 이미지와 학습 이미지를 비교해 보면, 눈으로 보기에는 상당히 비슷해 보이나 항상 맞는 것은 아님을 알 수 있니다.
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%2011.png)
+![img12.png]({site.url}/images/CS231n/lecture02/img12.png){: .align-center}
 
 두 번째 행의 이미지는 개입니다. 그리고 가장 유사하다고 판별된 이미지도 개입니다. 하지만 두 번쨰, 세 번째로 유사하다고 판별된 이미지를 살펴보면 사슴이나 말같아 보이는 이미지들도 보입니다. 개는 아니지만 “중간에 흰색 물체가 있다” 등의 특징이 육안으로 보기에는 test image와 매우 유사해 보입니다. 
 
@@ -168,7 +168,7 @@ CIFAR-10 테스트 이미지입니다. 그리고 오른쪽 방향으로는 학�
 
 test image를 train image와 비교할 때 어떤 방식을 사용할 지가 중요합니다. 정확히 말하면 어떤 비교함수를 사용하는 지에 따라 달라집니다. 
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%2012.png)
+![img13.png]({site.url}/images/CS231n/lecture02/img13.png){: .align-center}
 
 위의 NN예제에서는 비교함수로 L1 Distance를 사용했습니다. L1 Distnace는 아주 간단한 방법으로 이미지를 **Pixel-wise(픽셀단위)로 비교**합니다.
 
@@ -216,7 +216,7 @@ test 함수의 역할은 이미지를 입력으로 받고 L1 Distance로 비교�
 
 ### NN decision regions
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%2013.png)
+![img14.png]({site.url}/images/CS231n/lecture02/img14.png){: .align-center}
 
 위 그림은 NN의 decsion regions입니다. 2차원 평면 상의 각 점은 학습데이터이고, 점의 색은 class label입니다. 위 그림을 보면 label이 5개임을 알 수 있습니다.  위 decision resgions가 그려진 과정을 살펴보겠습니다. 우선, 2차원 평면 내의 모든 좌표에서 각 좌표가 어떤 train data와 가장 가까운지 계산합니다. 다음으로, 각 좌표를 해당 label로 칠했습니다. 이처럼 NN Classifier은 공간을 나눠서 각 레이블로 분류합니다. 
 
@@ -228,7 +228,7 @@ test 함수의 역할은 이미지를 입력으로 받고 L1 Distance로 비교�
 
 K-NN알고리즘은  단순하게 가장 가까운 이웃만 찾기보다는 조금 더 고급진 방법을 도입했습니다. 그 방법은 **`Distance metric을 이용해서 가까운 이웃을 K개의 만큼 찾고, 이웃끼리 투표를 하는 방법`**입니다. 그리고 가장 많은 득표를 획득한 레이블로 예측합니다.  거리별 가중치를 고려하는 등 투표를 하는 다양하고 복잡한 방법들이 있을 수 있지만 **`가장 잘 동작하면서도 가장 쉬운 방법은 득표수만 고려하는 방법`**입니다.
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%2014.png)
+![img15.png]({site.url}/images/CS231n/lecture02/img15.png){: .align-center}
 
 위에 보이는 세 예제는 동일한 데이터를 사용한 k-nn 분류기들입니다.각각 K=1/3/5 에서의 결과입니다. 우선, K=3 의 경우를 살펴봅게습니다. 앞서 초록색 영역에 자리 잡았던 노란색 점 때문에 생긴 노란 지역이 깔끔하게 사라졌습니다. 이제는 중앙은 초록색이 깔끔하게 점령했습니다. 그리고 왼쪽의 빨강/파랑 사이의 뾰족한 경계들도 점차 부드러워지고 있습니다. K=5의 경우를 살펴보겠습니다.
 파란/빨간 영역의 경계가 이제는 아주 부드럽고 좋아졌습니다. 대게 `**NN분류기를 사용하면, K는 적어도 1보다는 큰 값으로 사용**`합니다. `**왜냐하면  K가 1보다 커야 결정 경계가 더 부드러워지고
@@ -242,13 +242,13 @@ K-NN알고리즘은  단순하게 가장 가까운 이웃만 찾기보다는 조
 
 이미지를 다루는 문제에서 k-nn을 사용하는 전략은 그닥 좋은 방법이 아닙니다.
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%2015.png)
+![img16.png]({site.url}/images/CS231n/lecture02/img16.png){: .align-center}
 
 위 그림은 잘 분류되었는지 아닌지를 초록/빨간색으로 표기했습니다. 성능이 생각보다 좋지 않음을 파악할 수 있습니다. 만약 K값을 높히면 어떨까요? ,가장 가까운 이웃 뿐만 아니라 Top-3/Top-5 혹은 모든 행(Row)을 사용하면 어떨까요? **`더 많은 이웃들이 투표에 참여하면 각종 잡음들에 조금 더 강인해 질 것`**임을 추측할 수 있습니다.
 
 ### K-NN: Distance Metric
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%2016.png)
+![img17.png]({site.url}/images/CS231n/lecture02/img17.png){: .align-center}
 
 K-NN을 사용할 때 결정해야 할 한 가지 사항이 더 있습니다. 바로 **`서로 다른 점들을 어떻게 비교할 것인지`** 입니다. K-NN에서 서로 다른 점들 비교하는 방법은 크게 두 가지가 있습니다.  
 
@@ -267,7 +267,7 @@ K-NN을 사용할 때 결정해야 할 한 가지 사항이 더 있습니다. �
 
 여기에서 주목할 점은 k-nn에 다양한 거리 척도를 적용하면 K-NN으로 다양한 종류의 데이터를 다룰 수 있다는 점입니다. ****거리 척도만 정해주면 어떤 종류의 데이터도 다룰 수 있습니다.****  K-NN은 아주 단순한 알고리즘이기 때문에 새로운 문제를 접했을 때  간단히 시도해 볼만한 아주 좋은 알고리즘입니다.
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%2017.png)
+![img18.png]({site.url}/images/CS231n/lecture02/img18.png){: .align-center}
 
 자 그러면 어떤 거리 척도를 사용하는지에 따라서 실제 기하학적으로 어떻게 변하는지 알아봅시다.
 
@@ -277,11 +277,11 @@ K-NN을 사용할 때 결정해야 할 한 가지 사항이 더 있습니다. �
 
 ### Hyperparameters
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%2018.png)
+![img19.png]({site.url}/images/CS231n/lecture02/img19.png){: .align-center}
 
 **Hyperparameters**는 머신 러닝 및 딥러닝 모델에서 사용되는 조절 가능한 매개변수들을 의미합니다. Hyperparmeters는 **`학습에 의해 결정되는 것이 아니기 때문에 반드시 학습 전에 선택`**해야합니다. 그러면 좋은 Hyperparmeters를 정하기 위해서는 어떻게 해야 할까? Hyperparmeters를 정하는 일은 문제의존적(problem-dependent)이기 때문에 가장 간단한 방법은 데이터에 맞게 다양한 하이퍼파라미터 값을 시도해 보고 가장 좋은 값을 찾는 방법밖에 없습니다.
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%2019.png)
+![img20.png]({site.url}/images/CS231n/lecture02/img20.png){: .align-center}
 
 "다양한 하이퍼 파라미터를 시도해 보는 것" 과 "그중 최고를 선택하는 것" 이 무슨 뜻일까? 
 
@@ -294,11 +294,11 @@ K-NN을 사용할 때 결정해야 할 한 가지 사항이 더 있습니다. �
 
 또 다른 하이퍼파라미터 선택 전략은 **Cross Validation(교차 검증)**입니다.  **Cross Validation**은 ****다음과 같은 과정으로 진행됩니다. 우선 test data를 정해놓습니다. test data는 아주 마지막에만 사용할 것입니다. 그리고 나머지 data를 train data와 validation data로 딱 나눠 놓는 대신에 train data를 여러 부분으로 나눠줍니다. 그런 다음 여러 부분으로 나누어진 train data를 번갈아 가면서 valid data로 활용합니다.
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%2020.png)
+![img21.png]({site.url}/images/CS231n/lecture02/img21.png){: .align-center}
 
 이 예제에서는 5-Fold Cross Validation을 사용하고 있습니다. 처음 4개의 fold에서 하이퍼 파라미터를 학습시키고 남은 한 fold에서 알고리즘을 평가합니다. 그리고 1,2,3,5 fold에서 다시 학습시키고 4 fold로 평가합니다. 이런식으로 모든 fold가 validation data로 이용될 때 까지 반복합니다. 이런 방식으로 최적의 하이퍼파라미터를 확인할 수 있을 것입니다. **Cross Validation**은  실제로는 딥러닝같은 큰 모델을 학습시킬 때는 학습 자체가 계산량이 많기 때문에 실제로는 잘 쓰지 않습니다.
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%2021.png)
+![img22.png]({site.url}/images/CS231n/lecture02/img22.png){: .align-center}
 
 cross validation을 수행하고 나면 위와 같은 그래프를 보실 수 있습니다. 그래프의 축을 살펴보면 X축은 K-NN의 K이고 고 Y축은 분류 정확도입니다. 위의 경우에는 5-fold cross validation을 수행하였습니다. 각 K마다 5번의  cross validation을 통해 알고리즘이 얼마나 잘 동작하는지를 알려줍니다. 
 또한, 만약 여러 validation folds 별 성능의 분산을 같이 계산하게 되면, 어떤 하이퍼파라미터가 가장
@@ -310,7 +310,7 @@ cross validation을 수행하고 나면 위와 같은 그래프를 보실 수 �
 
 실제로는 **입력이 이미지인 경우에는 K-NN classifier를 잘 사용하지 않습니다**. 왜나하면, **`우선, K-NN classifier은 너무 느립`**니다. 또한, train time 보다 test time에 더 많은 시간을 사용하기 때문에 image classfier로 적합하지않습니다. 그리고,  또 하나의 문제는 **`L1/L2 Distance가 이미지간의 거리를 측정하기에 적절하지 않다는 것`**입니다.벡터간의 거리 측정 관련 함수들은(L1/L2) 이미지들 간의 "지각적 유사성"을 측정하는 척도로는 적절하지 않습니다.
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%2022.png)
+![img23.png]({site.url}/images/CS231n/lecture02/img23.png){: .align-center}
 
 K-NN의 또 다른 문제 중 하나는 바로 **"차원의 저주**" 입니다. K-NN을 다시한번 살펴보면 K-NN이 하는 일은 트레이닝 데이터를 이용해서 공간을 분할하는 일입니다. 이는 K-NN이 잘 동작하려면 전체 공간을 조밀하게 커버할 만큼의 충분한 트레이닝 샘플이 필요하다는 것을 의미합니다. 그렇지 않다면 이웃이 사실은 엄청 멀 수도 있고 그렇게 되면 test image를 제대로 분류할 수 없을 것입니다. 공간을 조밀하게 덮으려면 충분한 양의 train data가 필요하고 그 양은 차원이 증가함에 따라 기하급수적으로 증가합니다.
 
@@ -320,17 +320,16 @@ K-NN의 또 다른 문제 중 하나는 바로 **"차원의 저주**" 입니다.
 
 Linear Classification은 간단한 알고리즘이지만 NerNetwork(NN)와 CNN의 기반 알고리즘입니다. 앞으로 보게될 다양한 종류의 딥러닝 알고리즘들의 가장 기본이 되는것 중 하나가 바로 L**inear classifier**이기 때문에 Linear Classification이 어떻게 동작하는지 이해하는 것은 아주 중요합니다. 왜냐하면 Linear Classification이 결국 전체 NN을 이루게 되기 때문입니다.
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%2023.png)
-
+![img24.png]({site.url}/images/CS231n/lecture02/img24.png){: .align-center}
 CIFAR-10이 50,000여개의 트레이닝 샘플이 있고 각 이미지는 32x32 픽셀을 가진 3채널 컬러 이미지라는 것을 다시 상기시봅시다. 
 
 ## parametric Approach
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%2024.png)
+![img25.png]({site.url}/images/CS231n/lecture02/img25.png){: .align-center}
 
 Linear classification에서는 K-NN과는 조금은 다른 접근 방법을 이용합니다. Linear classifier는 "parametric model"의 가장 단순한 형태입니다. **parametric model**에는 두 개의 요소가 있는데 **입력 이미지인 x**와 **가중치인 W**입니다.  우리는 이제 어떤 함수를 작성해야합니다. 이 함수는 data X와 parameter W를 가지고 10개의 숫자를 출력합니다. 이 숫자는 CIFAR-10의 각 10개의 카테고리의 스코어입니다. 이 스코어를 해석해 보자면, "고양이"의 스코어가 높다는 건 입력 X가 "고양이"일 확률이 크다는 것을 의미합니다.
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%2025.png)
+![img26.png]({site.url}/images/CS231n/lecture02/img26.png){: .align-center}
 
 앞서 살편 본 K-NN은 파라미터가 없었습니다. 그저 전체 트레이닝 셋을 가지고 있었고 모든 트레이닝 셋을 Test time에 사용했습니다. 하지만 **`parametric approach에서는 train data를 요약하여 W에 저장합니다. 이런 방식을 사용하면 Test time에서 더이상 trainning data가 필요하지 않습니다.`** Test time에서는 파라미터 W만 있으면 됩니다. 이 방법은 핸드폰과 같은 작은 디바이스에서 모델을 동작시켜야 할 때 아주 효율적입니다. 그렇기 때문에 딥러닝은 바로 이 함수 F의 구조를 적절하게 잘 설계하는 일이라고 할 수 있습니다. 어떤 식으로 가중치 W와 데이터를 조합할지를 여러가지 복잡한 방법으로 고려해 볼 수 있는데 이 과정들이 모두 다양한 NN 아키텍쳐를 설계하는 과정입니다. **`가중치 W와 데이터 X를 조합하는 가장 쉬운 방법은 그냥 이 둘을 곱하는 것`**입니다. 이 방법이 바로 **`Linear classification`** 입니다.
 
@@ -340,11 +339,11 @@ $$
 
 ## Parametric Approach: Linear Classifier
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%2026.png)
+![img27.png]({site.url}/images/CS231n/lecture02/img27.png){: .align-center}
 
 이제 입력데이터 x와 가중치 w의 차원을 알아보겠습니다. 입력 이미지는  32 x 32 x 3이였습니다. 이 값을 열 벡터로 만들면 3,072 dim 벡터가 됩니다. 3,072 벡터가 10-classes를 가진 score로 출력이 되야하기 때문에 행렬 W는 10 x 3072가 되어야 합니다. 이 둘은 곱하면 10-classes를 의미하는 10 x 1의 하나의 열벡터를 얻게 됩니다.
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%2027.png)
+![img28.png]({site.url}/images/CS231n/lecture02/img28.png){: .align-center}
 
 그리고 가끔은 "Bias" 을 보게 될텐데  Bias term도 같이 더해줘야 합니다. 위 그림에서 Bias term은 10-dim 열 벡터입니다. **`Bias term은 입력과 직접 연결되지 않습니다. 대신에 "데이터와 무관하게"
 특정 클래스에 "우선권"을 부여`**합니다. 가령 dataset이 분균형한 상황을 생각해 볼 수 있습니다.
@@ -352,7 +351,7 @@ $$
 
 ## Linear Classifier Example
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%2028.png)
+![img29.png]({site.url}/images/CS231n/lecture02/img20.png){: .align-center}
 
 함수가 어떻게 동작하는지 위 그림을 통해 알아보겠습니다. 위 그림을 보면 2x2 이미지이고 전체 4픽셀입니다. 이 Linear Classifier는 2x2 이미지를 입력으로 받고 이미지를 4-dim벡터로 쭉 폅니다. class는 고양이, 개, 배 이 세개의 class만 있다고 가정하겠습니다.  입력은 4개의 픽셀이고 class는 총 3개이기 때문입에 가중치 W는 4x3 행렬이 됩니다. 그리고 추가적으로 3-dim bias 벡터가 있습니다. bias는 데이터와 독립적으로 각 카테고리에 연결됩니다. 각각의 스코어 는 입력 이미지의 픽셀 값들과 가중치 행렬을 cross dot한 값에 bias term을 더한 것입니다. 이러한 관점에서 Linear Classifier은 Template Matching와 유사합니다. 가중치 행렬 W의 각 행은 각 이미지에 대한 Template으로 볼 수 있고 그 행 벡터와 이미지의 열벡터 간의 cross dot는 결국 class 간의 Template의 유사도를 측정하는 것이라고 할 수 있습니다. bias는 데이터 독립적으로 각 class에 scailing offsets을 더하는 것입니다. 
 
@@ -364,7 +363,7 @@ $$
 
 ## Interpreting a Linear Classifier
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%2029.png)
+![img30.png]({site.url}/images/CS231n/lecture02/img30.png){: .align-center}
 
 template matching 관점에서 Liner Classification을 생각해보겠습니다. 가중치 행렬 W의 한 행을 뽑아서 이를 이미지로 시각화 시켜보면 Linear classifier가 이미지 데이터를 인식하기 위해서 어떤 일을 하는지 짐작할 수 있습니다.
 
@@ -377,7 +376,7 @@ template matching 관점에서 Liner Classification을 생각해보겠습니다.
 
 만약 **클래스 당 하나의 템플릿만 학습 할 수 있다는 것과 같은 제약조건이 없고, Neural Network같은 복잡한 모델을 사용한다면 조금 더 정확도 높은 결과를 볼 수 있을 것**입니다.
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%2030.png)
+![img31.png]({site.url}/images/CS231n/lecture02/img31.png){: .align-center}
 
 Linear Classifier은 이미지를 고차원 공간의 한 점으로 보는 또 다른 관점으로도 해석할 수 있습니다. **`각 이미지를 고차원 공간의 한점이라고 생각해보면 Linear classifier는 각 클래스를 구분시켜 주는 선형 결정 경계를 그어주는 역할`**을 합니다.
 
@@ -387,7 +386,7 @@ Linear Classifier은 이미지를 고차원 공간의 한 점으로 보는 또 �
 
 이미지가 고차원 공간의 하나의 점 이라는 관점으로 해석한다면 Linear classification이 직면할 수 있는 문제점을 살펴보겠습니다.
 
-![Untitled](Lecture%2002%20Image%20Classification%20eb0d6bcff601412fa92dbf255b2ccd81/Untitled%2031.png)
+![img32.png]({site.url}/images/CS231n/lecture02/img32.png){: .align-center}
 
 위 그림의 맨 왼쪽 그림은 두 개의 클래스를 가진 데이터 셋입니다. 데이터셋에는 파랑/빨강 두 개의 카테고리가 있습니다. 파랑색 카테고리는 0보다 큰 픽셀이 홀수 개 인 경우입니다. (예 : [3,-1] 이면 0보다 큰 수 : 3 (1개, 홀수개) -> 파랑) 반면 0보다 큰 수가 짝수 개면 빨간 카테고리로 classifier합니다.
 
