@@ -12,6 +12,7 @@ tag: [AI, ML,DL,CS231,CS231n]
 [Lecture 2 Image Classification.ko.srt]({{{site.url}}}/attachment/CS231n/lecture02/Lecture_2___Image_Classification.ko.srt)
 ## pdf
 [cs231n_2017_lecture2.pdf]({{{site.url}}}/attachment\CS231n\lecture02\cs231n_2017_lecture2.pdf)
+---
 
 # Image Classification
 
