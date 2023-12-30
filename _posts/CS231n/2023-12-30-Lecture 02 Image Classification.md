@@ -7,11 +7,12 @@ tag: [AI, ML,DL,CS231,CS231n]
 
 # Lecture 02 Image Classification
 
-##  lecture video 
+## lecture
+### video 
 [Lecture 2 | Image Classification](https://www.youtube.com/watch?v=OoUX-nOEjG0&list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk&index=2)
-## lecture subtitle
+### subtitle
 [Lecture 2 Image Classification.ko.srt]({{{site.url}}}/attachment/CS231n/lecture02/Lecture_2___Image_Classification.ko.srt)
-## lecture pdf
+### pdf
 [cs231n_2017_lecture2.pdf]({{{site.url}}}/attachment\CS231n\lecture02\cs231n_2017_lecture2.pdf)
 
 # Image Classification
