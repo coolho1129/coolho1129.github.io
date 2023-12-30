@@ -2,7 +2,7 @@
 layout: single
 title: Lecture 02 Image Classification
 categories: CS231
-tag: [AI, ML,DL,CS231,CS231n]
+tag: ['#AI', '#ML', '#DL', '#CS231', '#CS231n']
 ---
 
 <!-- # Lecture 02 Image Classification
