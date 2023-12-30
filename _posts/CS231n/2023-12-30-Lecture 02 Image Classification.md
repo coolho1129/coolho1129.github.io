@@ -7,14 +7,14 @@ tag: [AI, ML,DL,CS231,CS231n]
 
 # Lecture 02 Image Classification
 
-<!-- ### 영상  
+### lecture video 
 [Lecture 2 | Image Classification](https://www.youtube.com/watch?v=OoUX-nOEjG0&list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk&index=2)
 
-### 자막  
+### lecture subtitle
 [Lecture 2 Image Classification.ko.srt]({{{site.url}}}/attachment/CS231n/lecture02/Lecture_2___Image_Classification.ko.srt)
 
-### 강의자료  
-[cs231n_2017_lecture2.pdf]({{{site.url}}}/attachment\CS231n\lecture02\cs231n_2017_lecture2.pdf) -->
+### lecture pdf
+[cs231n_2017_lecture2.pdf]({{{site.url}}}/attachment\CS231n\lecture02\cs231n_2017_lecture2.pdf)
 # Image Classification
 
 **Image Classification**을 한다고 하면 우선 이미지를 입력하고 시스템에는 미리 카테고리 집합을 정해둡니다. 컴퓨터가 해야 할 일은 이미지를 보고 어떤 카테고리에 이미지가 속하는 지를 고르는 것입니다.  우리는 이 작업을 아주 쉽게 할 수 있지만 기계에게는 정말 어려운 작업입니다.
