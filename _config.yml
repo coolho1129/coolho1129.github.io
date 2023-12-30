@@ -258,6 +258,7 @@ defaults:
       type: posts
     values:
       layout: single
+      author: coolho1129
       author_profile: False
       read_time: False #true
       comments: False #true
