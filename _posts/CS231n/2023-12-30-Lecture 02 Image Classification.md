@@ -208,7 +208,7 @@ test 함수의 역할은 이미지를 입력으로 받고 L1 Distance로 비교�
 
 즉,  NN은 test time이 train time 보다 느린 것을 알 수 있고 이는 보통의 classifier 가지는 특징과 정 반대입니다.  
 
-**`일반적인 **Classifier에서는 Train time은 조금 느려도 되지만 Test time에서는 빠르게 동작`**해야합니다. Classifier의 좋은 성능을 보장하기 위해서 Train Time에는 많은 시간을 쏟을 수도 있습니다. 그러나 Test Time은 적은 시간이 요구 됩니다. 왜냐하면 Classifier모델이 핸드폰이나, 브라우저와 등 Low Power Device에서 동작해야 할 수도 있기 때문입니다. CNN과 같은 대부분의 parametic model들은 이러한 방식으로 동작합니다.
+**`일반적인 Classifier에서는 Train time은 조금 느려도 되지만 Test time에서는 빠르게 동작`**해야합니다. Classifier의 좋은 성능을 보장하기 위해서 Train Time에는 많은 시간을 쏟을 수도 있습니다. 그러나 Test Time은 적은 시간이 요구 됩니다. 왜냐하면 Classifier모델이 핸드폰이나, 브라우저와 등 Low Power Device에서 동작해야 할 수도 있기 때문입니다. CNN과 같은 대부분의 parametic model들은 이러한 방식으로 동작합니다.
 
 ### NN decision regions
 
@@ -249,9 +249,9 @@ K-NN알고리즘은  단순하게 가장 가까운 이웃만 찾기보다는 조
 K-NN을 사용할 때 결정해야 할 한 가지 사항이 더 있습니다. 바로 **`서로 다른 점들을 어떻게 비교할 것인지`** 입니다. K-NN에서 서로 다른 점들 비교하는 방법은 크게 두 가지가 있습니다.  
 
 <aside>
-📢 K-NN에서 서로 다른 점들 비교하는 방법  
-1. NN에서도 사용한 L1 distance 즉, **`픽셀 간 차이 절댓값 합`**을 이용한다.  
-2. L2 distance 즉, **`제곱 합의 제곱근`**을 이용한다.  
+📢 K-NN에서 서로 다른 점들 비교하는 방법  <br>
+1. NN에서도 사용한 L1 distance 즉, <strong>픽셀 간 차이 절댓값 합<strong>을 이용한다.<br>
+2. L2 distance 즉, <strong>제곱 합의 제곱근<strong>을 이용한다.  
 </aside>
 
 어떤 distance metric을 선택할지는 아주 흥미로운 주제입니다. 왜냐하면 서로 다른 metric에서는 해당 공간의 근본적인 기하하적 구조가 다르기 때문입니다.  위 그림에서 왼쪽에 보이는 사각형은 사실 L1 Distance의 관점에서는 원입니다. 생긴 모습은 원점을 기준으로 하는 사각형의 모양입니다. L1의 관점에서는 사각형 위의 점들이 모두 원점으로부터 동일한 거리만큼 떨어져 있습니다. 반면 L2의 관점에서는 원입니다. 우리가 예상했던 바로 그 원입니다.
