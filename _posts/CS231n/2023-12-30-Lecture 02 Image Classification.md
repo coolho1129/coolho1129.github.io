@@ -127,7 +127,7 @@ def predict(model, test_images):
 
 ### Neareset Neighbor
 
-더 복잡한 알고리즘을 다루기 전에 조금 더 단순한 Classfifier를 살펴보겠습니다.
+더 복잡한 알고리즘을 다루기 전에 조금 더 단순한 Classifier를 살펴보겠습니다.
 
 Nearsest Neighbor(NN)은 아주 단순한 Classifier입니다. 
 
