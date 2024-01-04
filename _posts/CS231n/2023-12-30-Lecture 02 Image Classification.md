@@ -350,9 +350,7 @@ $\begin{align}{F(x,W) = Wx}\end{align}$
 
 <aside>
 📖 <b>Template Matching</b>  
-<b>Template Matchin</b>은 컴퓨터 비전 분야에서 사용되는 기술로, 이미지에서 특정 Template 또는 패턴과 일치하는 부분을 찾는 작업입니다. <br>
-  Template Matching은 이미지 내에서 특정한 객체나 패턴을 찾거나, 이미지에서 관심 영역을 추출하는 데 유용하게 사용됩니다.
-
+<b>Template Matchin</b>은 컴퓨터 비전 분야에서 사용되는 기술로, 이미지에서 특정 Template 또는 패턴과 일치하는 부분을 찾는 작업으로 이미지 내에서 특정한 객체나 패턴을 찾거나, 이미지에서 관심 영역을 추출하는 데 유용하게 사용됩니다.
 </aside>
 
 ## Interpreting a Linear Classifier
