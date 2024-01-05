@@ -1,4 +1,2 @@
 User-agent: *
 Allow: /
-
-Sitemap: [https://coolho1129.github.io/sitemap.xml](https://coolho1129.github.io/sitemap.xml)
