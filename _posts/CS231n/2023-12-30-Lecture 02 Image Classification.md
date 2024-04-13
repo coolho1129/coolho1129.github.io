@@ -101,7 +101,7 @@ def classify_image(imaage):
 
 ### Data-Driven Approch
 
-Data-Driven Approch에서는 직접 규칙을 정하는 대신 **`많은 양의 데이터를 수집`**합니다. 이를 이용하여 image dataset과 labels datasets을 만듭니다. 다음으로, 앞서 모은  image dataset과 labels datasets를 활용하여 `**Machine Learning을 진행하여 classifier을 학습**`시킵니다. 마지막으로 **`new images에 대해 classifier를 평가`**합니다. 
+Data-Driven Approch에서는 직접 규칙을 정하는 대신 **`많은 양의 데이터를 수집`**합니다. 이를 이용하여 image dataset과 labels datasets을 만듭니다. 다음으로, 앞서 모은  image dataset과 labels datasets를 활용하여 **`Machine Learning을 진행하여 classifier을 학습`**시킵니다. 마지막으로 **`new images에 대해 classifier를 평가`**합니다. 
 
 ![img10.png]({{site.url}}/images/CS231n/lecture02/img10.png){: .align-center}
 
@@ -168,7 +168,7 @@ test image를 train image와 비교할 때 어떤 방식을 사용할 지가 중
 
 위의 NN예제에서는 비교함수로 L1 Distance를 사용했습니다. L1 Distnace는 아주 간단한 방법으로 이미지를 **Pixel-wise(픽셀단위)로 비교**합니다.
 
-4x4 테스트 이미지가 있다고 가정해봅시다. `**test image와 training image에서 같은 자리의 픽셀을 서로 빼고 절댓값을 취합니다**`. 이렇게 `**픽셀 간의 차이 값을 계산하고 모든 픽셀의 수행 결과를 모두 더합니다.**`  
+4x4 테스트 이미지가 있다고 가정해봅시다. **`test image와 training image에서 같은 자리의 픽셀을 서로 빼고 절댓값을 취합니다.`** 이렇게 **`픽셀 간의 차이 값을 계산하고 모든 픽셀의 수행 결과를 모두 더합니다.`**  
 
 ### NN python code
 
@@ -222,7 +222,7 @@ test 함수의 역할은 이미지를 입력으로 받고 L1 Distance로 비교�
 
 ### K-NN
 
-K-NN알고리즘은  단순하게 가장 가까운 이웃만 찾기보다는 조금 더 고급진 방법을 도입했습니다. 그 방법은 **`Distance metric을 이용해서 가까운 이웃을 K개의 만큼 찾고, 이웃끼리 투표를 하는 방법`**입니다. 그리고 가장 많은 득표를 획득한 레이블로 예측합니다.  거리별 가중치를 고려하는 등 투표를 하는 다양하고 복잡한 방법들이 있을 수 있지만 **`가장 잘 동작하면서도 가장 쉬운 방법은 득표수만 고려하는 방법`**입니다.
+K-NN알고리즘은  단순하게 가장 가까운 이웃만 찾기보다는 조금 더 고급진 방법을 도입했습니다. 그 방법은 **`Distance metric을 이용해서 가까운 이웃을 K개의 만큼 찾고, 이웃끼리 투표를 하는 방법`**입니다. 그리고 가장 많은 득표를 획득한 레이블로 예측합니다.  거리별 가중치를 고려하는 등 투표를 하는 다양하고 복잡한 방법들이 있을 수 있지만 `가장 잘 동작하면서도 가장 쉬운 방법은 득표수만 고려하는 방법`입니다.
 
 ![img15.png]({{site.url}}/images/CS231n/lecture02/img15.png){: .align-center}
 
