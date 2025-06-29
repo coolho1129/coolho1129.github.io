@@ -57,8 +57,8 @@ author_profile: false
             <span style="color: gray;">Sep. 2025 – Present</span>
           </p>
           <p>
-            <strong>B.S.</strong> in Computer Science and Engineering,<br>
-            Kyungpook National University, Daegu, South Korea<br>
+            <strong>B.S.</strong> in Computer Science and Engineering, Kyungpook National University, 
+            <br>Daegu, South Korea<br>
             <span style="color: gray;">Mar. 2021 – Feb. 2025</span>
           </p>
         </div>
