@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Chanho Kim"
-permalink: /
+permalink: /about/
 author_profile: false
 ---
 <img src="/assets/images/profile.jpg" width="180px" alt="profile" style="border-radius: 50%; float: left; margin-right: 30px; margin-bottom: 10px;">
