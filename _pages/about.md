@@ -78,7 +78,7 @@ author_profile: false
     <!-- Work Experience -->
     <div style="margin-bottom: 80px;">
       <h1 style="font-size: 36px; font-weight: bold; margin-bottom: 20px; text-align: left;">Work Experiences</h1>
-      <div style="padding-left: 0.5em;">
+      <div style="padding-left: 0.5em; font-size: 22px;">
         <ul>
           <li><strong>Graduate Researcher</strong>, AIGS, UNIST (May 2025 – Present)</li>
           <li><strong>Research Intern</strong>, ETRI (Jan – Feb 2024)</li>
@@ -90,7 +90,7 @@ author_profile: false
     <!-- Awards -->
     <div style="margin-bottom: 80px;">
       <h1 style="font-size: 36px; font-weight: bold; margin-bottom: 20px; text-align: left;">Awards and Honors</h1>
-      <div style="padding-left: 0.5em;">
+      <div style="padding-left: 0.5em; font-size: 22px;">
         <ul>
           <li><strong>Best Paper Presentation Award</strong> – ISET 2024 (May 2024, ETRI)</li>
           <li><strong>Encouragement Award</strong> – 2023 AI Programming Competition (Dec 2023, KNU)</li>
@@ -103,12 +103,20 @@ author_profile: false
     <!-- Publications -->
     <div>
       <h1 style="font-size: 36px; font-weight: bold; margin-bottom: 20px; text-align: left;">Publications</h1>
-      <div style="padding-left: 0.5em;">
-        <ul>
-          <li><strong>Vehicle Type Classification Method for Road Traffic Surveys</strong>, JESA Vol. 19(5), pp. 227–234, Oct 31, 2024</li>
-          <li><strong>Fall Prevention Techniques for Medical Beds</strong>, KICS 2024 · Jun 19, 2024</li>
-          <li><strong>Vehicle Classification via Vision</strong>, ISET 2024 · May 22, 2024</li>
-          <li><strong>Retargeting for Metaverse Dataset</strong>, CEIC 2023 · Dec 8, 2023</li>
+      <div style="padding-left: 0.5em; font-size: 22px;">
+        <ul style="list-style-type: disc; padding-left: 1.2em;">
+          <li><strong>Vehicle Type Classification Method for Road Traffic Surveys</strong><br>
+            <span style="margin-left: 1em; display: inline-block;">JESA Vol. 19(5), pp. 227–234, Oct 31, 2024</span>
+          </li>
+          <li><strong>Fall Prevention Techniques for Medical Beds</strong><br>
+            <span style="margin-left: 1em; display: inline-block;">KICS 2024 · Jun 19, 2024</span>
+          </li>
+          <li><strong>Vehicle Classification via Vision</strong><br>
+            <span style="margin-left: 1em; display: inline-block;">ISET 2024 · May 22, 2024</span>
+          </li>
+          <li><strong>Retargeting for Metaverse Dataset</strong><br>
+            <span style="margin-left: 1em; display: inline-block;">CEIC 2023 · Dec 8, 2023</span>
+          </li>
         </ul>
       </div>
     </div>
