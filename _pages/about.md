@@ -14,7 +14,7 @@ author_profile: false
     <div style="flex: 0 0 220px; text-align: center;">
       <img src="../images/about.jpg" alt="profile" style="border-radius: 50%; width: 180px; margin-bottom: 20px;">
       <h2 style="margin-bottom: 6px;"><strong>Chanho Kim</strong></h2>
-      <p style="margin: 4px 0;">Combined M.S./Ph.D. Student</p>
+      <p style="font-size: 14px; margin:  4px 0;">Combined M.S./Ph.D. Student</p>
       <p style="margin: 4px 0;"><a href="https://aigs.unist.ac.kr/">AIGS, UNIST</a></p>
       <p style="margin: 8px 0;">
         <a href="https://linkedin.com/in/chanho-kim-891a542a2">LinkedIn</a> |
