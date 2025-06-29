@@ -32,7 +32,7 @@ author_profile: false
         I am a combined <strong>M.S./Ph.D.</strong> student at the 
         <a href="https://aigs.unist.ac.kr/"><strong><u>Artificial Intelligence Graduate School (AIGS)</u></strong></a>, 
         <strong>Ulsan National Institute of Science and Technology (UNIST)</strong>. I received my 
-        <strong>B.S.</strong> degree in <strong>Computer Science and Engineering</strong> from 
+        <strong>B.S.</strong> degree in  <a href="https://computer.knu.ac.kr/"><strong>Computer Science and Engineering</strong></a> from 
         <strong>Kyungpook National University (KNU)</strong>. I am currently a member of the 
         <a href="https://vision.unist.ac.kr"><strong>UNIST Vision and Learning Lab (UVLL)</strong></a>, advised by 
         <a href="https://sites.google.com/site/bsrvision00/"><strong>Prof. Seungryul Baek</strong></a>. 
@@ -71,9 +71,9 @@ author_profile: false
       <div style="margin-top: 60px; font-size: 20px;">
         <h2 style="font-size: 30px; font-weight: bold; margin-bottom: 20px;">Work Experiences</h2>
         <ul>
-          <li><strong>Graduate Researcher</strong>, AIGS, UNIST (May 2025 – Present)</li>
-          <li><strong>Research Intern</strong>, ETRI (Jan – Feb 2024)</li>
-          <li><strong>Undergraduate RA</strong>, KNU (Jul – Dec 2023)</li>
+          <li><strong>Graduate Researcher</strong>, <a href="https://vision.unist.ac.kr">UNIST Vison & Learning Lab</a>, AIGS, UNIST (May 2025 – Present)</li>
+          <li><strong>Research Intern</strong>, <a href="https://www.etri.re.kr/kor/sub6/sub6_01020101.etri?departCode=150&departInfoCode=265">AI Infrastructure Lab</a>, ETRI (Jan – Feb 2024)</li>
+          <li><strong>Undergraduate Researcher</strong>, <a href="https://sites.google.com/view/k-vislab"> Vision & Intelligent Systems Lab</a>, CSE, KNU (Jul – Dec 2023)</li>
         </ul>
 
         <h2 style="font-size: 30px; font-weight: bold; margin-top: 40px; margin-bottom: 20px;">Awards and Honors</h2>
