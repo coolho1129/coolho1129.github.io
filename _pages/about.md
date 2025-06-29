@@ -37,40 +37,40 @@ author_profile: false
         <strong>computer vision</strong>, and <strong>vision-language models</strong>.
       </p>
 
-      <!-- Contact + Education -->
-      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; margin-top: 40px;">
+       <!-- Contact + Education -->
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; margin-top: 40px;">
         
-        <!-- Contact -->
-        <div style="flex: 1; min-width: 300px;">
-          <h3><strong>Contact</strong></h3>
-          <div style="line-height: 1.5;">
-            <p style="margin: 0;">
-              <strong>Email:</strong> 
-              <a href="mailto:coolho123@unist.ac.kr">coolho123@unist.ac.kr</a>
+          <!-- Education (왼쪽, 더 넓게) -->
+          <div style="flex: 0 0 60%; min-width: 320px;">
+            <h3><strong>Education</strong></h3>
+            <p>
+              M.S./Ph.D. in Artificial Intelligence,<br>
+              Ulsan National Institute of Science and Technology (UNIST)<br> 
+              Ulsan, South Korea<br>
+              <span style="color: gray;">Sep. 2025 – Present</span>
             </p>
-            <p style="margin: 0; font-size: 14px;">
-              <strong>Location:</strong> 50 UNIST-gil, Ulju, Ulsan, Republic of Korea
+            <p>
+              B.S. in Computer Science and Engineering<br>
+              Kyungpook National University (KNU), Daegu, South Korea<br>
+              <span style="color: gray;">Mar. 2021 – Feb. 2025</span>
             </p>
           </div>
+        
+          <!-- Contact (오른쪽, 더 좁게) -->
+          <div style="flex: 0 0 35%; min-width: 240px;">
+            <h3><strong>Contact</strong></h3>
+            <div style="line-height: 1.5;">
+              <p style="margin: 0;">
+                <strong>Email:</strong> 
+                <a href="mailto:coolho123@unist.ac.kr">coolho123@unist.ac.kr</a>
+              </p>
+              <p style="margin: 0; font-size: 14px;">
+                <strong>Location:</strong> 50 UNIST-gil, Ulju, Ulsan, Republic of Korea
+              </p>
+            </div>
+          </div>
+        
         </div>
-
-        <!-- Education -->
-        <div style="flex: 1; min-width: 300px;">
-          <h3><strong>Education</strong></h3>
-          <p>
-            M.S./Ph.D. in Artificial Intelligence,<br>
-            Ulsan National Institute of Science and Technology (UNIST)<br> 
-            Ulsan, South Korea<br>
-            <span style="color: gray;">Sep. 2025 – Present</span>
-          </p>
-          <p>
-            B.S. in Computer Science and Engineering<br>
-            Kyungpook National University (KNU), Daegu, South Korea<br>
-            <span style="color: gray;">Mar. 2021 – Feb. 2025</span>
-          </p>
-        </div>
-
-      </div> <!-- End of Contact + Education -->
 
     </div> <!-- End of Right Panel -->
   </div> <!-- End of Main Flex Layout -->
