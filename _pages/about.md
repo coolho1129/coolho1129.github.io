@@ -9,7 +9,7 @@ author_profile: false
 
   <!-- Left Panel -->
   <div style="flex: 0 0 220px; text-align: center;">
-    <img src="images/about.png" alt="profile" style="border-radius: 50%; width: 180px; margin-bottom: 20px;">
+    <img src="images/about.jpg" alt="profile" style="border-radius: 50%; width: 180px; margin-bottom: 20px;">
     <h2><strong>Chanho Kim</strong></h2>
     <p>Combined M.S./Ph.D. Student</p>
     <p><a href="https://aigs.unist.ac.kr/">AIGS, UNIST</a></p>
