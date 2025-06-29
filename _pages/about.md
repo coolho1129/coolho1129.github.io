@@ -42,7 +42,7 @@ author_profile: false
     <p>Combined M.S./Ph.D. Student</p>
     <p><a href="https://aigs.unist.ac.kr/">AIGS, UNIST</a></p>
     <p>
-      <a href="/assets/files/chanho_kim_cv.pdf"><strong>CV</strong></a> |
+<!--       <a href="/assets/files/chanho_kim_cv.pdf"><strong>CV</strong></a> | -->
       <a href="https://linkedin.com/in/chanho-kim-891a542a2">LinkedIn</a> |
       <a href="https://github.com/coolho1129">GitHub</a>
     </p>
