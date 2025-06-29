@@ -6,7 +6,7 @@ author_profile: false
 ---
 
 <!-- Outer Wrapper to center the entire layout -->
-<div style="max-width: 1400px; margin: 0 auto; padding: 40px; line-height: 1.7; font-size: 16px; font-family: sans-serif;">
+<div style="max-width: 1080px; margin: 0 auto; padding: 40px; line-height: 1.7; font-size: 16px; font-family: sans-serif;">
 
   <!-- Main Flex Layout -->
   <div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start;">
@@ -15,7 +15,7 @@ author_profile: false
     <div style="flex: 0 0 220px; text-align: center;">
       <img src="../images/about.jpg" alt="profile" style="border-radius: 50%; width: 180px; margin-bottom: 20px;">
       <h2 style="margin-bottom: 6px;"><strong>Chanho Kim</strong></h2>
-      <p style="font-size: 14px; margin:  4px 0;">Combined M.S./Ph.D. Student</p>
+      <p style="font-size: 14px; margin: 4px 0;">Combined M.S./Ph.D. Student</p>
       <p style="margin: 4px 0;"><a href="https://aigs.unist.ac.kr/">AIGS, UNIST</a></p>
       <p style="margin: 8px 0;">
         <a href="https://linkedin.com/in/chanho-kim-891a542a2">LinkedIn</a> |
@@ -24,43 +24,38 @@ author_profile: false
     </div>
 
     <!-- Right Panel -->
-    <div style="flex: 1; min-width: 300px; max-width: 1100px;">
+    <div style="flex: 1; min-width: 300px; max-width: 860px;">
 
       <h3><strong>About Me</strong></h3>
       <p>
-        I am a combined M.S./Ph.D. student at the
-        <a href="https://aigs.unist.ac.kr/">Artificial Intelligence Graduate School (AIGS)</a>, UNIST.  
-        I received my B.S. degree in Computer Science and Engineering from Kyungpook National University.
+        I am a combined M.S./Ph.D. student at the 
+        <a href="https://aigs.unist.ac.kr/">Artificial Intelligence Graduate School (AIGS)</a>, 
+        Ulsan National Institute of Science and Technology (UNIST). I received my B.S. degree in 
+        Computer Science and Engineering from Kyungpook National University (KNU). I am currently a member of the 
+        <a href="https://vision.unist.ac.kr">UNIST Vision and Learning Lab (UVLL)</a>, advised by 
+        <a href="https://sites.google.com/site/bsrvision00/">Prof. Seungryul Baek</a>. My research interests include deep learning, 
+        computer vision, and vision-language models.
       </p>
 
-      <p>
-        Currently, I am a member of the
-        <a href="https://vision.unist.ac.kr">UNIST Vision and Learning Lab (UVLL)</a>,
-        advised by <a href="https://sites.google.com/site/bsrvision00/">Prof. Seungryul Baek</a>.  
-        My research interests include deep learning, computer vision, and vision-language models.
-      </p>
-
-      <!-- Contact + Education -->
+      <!-- Contact + Education Section -->
       <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 40px; margin-top: 40px;">
-        
+
         <!-- Contact -->
-        <div style="flex: 1; min-width: 320px;">
+        <div style="flex: 1; min-width: 300px;">
           <h3><strong>Contact</strong></h3>
           <p><strong>Email:</strong> <a href="mailto:coolho123@unist.ac.kr">coolho123@unist.ac.kr</a></p>
           <p><strong>Location:</strong> 50 UNIST-gil, Ulju, Ulsan, Republic of Korea</p>
         </div>
-        
+
         <!-- Education -->
-        <div style="flex: 1; min-width: 320px;">
+        <div style="flex: 1; min-width: 300px;">
           <h3><strong>Education</strong></h3>
-          
           <div style="margin-bottom: 24px;">
             <p style="margin-bottom: 4px;"><strong>M.S./Ph.D.</strong> in Artificial Intelligence</p>
             <p style="margin-bottom: 4px;">Ulsan National Institute of Science and Technology (<strong>UNIST</strong>)</p>
             <p style="margin-bottom: 4px;">Ulsan, South Korea</p>
             <p style="color: gray;">Sep. 2025 – Present</p>
           </div>
-          
           <div>
             <p style="margin-bottom: 4px;"><strong>B.S.</strong> in Computer Science and Engineering</p>
             <p style="margin-bottom: 4px;">Kyungpook National University (<strong>KNU</strong>)</p>
@@ -70,10 +65,10 @@ author_profile: false
         </div>
 
       </div>
-
     </div>
   </div>
 </div>
+
 
 
 
