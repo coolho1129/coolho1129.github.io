@@ -77,6 +77,75 @@ author_profile: false
   </div> <!-- End of Main Flex Layout -->
 </div> <!-- End of Outer Wrapper -->
 
+<!-- Work Experiences Section -->
+<div style="margin-top: 60px;">
+  <h3><strong>Work Experiences</strong></h3>
+
+  <div style="margin-bottom: 24px;">
+    <p><strong>Graduate School of Artificial Intelligence Researcher</strong><br>
+    UNIST · May 2025 – Present · 2 mos<br>
+    Ulsan, Republic of Korea</p>
+    <p style="margin-top: 4px;">I am currently conducting AI research at the UNIST Vision and Learning Lab (UVLL).<br>
+    My advisor is Prof. Seungryul Baek.<br>
+    <em>Artificial Intelligence and Computer Vision</em></p>
+  </div>
+
+  <div style="margin-bottom: 24px;">
+    <p><strong>Research Intern</strong><br>
+    ETRI · Jan 2024 – Feb 2024 · 2 mos<br>
+    Daejeon, Republic of Korea</p>
+    <p style="margin-top: 4px;">Worked on deep learning-based vehicle classification and traffic analysis.<br>
+    <em>Artificial Intelligence and Computer Vision</em></p>
+  </div>
+
+  <div>
+    <p><strong>Undergraduate Research Assistant</strong><br>
+    Kyungpook National University · Jul 2023 – Dec 2023 · 6 mos<br>
+    Daegu, Republic of Korea</p>
+    <p style="margin-top: 4px;">Vision & Intelligent Systems Lab<br>
+    <a href="https://sites.google.com/view/k-vislab">https://sites.google.com/view/k-vislab</a></p>
+  </div>
+</div>
+
+<!-- Awards and Honors Section -->
+<div style="margin-top: 60px;">
+  <h3><strong>Awards and Honors</strong></h3>
+  <ul style="padding-left: 20px;">
+    <li><strong>Best Paper Presentation Award</strong> – ISET 2024 · May 2024<br>
+    Honored for oral presentation at the International Symposium on Embedded Technology.</li>
+    <li><strong>Encouragement Award</strong> – 2023 AI Programming Competition · Dec 2023<br>
+    Recognized for creative problem solving and implementation in AI programming competition.</li>
+    <li><strong>Excellence Award</strong> – Industry-Academia Software Project Competition · Dec 2023<br>
+    Awarded for impactful project with industry collaboration.</li>
+    <li><strong>Grand Prize</strong> – Startup Achievement Competition · Nov 2022<br>
+    Recognized for innovation and entrepreneurial contributions in startup achievement.</li>
+  </ul>
+</div>
+
+<!-- Publications Section -->
+<div style="margin-top: 60px;">
+  <h3><strong>Publications</strong></h3>
+  <ul style="padding-left: 20px;">
+    <li>
+      <strong>Vehicle Type Classification Method for Road Traffic Surveys</strong><br>
+      Journal of Embedded Systems and Applications, Vol. 19(5), pp. 227–234 · Oct 31, 2024<br>
+      Peer-reviewed extended version of ISET 2024 paper.
+    </li>
+    <li>
+      <strong>Fall Prevention Techniques for Medical Beds Using Vision Technology</strong><br>
+      KICS Summer Conference 2024 · Jun 19, 2024
+    </li>
+    <li>
+      <strong>Vehicle Type Classification Method for Road Traffic Surveys</strong><br>
+      The 19th IeMeK Symposium on Embedded Technology (ISET 2024) · May 22, 2024
+    </li>
+    <li>
+      <strong>A Study on Retargeting Application of Realistic Media-Based Dataset for the Metaverse</strong><br>
+      CEIC 2023 · Dec 8, 2023
+    </li>
+  </ul>
+</div>
+
 
 
 
