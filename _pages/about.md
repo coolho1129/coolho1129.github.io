@@ -44,7 +44,7 @@ author_profile: false
       <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; margin-top: 40px;">
       
         <!-- Education (왼쪽, 더 넓게) -->
-        <div style="flex: 0 0 60%; min-width: 320px;">
+        <div style="flex: 0 0 65%; min-width: 320px;">
           <h3><strong>Education</strong></h3>
           <p>
             M.S./Ph.D. in Artificial Intelligence,<br>
