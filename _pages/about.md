@@ -65,9 +65,10 @@ author_profile: false
                 <strong>Email:</strong> 
                 <a href="mailto:coolho123@unist.ac.kr">coolho123@unist.ac.kr</a>
               </p>
-              <p style="margin: 0; font-size: 10px;">
-                <strong>Location:</strong> 50 UNIST-gil, Ulju, Ulsan, Republic of Korea
-              </p>
+               <p style="margin: 0;">
+                  <strong>Location:</strong> 
+                  <span style="font-size: 12px;">50 UNIST-gil, Ulju, Ulsan, Republic of Korea</span>
+                </p>
             </div>
           </div>
         
