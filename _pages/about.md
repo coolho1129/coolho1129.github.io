@@ -60,7 +60,7 @@ author_profile: false
         </div>
       
         <!-- Contact (오른쪽, 더 좁게) -->
-        <div style="flex: 0 0 30%; min-width: 240px;">
+        <div style="flex: 0 0 25%; min-width: 240px;">
           <h3><strong>Contact</strong></h3>
           <div style="line-height: 1.5;">
             <p style="margin: 0;">
