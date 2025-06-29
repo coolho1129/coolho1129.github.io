@@ -72,11 +72,11 @@ author_profile: false
 </div>
 
 <!-- Section Wrapper -->
-<div style="background: #f9f9f9; padding: 80px 0; font-size: 18px;">
-  <div style="max-width: 1080px; margin: 0 auto; padding: 0 40px;">
+<div style="background: #f9f9f9; padding: 80px 0; font-size: 18px; text-align: center;">
+  <div style="max-width: 800px; margin: 0 auto; padding: 0 40px; text-align: left;">
 
     <!-- Work Experience -->
-    <h1 style="font-size: 36px; font-weight: bold; margin-bottom: 20px;">Work Experiences</h1>
+    <h1 style="font-size: 36px; font-weight: bold; margin-bottom: 20px; text-align: center;">Work Experiences</h1>
     <ul>
       <li><strong>Graduate Researcher</strong>, AIGS, UNIST (May 2025 – Present)</li>
       <li><strong>Research Intern</strong>, ETRI (Jan – Feb 2024)</li>
@@ -84,7 +84,7 @@ author_profile: false
     </ul>
 
     <!-- Awards -->
-    <h1 style="font-size: 36px; font-weight: bold; margin: 80px 0 20px;">Awards and Honors</h1>
+    <h1 style="font-size: 36px; font-weight: bold; margin: 80px 0 20px; text-align: center;">Awards and Honors</h1>
     <ul>
       <li><strong>Best Paper Presentation Award</strong> – ISET 2024 (May 2024, ETRI)</li>
       <li><strong>Encouragement Award</strong> – 2023 AI Programming Competition (Dec 2023, KNU)</li>
@@ -93,16 +93,17 @@ author_profile: false
     </ul>
 
     <!-- Publications -->
-    <h1 style="font-size: 36px; font-weight: bold; margin: 80px 0 20px;">Publications</h1>
+    <h1 style="font-size: 36px; font-weight: bold; margin: 80px 0 20px; text-align: center;">Publications</h1>
     <ul>
-      <li><strong>Vehicle Type Classification Method for Road Traffic Surveys</strong>, JESA Vol. 19(5), pp. 227–234, Oct 31, 2024</li>
+      <li><strong>Vehicle Type Classification Method for Road Traffic Surveys</strong>, Journal of Embedded Systems and Applications Vol. 19(5), pp. 227–234, Oct 31, 2024</li>
       <li><strong>Fall Prevention Techniques for Medical Beds</strong>, KICS 2024 · Jun 19, 2024</li>
-      <li><strong>Vehicle Classification via Vision</strong>, ISET 2024 · May 22, 2024</li>
-      <li><strong>Retargeting for Metaverse Dataset</strong>, CEIC 2023 · Dec 8, 2023</li>
+      <li><strong>Vehicle Type Classification Method for Road Traffic Surveys</strong>, ISET 2024 · May 22, 2024</li>
+      <li><strong>A Study on Retargeting Application of Realistic Media-Based Dataset for the Metaverse</strong>, CEIC 2023 · Dec 8, 2023</li>
     </ul>
 
   </div>
 </div>
+
 
 
 
