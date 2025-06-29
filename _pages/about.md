@@ -9,7 +9,7 @@ author_profile: false
 
   <!-- Left Panel -->
   <div style="flex: 0 0 220px; text-align: center;">
-    <img src="images/about.png" alt="profile" style="border-radius: 50%; width: 180px; margin-bottom: 20px;">
+    <img src="image/about.png" alt="profile" style="border-radius: 50%; width: 180px; margin-bottom: 20px;">
     <h2><strong>Chanho Kim</strong></h2>
     <p>Combined M.S./Ph.D. Student</p>
     <p><a href="https://aigs.unist.ac.kr/">AIGS, UNIST</a></p>
@@ -23,8 +23,8 @@ author_profile: false
   <!-- Right Panel -->
   <div style="flex: 1; min-width: 280px; max-width: 700px;">
 
-    <h3>👋 About Me</h3>
-    <p>Hi there! I am a combined M.S./Ph.D. student at the
+    <h3><strong>About Me</strong></h3>
+    <p>I am a combined M.S./Ph.D. student at the
     <a href="https://aigs.unist.ac.kr/">Artificial Intelligence Graduate School (AIGS)</a>, UNIST.  
     I received my B.S. degree in Computer Science and Engineering from Kyungpook National University.</p>
 
@@ -33,19 +33,24 @@ author_profile: false
     advised by <a href="https://seungryul.github.io/">Prof. Seungryul Baek</a>.  
     My research interests include deep learning, computer vision, and vision-language models.</p>
 
-    <h3>📫 Contact</h3>
-    <ul>
-      <li><strong>Email (official):</strong> coolho123@unist.ac.kr</li>
+    <h3><strong>Contact</strong></h3>
+    <ul style="list-style: none; padding-left: 0; line-height: 1.8;">
+      <li><strong>Email (official):</strong> <a href="mailto:coolho123@unist.ac.kr">coolho123@unist.ac.kr</a></li>
       <li><strong>Location:</strong> 50 UNIST-gil, Ulju, Ulsan, Republic of Korea</li>
     </ul>
 
-    <h3>🎓 Education</h3>
-    <ul>
-      <li><strong>M.S./Ph.D.</strong> in Artificial Intelligence, UNIST, South Korea  
-        <em>(Sep. 2025 – Present)</em></li>
-      <li><strong>B.S.</strong> in Computer Science and Engineering,  
+    <h3><strong>Education</strong></h3>
+    <ul style="list-style: none; padding-left: 0; line-height: 1.8;">
+      <li>
+        <strong>M.S./Ph.D.</strong> in Artificial Intelligence,  
+        UNIST, Ulsan, South Korea  
+        <div style="color: gray;">Sep. 2025 – Present</div>
+      </li>
+      <li>
+        <strong>B.S.</strong> in Computer Science and Engineering,  
         Kyungpook National University, Daegu, South Korea  
-        <em>(Mar. 2021 – Feb. 2025)</em></li>
+        <div style="color: gray;">Mar. 2021 – Feb. 2025</div>
+      </li>
     </ul>
 
   </div>
