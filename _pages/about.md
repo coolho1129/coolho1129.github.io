@@ -75,9 +75,7 @@ author_profile: false
 
     </div> <!-- End of Right Panel -->
   </div> <!-- End of Main Flex Layout -->
-</div> <!-- End of Outer Wrapper -->
-
-<!-- Work Experiences Section -->
+  <!-- Work Experiences Section -->
 <div style="margin-top: 60px;">
   <h3><strong>Work Experiences</strong></h3>
 
@@ -145,6 +143,9 @@ author_profile: false
     </li>
   </ul>
 </div>
+</div> <!-- End of Outer Wrapper -->
+
+
 
 
 
