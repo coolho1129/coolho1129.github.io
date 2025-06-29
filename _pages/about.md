@@ -32,34 +32,33 @@ author_profile: false
         <a href="https://aigs.unist.ac.kr/"><strong>Artificial Intelligence Graduate School (AIGS)</strong></a>, 
         Ulsan National Institute of Science and Technology (<strong>UNIST</strong>). I received my <strong>B.S.</strong> degree in 
         Computer Science and Engineering from Kyungpook National University (<strong>KNU</strong>). I am currently a member of the 
-        <a href="https://vision.unist.ac.kr"><strong>UNIST Vision and Learning Lab (UVLL)</strong></a>, advised by 
-        <a href="https://sites.google.com/site/bsrvision00/"><strong>Prof. Seungryul Baek</strong></a>. My research interests include <strong>Deep Learning</strong>, 
-        <strong>Computer Vision</strong>, and <strong>Vision-Language Models</strong>.
+        <a href="https://vision.unist.ac.kr">UNIST Vision and Learning Lab (UVLL)</a>, advised by 
+        <a href="https://sites.google.com/site/bsrvision00/">Prof. Seungryul Baek</a>. My research interests include <strong>deep learning</strong>, 
+        <strong>computer vision</strong>, and <strong>vision-language models</strong>.
       </p>
 
-      <!-- Contact + Education Section -->
+      <!-- Contact + Education -->
       <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; margin-top: 40px;">
-
+        
         <!-- Contact -->
         <div style="flex: 1; min-width: 300px;">
           <h3><strong>Contact</strong></h3>
-              <div style="line-height: 1.5;">
-                <p style="margin: 0;">
-                  <strong>Email:</strong> 
-                  <a href="mailto:coolho123@unist.ac.kr">coolho123@unist.ac.kr</a>
-                </p>
-                <p style="margin: 0; font-size: 14px;">
-                  <strong>Location:</strong> 50 UNIST-gil, Ulju, Ulsan, Republic of Korea
-                </p>
-              </div>
-            </div>
+          <div style="line-height: 1.5;">
+            <p style="margin: 0;">
+              <strong>Email:</strong> 
+              <a href="mailto:coolho123@unist.ac.kr">coolho123@unist.ac.kr</a>
+            </p>
+            <p style="margin: 0; font-size: 14px;">
+              <strong>Location:</strong> 50 UNIST-gil, Ulju, Ulsan, Republic of Korea
+            </p>
+          </div>
         </div>
 
         <!-- Education -->
         <div style="flex: 1; min-width: 300px;">
           <h3><strong>Education</strong></h3>
           <p>
-            M.S./Ph.D. in Artificial Intelligence,
+            M.S./Ph.D. in Artificial Intelligence,<br>
             Ulsan National Institute of Science and Technology (UNIST)<br> 
             Ulsan, South Korea<br>
             <span style="color: gray;">Sep. 2025 – Present</span>
@@ -71,10 +70,12 @@ author_profile: false
           </p>
         </div>
 
-      </div>
-    </div>
-  </div>
-</div>
+      </div> <!-- End of Contact + Education -->
+
+    </div> <!-- End of Right Panel -->
+  </div> <!-- End of Main Flex Layout -->
+</div> <!-- End of Outer Wrapper -->
+
 
 
 
