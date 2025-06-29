@@ -14,10 +14,10 @@ author_profile: false
     <!-- Left Panel -->
     <div style="flex: 0 0 220px; text-align: center;">
       <img src="../images/about.jpg" alt="profile" style="border-radius: 50%; width: 180px; margin-bottom: 20px;">
-      <h2 style="margin-bottom: 6px;"><strong>Chanho Kim</strong></h2>
-      <p style="font-size: 14px; margin: 4px 0;">Combined M.S./Ph.D. Student</p>
-      <p style="margin: 4px 0;"><a href="https://aigs.unist.ac.kr/">AIGS, UNIST</a></p>
-      <p style="margin: 8px 0;">
+      <h2 style="margin-bottom: 6px; font-size: 22px;"><strong>Chanho Kim</strong></h2>
+      <p style="font-size: 16px; margin: 4px 0;">Combined M.S./Ph.D. Student</p>
+      <p style="margin: 4px 0; font-size: 16px;"><a href="https://aigs.unist.ac.kr/">AIGS, UNIST</a></p>
+      <p style="margin: 8px 0; font-size: 16px;">
         <a href="https://linkedin.com/in/chanho-kim-891a542a2">LinkedIn</a> |
         <a href="https://github.com/coolho1129">GitHub</a>
       </p>
@@ -27,8 +27,8 @@ author_profile: false
     <div style="flex: 1; min-width: 300px; max-width: 860px;">
 
       <!-- About -->
-      <h3 style="font-size: 24px;"><strong>About Me</strong></h3>
-      <p style="font-size: 19px;">
+      <h3 style="font-size: 26px;"><strong>About Me</strong></h3>
+      <p style="font-size: 20px;">
         I am a combined <strong>M.S./Ph.D.</strong> student at the 
         <a href="https://aigs.unist.ac.kr/"><strong><u>Artificial Intelligence Graduate School (AIGS)</u></strong></a>, 
         <strong>Ulsan National Institute of Science and Technology (UNIST)</strong>. I received my 
@@ -42,14 +42,14 @@ author_profile: false
 
       <!-- Education -->
       <div style="margin-top: 40px;">
-        <h3 style="font-size: 22px;"><strong>Education</strong></h3>
-        <p style="font-size: 18px;">
+        <h3 style="font-size: 24px;"><strong>Education</strong></h3>
+        <p style="font-size: 20px;">
           M.S./Ph.D. in Artificial Intelligence,<br>
           Ulsan National Institute of Science and Technology (UNIST)<br>
           Ulsan, South Korea<br>
           <span style="color: gray;">Sep. 2025 – Present</span>
         </p>
-        <p style="font-size: 18px;">
+        <p style="font-size: 20px;">
           B.S. in Computer Science and Engineering,<br>
           Kyungpook National University (KNU), Daegu, South Korea<br>
           <span style="color: gray;">Mar. 2021 – Feb. 2025</span>
@@ -58,12 +58,12 @@ author_profile: false
 
       <!-- Contact -->
       <div style="margin-top: 40px;">
-        <h3 style="font-size: 22px;"><strong>Contact</strong></h3>
-        <div style="line-height: 1.5;">
-          <p style="margin: 0; font-size: 18px;"><strong>Email:</strong> 
+        <h3 style="font-size: 24px;"><strong>Contact</strong></h3>
+        <div style="line-height: 1.5; font-size: 20px;">
+          <p style="margin: 0;"><strong>Email:</strong> 
             <a href="mailto:coolho123@unist.ac.kr">coolho123@unist.ac.kr</a>
           </p>
-          <p style="margin: 0; font-size: 14px;"><strong>Location:</strong> 50 UNIST-gil, Ulju, Ulsan, Republic of Korea</p>
+          <p style="margin: 0; font-size: 18px;"><strong>Location:</strong> 50 UNIST-gil, Ulju, Ulsan, Republic of Korea</p>
         </div>
       </div>
 
@@ -104,6 +104,7 @@ author_profile: false
     </div> <!-- Right Panel -->
   </div> <!-- Top Flex Layout -->
 </div> <!-- Main Wrapper -->
+
 
 
 
