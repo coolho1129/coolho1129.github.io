@@ -80,7 +80,7 @@ author_profile: false
     <ul>
       <li><strong>Graduate Researcher</strong>, AIGS, UNIST (May 2025 – Present)</li>
       <li><strong>Research Intern</strong>, ETRI (Jan – Feb 2024)</li>
-      <li><strong>Undergraduate RA</strong>, KNU (Jul – Dec 2023)</li>
+      <li><strong>Undergraduate Researcher</strong>, KNU (Jul – Dec 2023)</li>
     </ul>
 
     <!-- Awards -->
