@@ -23,7 +23,7 @@ author_profile: false
     </div>
 
     <!-- Right Panel -->
-    <div style="flex: 1; min-width: 300px; max-width: 700px;">
+    <div style="flex: 1; min-width: 300px; max-width: 900px;">
 
       <h3><strong>About Me</strong></h3>
       <p>
