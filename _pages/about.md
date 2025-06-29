@@ -40,7 +40,7 @@ author_profile: false
         <strong>Vision-Language Models</strong>.
       </p>
 
-    <!-- Contact + Education -->
+      <!-- Contact + Education -->
       <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; margin-top: 40px;">
       
         <!-- Education (왼쪽, 더 넓게) -->
@@ -70,9 +70,9 @@ author_profile: false
             <p style="margin: 0; font-size: 14px;">
               <strong>Location:</strong> 50 UNIST-gil, Ulju, Ulsan, Republic of Korea
             </p>
-
+          </div>
         </div>
-      </div>
+        </div>
     </div>
   </div>
 </div>
