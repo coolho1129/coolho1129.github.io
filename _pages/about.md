@@ -49,23 +49,25 @@ author_profile: false
           <p><strong>Location:</strong> 50 UNIST-gil, Ulju, Ulsan, Republic of Korea</p>
         </div>
         
-        <!-- Education -->
+       <!-- Education -->
         <div style="flex: 1; min-width: 280px;">
           <h3><strong>Education</strong></h3>
-               <p style="white-space: normal;">
-                <strong>M.S./Ph.D.</strong> in Artificial Intelligence<br>
-                UNIST, Ulsan, South Korea<br>
-                <span style="color: gray;">Sep. 2025 – Present</span>
-              </p>
-
-          
-             <p style="white-space: normal; line-height: 1.6; margin-bottom: 20px;">
-              <strong>B.S.</strong> in Computer Science and Engineering<br>
-              Kyungpook National University<br>
-              Daegu, South Korea<br>
-              <span style="color: gray;">Mar. 2021 – Feb. 2025</span>
-            </p>
+        
+          <p style="margin-bottom: 12px;">
+            <strong>M.S./Ph.D.</strong> in Artificial Intelligence<br>
+            Ulsan National Institute of Science and Technology (UNIST)<br>
+            Ulsan, South Korea<br>
+            <span style="color: gray;">Sep. 2025 – Present</span>
+          </p>
+        
+          <p>
+            <strong>B.S.</strong> in Computer Science and Engineering<br>
+            Kyungpook National University (KNU)<br>
+            Daegu, South Korea<br>
+            <span style="color: gray;">Mar. 2021 – Feb. 2025</span>
+          </p>
         </div>
+
       </div>
 
     </div>
