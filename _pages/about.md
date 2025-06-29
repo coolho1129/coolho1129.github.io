@@ -6,7 +6,7 @@ author_profile: false
 ---
 
 <!-- Outer Wrapper to center the entire layout -->
-<div style="max-width: 1200px; margin: 0 auto; padding: 40px; line-height: 1.7; font-size: 16px; font-family: sans-serif;">
+<div style="max-width: 1400px; margin: 0 auto; padding: 40px; line-height: 1.7; font-size: 16px; font-family: sans-serif;">
 
   <!-- Main Flex Layout -->
   <div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start;">
@@ -24,7 +24,7 @@ author_profile: false
     </div>
 
     <!-- Right Panel -->
-    <div style="flex: 1; min-width: 300px; max-width: 900px;">
+    <div style="flex: 1; min-width: 300px; max-width: 1100px;">
 
       <h3><strong>About Me</strong></h3>
       <p>
@@ -44,14 +44,14 @@ author_profile: false
       <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 40px; margin-top: 40px;">
         
         <!-- Contact -->
-        <div style="flex: 1; min-width: 280px;">
+        <div style="flex: 1; min-width: 320px;">
           <h3><strong>Contact</strong></h3>
           <p><strong>Email:</strong> <a href="mailto:coolho123@unist.ac.kr">coolho123@unist.ac.kr</a></p>
           <p><strong>Location:</strong> 50 UNIST-gil, Ulju, Ulsan, Republic of Korea</p>
         </div>
         
         <!-- Education -->
-        <div style="flex: 1; min-width: 280px;">
+        <div style="flex: 1; min-width: 320px;">
           <h3><strong>Education</strong></h3>
           
           <div style="margin-bottom: 24px;">
@@ -74,6 +74,7 @@ author_profile: false
     </div>
   </div>
 </div>
+
 
 
 
