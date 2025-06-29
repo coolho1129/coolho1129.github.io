@@ -84,19 +84,29 @@ author_profile: false
           <li><strong>Grand Prize</strong> – Startup Achievement Competition (Nov 2022, KNU)</li>
         </ul>
 
+
         <h2 style="font-size: 30px; font-weight: bold; margin-top: 40px; margin-bottom: 20px;">Publications</h2>
         <ul style="list-style-type: disc; padding-left: 1.2em;">
           <li><strong>Vehicle Type Classification Method for Road Traffic Surveys</strong><br>
-            <span style="margin-left: 1em; display: inline-block;">Journal of Embedded Systems and Applications Vol. 19(5), pp. 227–234, Oct 31, 2024</span>
+            <span style="margin-left: 1em; display: inline-block;">
+            Mi-Seon Kang, <strong>Chan-Ho Kim</strong>, Pyong-Kun Kim<br>
+            Journal of Embedded Systems and Applications Vol. 19(5), pp. 227–234, Oct 31, 2024</span>
           </li>
           <li><strong>Fall Prevention Techniques for Medical Beds</strong><br>
-            <span style="margin-left: 1em; display: inline-block;">KICS 2024 · Jun 19, 2024</span>
+            <span style="margin-left: 1em; display: inline-block;">
+            <strong>Chan-Ho Kim</strong>, Eunji Kim, Jaehyeon Ha, Chaewon Moon, *Dongkyun Kim<br>
+
+            KICS 2024 · Jun 19, 2024</span>
           </li>
           <li><strong>Vehicle Classification via Vision</strong><br>
-            <span style="margin-left: 1em; display: inline-block;">ISET 2024 · May 22, 2024</span>
+            <span style="margin-left: 1em; display: inline-block;">
+           <strong>Chan-Ho Kim</strong>, Mi-Seon Kang, Pyong-Kun Kim<br>
+            ISET 2024 · May 22, 2024</span>
           </li>
           <li><strong>A Study on Retargeting Application of Realistic Media-Based Dataset for the Metaverse</strong><br>
-            <span style="margin-left: 1em; display: inline-block;">CEIC 2023 · Dec 8, 2023</span>
+            <span style="margin-left: 1em; display: inline-block;">
+            Dong-hwi Kim, Aro Kim, Dong-hun Lee,  <strong>Chanho Kim</strong>, Eunji Kim, Chaewon Moon, Geonah Kim, Sang-hyo Park* <br>
+            CEIC 2023 · Dec 8, 2023</span>
           </li>
         </ul>
       </div>
