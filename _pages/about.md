@@ -28,6 +28,6 @@ My research interests include **Deep Learning**, **Computer Vision**, and **Visi
 ---
 
 ### 📫 Contact
-- Email: chanho.kim@unist.ac.kr  
+- Email: coolho123@unist.ac.kr  
 - GitHub: [github.com/coolho1129](https://github.com/coolho1129)  
 - LinkedIn: [linkedin.com/in/chanho-kim-891a542a2](https://www.linkedin.com/in/chanho-kim-891a542a2)
