@@ -23,26 +23,26 @@ author_profile: false
       </p>
     </div>
 
-    <!-- Right Panel -->
+       <!-- Right Panel -->
     <div style="flex: 1; min-width: 300px; max-width: 860px;">
 
       <!-- About -->
-      <h3 style="font-size: 26px;"><strong>About Me</strong></h3>
+      <h2 style="font-size: 30px; font-weight: bold;"><strong>About Me</strong></h2>
       <p style="font-size: 20px;">
         I am a combined <strong>M.S./Ph.D.</strong> student at the 
         <a href="https://aigs.unist.ac.kr/"><strong><u>Artificial Intelligence Graduate School (AIGS)</u></strong></a>, 
         <strong>Ulsan National Institute of Science and Technology (UNIST)</strong>. I received my 
-        <strong>B.S.</strong> degree in  <a href="https://computer.knu.ac.kr/"><strong>Computer Science and Engineering</strong></a> from 
+        <strong>B.S.</strong> degree in <strong>Computer Science and Engineering</strong> from 
         <strong>Kyungpook National University (KNU)</strong>. I am currently a member of the 
         <a href="https://vision.unist.ac.kr"><strong>UNIST Vision and Learning Lab (UVLL)</strong></a>, advised by 
         <a href="https://sites.google.com/site/bsrvision00/"><strong>Prof. Seungryul Baek</strong></a>. 
-        <br>My research interests include <strong>Deep Learning</strong>, <strong>Computer Vision</strong>, and 
+        My research interests include <strong>Deep Learning</strong>, <strong>Computer Vision</strong>, and 
         <strong>Vision-Language Models</strong>.
       </p>
 
       <!-- Education -->
       <div style="margin-top: 40px;">
-        <h3 style="font-size: 24px;"><strong>Education</strong></h3>
+        <h2 style="font-size: 30px; font-weight: bold;"><strong>Education</strong></h2>
         <p style="font-size: 20px;">
           M.S./Ph.D. in Artificial Intelligence,<br>
           Ulsan National Institute of Science and Technology (UNIST)<br>
@@ -58,12 +58,12 @@ author_profile: false
 
       <!-- Contact -->
       <div style="margin-top: 40px;">
-        <h3 style="font-size: 24px;"><strong>Contact</strong></h3>
+        <h2 style="font-size: 30px; font-weight: bold;"><strong>Contact</strong></h2>
         <div style="line-height: 1.5; font-size: 20px;">
           <p style="margin: 0;"><strong>Email:</strong> 
             <a href="mailto:coolho123@unist.ac.kr">coolho123@unist.ac.kr</a>
           </p>
-          <p style="margin: 0; font-size: 18px;"><strong>Location:</strong> 50 UNIST-gil, Ulju, Ulsan, Republic of Korea</p>
+          <p style="margin: 0;"><strong>Location:</strong> 50 UNIST-gil, Ulju, Ulsan, Republic of Korea</p>
         </div>
       </div>
 
