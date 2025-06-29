@@ -72,53 +72,55 @@ author_profile: false
 </div>
 
 <!-- Section Wrapper -->
-<div style="background: #f9f9f9; padding: 80px 0; font-size: 20px;">
+<div style="background: #f9f9f9; padding: 80px 0; font-size: 22px;">
   <div style="max-width: 800px; margin: 0 auto; padding: 0 40px;">
 
     <!-- Work Experience -->
-    <div style="margin-bottom: 80px;">
-      <h1 style="font-size: 36px; font-weight: bold; margin-bottom: 20px; text-align: left;">Work Experiences</h1>
-      <div style="padding-left: 0.5em; font-size: 22px;">
-        <ul>
-          <li><strong>Graduate Researcher</strong>, AIGS, UNIST (May 2025 – Present)</li>
-          <li><strong>Research Intern</strong>, ETRI (Jan – Feb 2024)</li>
-          <li><strong>Undergraduate RA</strong>, KNU (Jul – Dec 2023)</li>
-        </ul>
-      </div>
+    <div style="margin-bottom: 80px; text-align: left;">
+      <h1 style="font-size: 36px; font-weight: bold; margin-bottom: 20px;">Work Experiences</h1>
+      <ul style="list-style-type: disc; padding-left: 1.5em;">
+        <li><strong>Graduate Researcher</strong>, AIGS, UNIST (May 2025 – Present)</li>
+        <li><strong>Research Intern</strong>, ETRI (Jan – Feb 2024)</li>
+        <li><strong>Undergraduate RA</strong>, KNU (Jul – Dec 2023)</li>
+      </ul>
     </div>
 
     <!-- Awards -->
-    <div style="margin-bottom: 80px;">
-      <h1 style="font-size: 36px; font-weight: bold; margin-bottom: 20px; text-align: left;">Awards and Honors</h1>
-      <div style="padding-left: 0.5em; font-size: 22px;">
-        <ul>
-          <li><strong>Best Paper Presentation Award</strong> – ISET 2024 (May 2024, ETRI)</li>
-          <li><strong>Encouragement Award</strong> – 2023 AI Programming Competition (Dec 2023, KNU)</li>
-          <li><strong>Excellence Award</strong> – Industry-Academia SW Project (Dec 2023, KNU)</li>
-          <li><strong>Grand Prize</strong> – Startup Achievement Competition (Nov 2022, KNU)</li>
-        </ul>
-      </div>
+    <div style="margin-bottom: 80px; text-align: left;">
+      <h1 style="font-size: 36px; font-weight: bold; margin-bottom: 20px;">Awards and Honors</h1>
+      <ul style="list-style-type: disc; padding-left: 1.5em;">
+        <li><strong>Best Paper Presentation Award</strong><br>
+          <span style="margin-left: 1em; display: inline-block;">ISET 2024 (May 2024, ETRI)</span>
+        </li>
+        <li><strong>Encouragement Award</strong><br>
+          <span style="margin-left: 1em; display: inline-block;">2023 AI Programming Competition (Dec 2023, KNU)</span>
+        </li>
+        <li><strong>Excellence Award</strong><br>
+          <span style="margin-left: 1em; display: inline-block;">Industry-Academia SW Project (Dec 2023, KNU)</span>
+        </li>
+        <li><strong>Grand Prize</strong><br>
+          <span style="margin-left: 1em; display: inline-block;">Startup Achievement Competition (Nov 2022, KNU)</span>
+        </li>
+      </ul>
     </div>
 
     <!-- Publications -->
-    <div>
-      <h1 style="font-size: 36px; font-weight: bold; margin-bottom: 20px; text-align: left;">Publications</h1>
-      <div style="padding-left: 0.5em; font-size: 22px;">
-        <ul style="list-style-type: disc; padding-left: 1.2em;">
-          <li><strong>Vehicle Type Classification Method for Road Traffic Surveys</strong><br>
-            <span style="margin-left: 1em; display: inline-block;">JESA Vol. 19(5), pp. 227–234, Oct 31, 2024</span>
-          </li>
-          <li><strong>Fall Prevention Techniques for Medical Beds</strong><br>
-            <span style="margin-left: 1em; display: inline-block;">KICS 2024 · Jun 19, 2024</span>
-          </li>
-          <li><strong>Vehicle Classification via Vision</strong><br>
-            <span style="margin-left: 1em; display: inline-block;">ISET 2024 · May 22, 2024</span>
-          </li>
-          <li><strong>Retargeting for Metaverse Dataset</strong><br>
-            <span style="margin-left: 1em; display: inline-block;">CEIC 2023 · Dec 8, 2023</span>
-          </li>
-        </ul>
-      </div>
+    <div style="text-align: left;">
+      <h1 style="font-size: 36px; font-weight: bold; margin-bottom: 20px;">Publications</h1>
+      <ul style="list-style-type: disc; padding-left: 1.5em;">
+        <li><strong>Vehicle Type Classification Method for Road Traffic Surveys</strong><br>
+          <span style="margin-left: 1em; display: inline-block;">JESA Vol. 19(5), pp. 227–234, Oct 31, 2024</span>
+        </li>
+        <li><strong>Fall Prevention Techniques for Medical Beds</strong><br>
+          <span style="margin-left: 1em; display: inline-block;">KICS 2024 · Jun 19, 2024</span>
+        </li>
+        <li><strong>Vehicle Type Classification Method for Road Traffic Surveys</strong><br>
+          <span style="margin-left: 1em; display: inline-block;">ISET 2024 · May 22, 2024</span>
+        </li>
+        <li><strong>A Study on Retargeting Application of Realistic Media-Based Dataset for the Metaverse</strong><br>
+          <span style="margin-left: 1em; display: inline-block;">CEIC 2023 · Dec 8, 2023</span>
+        </li>
+      </ul>
     </div>
 
   </div>
