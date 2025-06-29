@@ -15,8 +15,8 @@ My research interests include **Deep Learning**, **Computer Vision**, and **Visi
 ---
 
 ### 🎓 Education
-- M.S./Ph.D. student, Artificial Intelligence Graduate School, UNIST  
-- B.S., Computer Science and Engineering, Kyungpook National University
+- M.S./Ph.D. student, Artificial Intelligence Graduate School, UNIST    (2025.09 - present)
+- B.S., Computer Science and Engineering, Kyungpook National University (2021.03 - 2025.02)
 
 ---
 
