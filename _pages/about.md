@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Chanho Kim"
+title: "About Me"
 permalink: /about/
 author_profile: false
 ---
