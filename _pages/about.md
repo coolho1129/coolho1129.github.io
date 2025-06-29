@@ -87,7 +87,7 @@ author_profile: false
         <h2 style="font-size: 30px; font-weight: bold; margin-top: 40px; margin-bottom: 20px;">Publications</h2>
         <ul style="list-style-type: disc; padding-left: 1.2em;">
           <li><strong>Vehicle Type Classification Method for Road Traffic Surveys</strong><br>
-            <span style="margin-left: 1em; display: inline-block;">JESA Vol. 19(5), pp. 227–234, Oct 31, 2024</span>
+            <span style="margin-left: 1em; display: inline-block;">Journal of Embedded Systems and Applications Vol. 19(5), pp. 227–234, Oct 31, 2024</span>
           </li>
           <li><strong>Fall Prevention Techniques for Medical Beds</strong><br>
             <span style="margin-left: 1em; display: inline-block;">KICS 2024 · Jun 19, 2024</span>
