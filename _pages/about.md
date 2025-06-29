@@ -59,7 +59,7 @@ author_profile: false
               </p>
 
           
-             <p style="white-space: normal; margin-bottom: 20px;">
+             <p style="white-space: normal; line-height: 1.6; margin-bottom: 20px;">
               <strong>B.S.</strong> in Computer Science and Engineering<br>
               Kyungpook National University<br>
               Daegu, South Korea<br>
