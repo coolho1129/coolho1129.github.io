@@ -34,24 +34,34 @@ author_profile: false
       advised by <a href="https://sites.google.com/site/bsrvision00/">Prof. Seungryul Baek</a>.</p>
     <p>My research interests include deep learning, computer vision, and vision-language models.</p>
 
+  <div style="display: flex; flex-wrap: wrap; gap: 32px; margin-top: 32px;">
+
+  <!-- Contact -->
+  <div style="flex: 1; min-width: 250px;">
     <h3><strong>Contact</strong></h3>
-    <ul style="list-style: none; padding-left: 0; line-height: 1.8; margin: 0 0 24px;">
+    <ul style="list-style: none; padding-left: 0; line-height: 1.8; margin: 0;">
       <li><strong>Email:</strong> <a href="mailto:coolho123@unist.ac.kr">coolho123@unist.ac.kr</a></li>
       <li><strong>Location:</strong> 50 UNIST-gil, Ulju, Ulsan, Republic of Korea</li>
     </ul>
+  </div>
 
+  <!-- Education -->
+  <div style="flex: 1; min-width: 250px;">
     <h3><strong>Education</strong></h3>
-    <ul style="list-style: none; padding-left: 0; line-height: 1.8;">
-      <li style="margin-bottom: 12px;">
+    <ul style="list-style: none; padding-left: 0; line-height: 1.8; margin: 0;">
+      <li>
         <strong>M.S./Ph.D.</strong> in Artificial Intelligence, UNIST, Ulsan, South Korea  
         <div style="color: gray;">Sep. 2025 – Present</div>
       </li>
-      <li>
+      <li style="margin-top: 12px;">
         <strong>B.S.</strong> in Computer Science and Engineering,  
         Kyungpook National University, Daegu, South Korea  
         <div style="color: gray;">Mar. 2021 – Feb. 2025</div>
       </li>
     </ul>
+  </div>
+
+</div>
 
   </div>
 </div>
