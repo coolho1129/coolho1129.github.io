@@ -36,7 +36,7 @@ author_profile: false
         <strong>Kyungpook National University (KNU)</strong>. I am currently a member of the 
         <a href="https://vision.unist.ac.kr"><strong>UNIST Vision and Learning Lab (UVLL)</strong></a>, advised by 
         <a href="https://sites.google.com/site/bsrvision00/"><strong>Prof. Seungryul Baek</strong></a>. 
-        My research interests include <strong>Deep Learning</strong>, <strong>Computer Vision</strong>, and 
+        <br>My research interests include <strong>Deep Learning</strong>, <strong>Computer Vision</strong>, and 
         <strong>Vision-Language Models</strong>.
       </p>
 
