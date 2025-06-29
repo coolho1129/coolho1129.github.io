@@ -25,13 +25,14 @@ author_profile: false
 
     <h3><strong>About Me</strong></h3>
     <p>I am a combined M.S./Ph.D. student at the
-      <a href="https://aigs.unist.ac.kr/">Artificial Intelligence Graduate School (AIGS)</a>, UNIST.
-      I received my B.S. degree in Computer Science and Engineering from Kyungpook National University.</p>
+      <a href="https://aigs.unist.ac.kr/">Artificial Intelligence Graduate School (AIGS)</a>, UNIST.</p>
+      
+      <p>I received my B.S. degree in Computer Science and Engineering from Kyungpook National University.</p>
 
     <p>Currently, I am a member of the
       <a href="https://vision.unist.ac.kr">UNIST Vision and Learning Lab (UVLL)</a>,
-      advised by <a href="https://sites.google.com/site/bsrvision00/">Prof. Seungryul Baek</a>.
-      My research interests include deep learning, computer vision, and vision-language models.</p>
+      advised by <a href="https://sites.google.com/site/bsrvision00/">Prof. Seungryul Baek</a>.</p>
+    <p>My research interests include deep learning, computer vision, and vision-language models.</p>
 
     <h3><strong>Contact</strong></h3>
     <ul style="list-style: none; padding-left: 0; line-height: 1.8; margin: 0 0 24px;">
