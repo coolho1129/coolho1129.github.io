@@ -1,9 +1,19 @@
 ---
 layout: single
-title: "About Me"
-permalink: /about/
+title: "Chanho Kim"
+permalink: /
+author_profile: false
 ---
+<img src="/assets/images/profile.jpg" width="180px" alt="profile" style="border-radius: 50%; float: left; margin-right: 30px; margin-bottom: 10px;">
 
+### Chanho Kim  
+*Combined M.S./Ph.D. Student*  
+[Artificial Intelligence Graduate School (AIGS), UNIST](https://aigs.unist.ac.kr/)  
+ [UNIST Vision and Learning Lab (UVLL)](https://uvllab.github.io/)
+
+<br style="clear: both;" />
+
+---
 I am a combined M.S./Ph.D. student at the  
 **Artificial Intelligence Graduate School (AIGS), UNIST**,  
 advised by **Prof. Seungryul Baek** at the **UNIST Vision and Learning Lab (UVLL)**.
