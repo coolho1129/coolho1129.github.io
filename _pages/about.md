@@ -5,7 +5,7 @@ permalink: /about/
 author_profile: false
 ---
 
-<!-- Outer Wrapper -->
+<!-- Main Wrapper -->
 <div style="max-width: 1080px; margin: 0 auto; padding: 40px; line-height: 1.7; font-size: 16px; font-family: sans-serif;">
 
   <!-- Top Flex Layout -->
@@ -63,76 +63,46 @@ author_profile: false
         <!-- Contact -->
         <div style="flex: 1; min-width: 300px;">
           <h3><strong>Contact</strong></h3>
-          <div style="line-height: 1.5;">
-            <p style="margin: 0;">
-              <strong>Email:</strong> <a href="mailto:coolho123@unist.ac.kr">coolho123@unist.ac.kr</a>
-            </p>
-            <p style="margin: 0;">
-              <strong>Location:</strong>
-              <span style="font-size: 14px;">50 UNIST-gil, Ulju, Ulsan, Republic of Korea</span>
-            </p>
-          </div>
+          <p style="margin: 0;"><strong>Email:</strong> <a href="mailto:coolho123@unist.ac.kr">coolho123@unist.ac.kr</a></p>
+          <p style="margin: 0; font-size: 16px;"><strong>Location:</strong> <span style="font-size: 14px;">50 UNIST-gil, Ulju, Ulsan, Republic of Korea</span></p>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <!-- Lower Section: Experience / Awards / Publications -->
-  <div style="padding-left: 240px; padding-right: 20px;">
+<!-- Section Wrapper -->
+<div style="background: #f9f9f9; padding: 60px 0;">
+  <div style="max-width: 1080px; margin: 0 auto; padding: 0 40px;">
 
     <!-- Work Experience -->
-    <div style="margin-top: 60px;">
-      <h3><strong>Work Experiences</strong></h3>
-
-      <p><strong>Graduate School of Artificial Intelligence Researcher</strong><br>
-        UNIST · May 2025 – Present · 2 mos<br>
-        Ulsan, Republic of Korea</p>
-      <p>I am currently conducting AI research at the UNIST Vision and Learning Lab (UVLL).<br>
-        My advisor is Prof. Seungryul Baek.<br>
-        <em>Artificial Intelligence and Computer Vision</em></p>
-
-      <p><strong>Research Intern</strong><br>
-        ETRI · Jan 2024 – Feb 2024 · 2 mos<br>
-        Daejeon, Republic of Korea</p>
-      <p>Worked on deep learning-based vehicle classification and traffic analysis.<br>
-        <em>Artificial Intelligence and Computer Vision</em></p>
-
-      <p><strong>Undergraduate Research Assistant</strong><br>
-        Kyungpook National University · Jul 2023 – Dec 2023 · 6 mos<br>
-        Daegu, Republic of Korea</p>
-      <p>Vision & Intelligent Systems Lab<br>
-        <a href="https://sites.google.com/view/k-vislab">https://sites.google.com/view/k-vislab</a></p>
-    </div>
+    <h3><strong>Work Experiences</strong></h3>
+    <ul>
+      <li><strong>Graduate Researcher</strong>, AIGS, UNIST (May 2025 – Present)</li>
+      <li><strong>Research Intern</strong>, ETRI (Jan – Feb 2024)</li>
+      <li><strong>Undergraduate RA</strong>, KNU (Jul – Dec 2023)</li>
+    </ul>
 
     <!-- Awards -->
-    <div style="margin-top: 60px;">
-      <h3><strong>Awards and Honors</strong></h3>
-      <ul>
-        <li><strong>Best Paper Presentation Award</strong> – ISET 2024 (May 2024, ETRI)</li>
-        <li><strong>Encouragement Award</strong> – 2023 AI Programming Competition (Dec 2023, KNU)</li>
-        <li><strong>Excellence Award</strong> – Industry-Academia SW Project (Dec 2023, KNU)</li>
-        <li><strong>Grand Prize</strong> – Startup Achievement Competition (Nov 2022, KNU)</li>
-      </ul>
-    </div>
+    <h3 style="margin-top: 60px;"><strong>Awards and Honors</strong></h3>
+    <ul>
+      <li><strong>Best Paper Presentation Award</strong> – ISET 2024 (May 2024, ETRI)</li>
+      <li><strong>Encouragement Award</strong> – 2023 AI Programming Competition (Dec 2023, KNU)</li>
+      <li><strong>Excellence Award</strong> – Industry-Academia SW Project (Dec 2023, KNU)</li>
+      <li><strong>Grand Prize</strong> – Startup Achievement Competition (Nov 2022, KNU)</li>
+    </ul>
 
     <!-- Publications -->
-    <div style="margin-top: 60px;">
-      <h3><strong>Publications</strong></h3>
-      <ul>
-        <li><strong>Vehicle Type Classification Method for Road Traffic Surveys</strong><br>
-          Journal of Embedded Systems and Applications, Vol. 19(5), pp. 227–234, Oct 31, 2024</li>
-        <li><strong>Fall Prevention Techniques for Medical Beds Using Vision Technology</strong><br>
-          KICS Summer Conference 2024 · Jun 19, 2024</li>
-        <li><strong>Vehicle Type Classification</strong><br>
-          The 19th IeMeK Symposium (ISET 2024) · May 22, 2024</li>
-        <li><strong>Retargeting for Metaverse</strong><br>
-          CEIC 2023 · Dec 8, 2023</li>
-      </ul>
-    </div>
+    <h3 style="margin-top: 60px;"><strong>Publications</strong></h3>
+    <ul>
+      <li><strong>Vehicle Type Classification Method for Road Traffic Surveys</strong>, JESA Vol. 19(5), pp. 227–234, Oct 31, 2024</li>
+      <li><strong>Fall Prevention Techniques for Medical Beds</strong>, KICS 2024 · Jun 19, 2024</li>
+      <li><strong>Vehicle Classification via Vision</strong>, ISET 2024 · May 22, 2024</li>
+      <li><strong>Retargeting for Metaverse Dataset</strong>, CEIC 2023 · Dec 8, 2023</li>
+    </ul>
 
-  </div> <!-- Lower Wrapper End -->
-
-</div> <!-- Main Wrapper End -->
+  </div>
+</div>
 
 
 
