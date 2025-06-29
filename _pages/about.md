@@ -50,19 +50,16 @@ author_profile: false
         <!-- Education -->
         <div style="flex: 1; min-width: 300px;">
           <h3><strong>Education</strong></h3>
-          <div style="margin-bottom: 24px;">
-            <p style="margin-bottom: 4px;"><strong>M.S./Ph.D.</strong> in Artificial Intelligence</p>
-            <p style="margin-bottom: 4px;">Ulsan National Institute of Science and Technology (<strong>UNIST</strong>)</p>
-            <p style="margin-bottom: 4px;">Ulsan, South Korea</p>
-            <p style="color: gray;">Sep. 2025 – Present</p>
-          </div>
-          <div>
-            <p style="margin-bottom: 4px;"><strong>B.S.</strong> in Computer Science and Engineering</p>
-            <p style="margin-bottom: 4px;">Kyungpook National University (<strong>KNU</strong>)</p>
-            <p style="margin-bottom: 4px;">Daegu, South Korea</p>
-            <p style="color: gray;">Mar. 2021 – Feb. 2025</p>
-          </div>
-        </div>
+               <p>
+                  <strong>M.S./Ph.D.</strong> in Artificial Intelligence,  
+                  Ulsan National Institute of Science and Technology (UNIST), Ulsan, South Korea<br>
+                  <span style="color: gray;">Sep. 2025 – Present</span>
+                </p>
+                <p>
+                  <strong>B.S.</strong> in Computer Science and Engineering,<br>
+                  Kyungpook National University (KNU), Daegu, South Korea<br>
+                  <span style="color: gray;">Mar. 2021 – Feb. 2025</span>
+                </p>
 
       </div>
     </div>
