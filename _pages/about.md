@@ -34,7 +34,7 @@ author_profile: false
         <strong>Ulsan National Institute of Science and Technology (UNIST)</strong>. I received my 
         <strong>B.S.</strong> degree in <strong>Computer Science and Engineering</strong> from 
         <strong>Kyungpook National University (KNU)</strong>. I am currently a member of the 
-        <a href="https://vision.unist.ac.kr"><strong>UNIST Vision and Learning Lab (UVLL)</<strong></a>, advised by 
+        <a href="https://vision.unist.ac.kr"><strong>UNIST Vision and Learning Lab (UVLL)</strong></a>, advised by 
         <a href="https://sites.google.com/site/bsrvision00/"><strong>Prof. Seungryul Baek</strong></a>. 
         My research interests include <strong>Deep Learning</strong>, <strong>Computer Vision</strong>, and 
         <strong>Vision-Language Models</strong>.
