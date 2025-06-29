@@ -34,37 +34,43 @@ author_profile: false
         <strong>Ulsan National Institute of Science and Technology (UNIST)</strong>. I received my 
         <strong>B.S.</strong> degree in <strong>Computer Science and Engineering</strong> from 
         <strong>Kyungpook National University (KNU)</strong>. I am currently a member of the 
-        <a href="https://vision.unist.ac.kr"><u>UNIST Vision and Learning Lab (UVLL)</u></a>, advised by 
-        <a href="https://sites.google.com/site/bsrvision00/"><u>Prof. Seungryul Baek</u></a>. 
-        My research interests include <strong>deep learning</strong>, <strong>computer vision</strong>, and 
-        <strong>vision-language models</strong>.
+        <a href="https://vision.unist.ac.kr"><strong>UNIST Vision and Learning Lab (UVLL)</<strong></a>, advised by 
+        <a href="https://sites.google.com/site/bsrvision00/"><strong>Prof. Seungryul Baek</strong></a>. 
+        My research interests include <strong>Deep Learning</strong>, <strong>Computer Vision</strong>, and 
+        <strong>Vision-Language Models</strong>.
       </p>
 
-      <!-- Contact and Education -->
+    <!-- Contact + Education -->
       <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; margin-top: 40px;">
-
-        <!-- Education -->
-        <div style="flex: 1.2; min-width: 300px;">
+      
+        <!-- Education (왼쪽, 더 넓게) -->
+        <div style="flex: 0 0 60%; min-width: 320px;">
           <h3><strong>Education</strong></h3>
           <p>
             M.S./Ph.D. in Artificial Intelligence,<br>
-            Ulsan National Institute of Science and Technology (UNIST)<br>
+            Ulsan National Institute of Science and Technology (UNIST)<br> 
             Ulsan, South Korea<br>
             <span style="color: gray;">Sep. 2025 – Present</span>
           </p>
           <p>
-            B.S. in Computer Science and Engineering,<br>
-            Kyungpook National University (KNU)<br>
-            Daegu, South Korea<br>
+            B.S. in Computer Science and Engineering<br>
+            Kyungpook National University (KNU), Daegu, South Korea<br>
             <span style="color: gray;">Mar. 2021 – Feb. 2025</span>
           </p>
         </div>
-
-        <!-- Contact -->
-        <div style="flex: 1; min-width: 300px;">
+      
+        <!-- Contact (오른쪽, 더 좁게) -->
+        <div style="flex: 0 0 35%; min-width: 240px;">
           <h3><strong>Contact</strong></h3>
-          <p style="margin: 0;"><strong>Email:</strong> <a href="mailto:coolho123@unist.ac.kr">coolho123@unist.ac.kr</a></p>
-          <p style="margin: 0; font-size: 16px;"><strong>Location:</strong> <span style="font-size: 14px;">50 UNIST-gil, Ulju, Ulsan, Republic of Korea</span></p>
+          <div style="line-height: 1.5;">
+            <p style="margin: 0;">
+              <strong>Email:</strong> 
+              <a href="mailto:coolho123@unist.ac.kr">coolho123@unist.ac.kr</a>
+            </p>
+            <p style="margin: 0; font-size: 14px;">
+              <strong>Location:</strong> 50 UNIST-gil, Ulju, Ulsan, Republic of Korea
+            </p>
+
         </div>
       </div>
     </div>
