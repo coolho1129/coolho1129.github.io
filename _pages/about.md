@@ -32,7 +32,7 @@ author_profile: false
         I am a combined <strong>M.S./Ph.D.</strong> student at the 
         <a href="https://aigs.unist.ac.kr/"><strong><u>Artificial Intelligence Graduate School (AIGS)</u></strong></a>, 
         <strong>Ulsan National Institute of Science and Technology (UNIST)</strong>. I received my 
-        <strong>B.S.</strong> degree in <strong>Computer Science and Engineering</strong> from 
+        <strong>B.S.</strong> degree in <strong><a href="https://cse.knu.ac.kr/">Computer Science and Engineering</strong> from 
         <strong>Kyungpook National University (KNU)</strong>. I am currently a member of the 
         <a href="https://vision.unist.ac.kr"><strong>UNIST Vision and Learning Lab (UVLL)</strong></a>, advised by 
         <a href="https://sites.google.com/site/bsrvision00/"><strong>Prof. Seungryul Baek</strong></a>.<br>
