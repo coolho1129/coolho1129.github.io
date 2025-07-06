@@ -98,7 +98,7 @@ author_profile: false
 
             KICS 2024 · Jun 19, 2024</span>
           </li>
-          <li><strong>Vehicle Classification via Vision</strong><br>
+          <li><strong>Vehicle Type Classification Method for Road Traffic Surveys</strong><br>
             <span style="margin-left: 1em; display: inline-block;">
            <strong>Chan-Ho Kim</strong>, Mi-Seon Kang, Pyong-Kun Kim<br>
             ISET 2024 · May 22, 2024</span>
