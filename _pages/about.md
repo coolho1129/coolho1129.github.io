@@ -80,15 +80,15 @@ author_profile: false
       <h2 style="font-size: 26px; font-weight: 600; margin-top: 40px;">Awards & Honors</h2>
         <ul style="padding-left: 20px;">
       <li style="margin-bottom: 12px;">
-        <strong>Best Paper Presentation Award</strong>, ISET 2024<br>
-        <em>Institute of Embedded Engineering of Korea (IEMEK)</em>, Korea (May 2024)
+        <strong>Best Paper Presentation Award</strong>, The 19th IeMeK Symposium on Embedded Technology (ISET 2024)<br>
+          <em>Institute of Embedded Engineering of Korea (IeMeK)</em>, Korea (May 2024)
       </li>
       <li style="margin-bottom: 12px;">
-        <strong>Encouragement Award</strong>, 2023 Daegyeong University Student AI Programming Competition<br>
+        <strong>Encouragement Award</strong>, Daegyeong University Student AI Programming Competition<br>
         <em>Software Education Center, Kyungpook National University (KNU)</em>, Korea (Dec 2023)
       </li>
       <li style="margin-bottom: 12px;">
-        <strong>Excellence Award</strong>, 2023 Daegyeong SW Industry-Academia Project Competition<br>
+        <strong>Excellence Award</strong>, Daegyeong SW Industry-Academia Project Competition<br>
         <em>Software Education Center, KNU</em>, Korea (Dec 2023)
       </li>
       <li style="margin-bottom: 12px;">
