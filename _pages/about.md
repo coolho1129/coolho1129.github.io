@@ -18,7 +18,7 @@ author_profile: false
       <p style="font-size: 16px; margin: 4px 0;">Combined M.S./Ph.D. Student</p>
       <p style="margin: 4px 0; font-size: 16px;"><a href="https://aigs.unist.ac.kr/">AIGS, UNIST</a></p>
       <p style="margin: 8px 0; font-size: 16px;">
-        <a href="https://linkedin.com/in/chanho-kim-891a542a2">LinkedIn</a> |
+        <a href="https://linkedin.com/in/chanho-kim-891a542a2">LinkedIn</a> 
         <a href="https://github.com/coolho1129">GitHub</a>
       </p>
     </div>
@@ -111,9 +111,7 @@ author_profile: false
         </ul>
       </div>
 
-    </div> <!-- Right Panel -->
-  </div> <!-- Top Flex Layout -->
-</div> <!-- Main Wrapper -->
+
 
 
 
