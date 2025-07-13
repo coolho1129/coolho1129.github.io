@@ -37,9 +37,17 @@ author_profile: false
         <a href="https://vision.unist.ac.kr">UNIST Vision and Learning Lab (UVLL)</a>, advised by 
         <a href="https://sites.google.com/site/bsrvision00/">Prof. Seungryul Baek</a>.
         <br><br>
-        My research interests include <strong>Deep Learning</strong>, <strong>Computer Vision</strong>, and 
-        <strong>Vision-Language Models</strong>.
       </p>
+
+      <!-- Research Interests -->
+      <h2 style="font-size: 26px; font-weight: 600; margin-top: 40px;">Research Interests</h2>
+        <ul style="padding-left: 20px;">
+          <li>Deep Learning</li>
+          <li>Computer Vision</li>
+          <li>Vision-Language Models</li>
+          <li>3D Hand Pose Estimation</li>
+          <li>3D Reconstruction</li>
+        </ul>
 
       <!-- Education -->
       <h2 style="font-size: 26px; font-weight: 600; margin-top: 40px;">Education</h2>
