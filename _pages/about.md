@@ -6,7 +6,7 @@ author_profile: false
 ---
 
 <!-- Main Wrapper -->
-<div style="max-width: 1080px; margin: 0 auto; padding: 40px; font-size: 18px; line-height: 1.8; font-family: 'Segoe UI', sans-serif; color: #222;">
+<div style="max-width: 1080px; margin: 0 auto; padding: 40px; font-size: 18px; line-height: 1.75; font-family: 'Segoe UI', sans-serif; color: #222;">
 
   <!-- Top Flex Layout -->
   <div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start;">
@@ -27,31 +27,30 @@ author_profile: false
     <div style="flex: 1; min-width: 300px; max-width: 860px;">
 
       <!-- About -->
-      <h2 style="font-size: 28px; font-weight: 600; margin-bottom: 10px;">About Me</h2>
+      <h2 style="font-size: 28px; font-weight: 600; margin-bottom: 12px;">About Me</h2>
       <p>
-        I am a combined <strong>M.S./Ph.D.</strong> student at the 
-        <a href="https://aigs.unist.ac.kr/"><u>Artificial Intelligence Graduate School (AIGS)</u></a>, 
-        <strong>UNIST</strong>. I received my <strong>B.S.</strong> in 
-        <a href="https://cse.knu.ac.kr/">Computer Science and Engineering</a> from 
-        <strong>Kyungpook National University (KNU)</strong>. I'm a member of the 
-        <a href="https://vision.unist.ac.kr">UNIST Vision and Learning Lab (UVLL)</a>, advised by 
+        I am a combined <strong>M.S./Ph.D.</strong> student at the
+        <a href="https://aigs.unist.ac.kr/"><u>Artificial Intelligence Graduate School (AIGS)</u></a>,
+        <strong>UNIST</strong>. I received my <strong>B.S.</strong> in
+        <a href="https://cse.knu.ac.kr/">Computer Science and Engineering</a> from
+        <strong>Kyungpook National University (KNU)</strong>. I'm a member of the
+        <a href="https://vision.unist.ac.kr">UNIST Vision and Learning Lab (UVLL)</a>, advised by
         <a href="https://sites.google.com/site/bsrvision00/">Prof. Seungryul Baek</a>.
-        <br><br>
       </p>
 
       <!-- Research Interests -->
       <h2 style="font-size: 26px; font-weight: 600; margin-top: 40px;">Research Interests</h2>
-        <ul style="padding-left: 20px;">
-          <li>Deep Learning</li>
-          <li>Computer Vision</li>
-          <li>Vision-Language Models</li>
-          <li>3D Hand Pose Estimation</li>
-          <li>3D Reconstruction</li>
-        </ul>
+      <ul style="padding-left: 20px; margin: 0;">
+        <li>Deep Learning</li>
+        <li>Computer Vision</li>
+        <li>Vision-Language Models</li>
+        <li>3D Reconstruction</li>
+        <li>3D Hand Pose Estimation</li>
+      </ul>
 
       <!-- Education -->
       <h2 style="font-size: 26px; font-weight: 600; margin-top: 40px;">Education</h2>
-      <ul style="padding-left: 20px;">
+      <ul style="padding-left: 20px; margin: 0;">
         <li>
           <strong>M.S./Ph.D.</strong> in Artificial Intelligence,<br>
           UNIST, Ulsan, South Korea<br>
@@ -59,7 +58,7 @@ author_profile: false
         </li>
         <li style="margin-top: 16px;">
           <strong>B.S.</strong> in Computer Science and Engineering,<br>
-          KNU, Daegu, South Korea<br>
+          Kyungpook National University (KNU), Daegu, South Korea<br>
           <span style="color: gray;">Mar 2021 – Feb 2025</span>
         </li>
       </ul>
@@ -71,52 +70,52 @@ author_profile: false
 
       <!-- Work Experience -->
       <h2 style="font-size: 26px; font-weight: 600; margin-top: 50px;">Work Experience</h2>
-      <ul style="padding-left: 20px;">
+      <ul style="padding-left: 20px; margin: 0;">
         <li><strong>Researcher</strong>, <a href="https://vision.unist.ac.kr">UVLL</a>, UNIST (May 2025 – Present)</li>
         <li><strong>Research Intern</strong>, <a href="https://www.etri.re.kr/kor/sub6/sub6_01020101.etri?departCode=150&departInfoCode=265">AI Infrastructure Lab</a>, ETRI (Jan – Feb 2024)</li>
         <li><strong>Undergraduate Researcher</strong>, <a href="https://sites.google.com/view/k-vislab">VIS Lab</a>, KNU (Jul – Dec 2023)</li>
       </ul>
 
-      <!-- Awards -->
-     <h2 style="font-size: 26px; font-weight: 600; margin-top: 40px;">Awards & Honors</h2>
-        <ul style="padding-left: 20px;">
-          <li>
-            <strong>Best Paper Presentation Award</strong>, ISET 2024 — 
-            <em>Institute of Embedded Engineering of Korea (IEMEK)</em>, Korea (May 2024)
-          </li>
-          <li>
-            <strong>Encouragement Award</strong>, 2023 Daegyeong University Student AI Programming Competition — 
-            <em>Software Education Center, Kyungpook National University (KNU)</em>, Korea (Dec 2023)
-          </li>
-          <li>
-            <strong>Excellence Award</strong>, 2023 Daegyeong SW Industry-Academia Project Competition — 
-            <em>Software Education Center, KNU</em>, Korea (Dec 2023)
-          </li>
-          <li>
-            <strong>Grand Prize</strong>, KNU School of Computer Science Startup Achievement Competition — 
-            <em>School of Computer Science, College of IT, KNU</em>, Korea (Nov 2022)
-          </li>
-        </ul>
+      <!-- Awards & Honors -->
+      <h2 style="font-size: 26px; font-weight: 600; margin-top: 40px;">Awards & Honors</h2>
+      <ul style="padding-left: 20px; margin: 0;">
+        <li style="margin-bottom: 12px;">
+          <strong>Best Paper Presentation Award</strong>, ISET 2024 —<br>
+          <em>Institute of Embedded Engineering of Korea (IEMEK)</em>, Korea (May 2024)
+        </li>
+        <li style="margin-bottom: 12px;">
+          <strong>Encouragement Award</strong>, 2023 Daegyeong University Student AI Programming Competition —<br>
+          <em>Software Education Center, Kyungpook National University (KNU)</em>, Korea (Dec 2023)
+        </li>
+        <li style="margin-bottom: 12px;">
+          <strong>Excellence Award</strong>, 2023 Daegyeong SW Industry-Academia Project Competition —<br>
+          <em>Software Education Center, KNU</em>, Korea (Dec 2023)
+        </li>
+        <li style="margin-bottom: 12px;">
+          <strong>Grand Prize</strong>, KNU School of Computer Science Startup Achievement Competition —<br>
+          <em>School of Computer Science, College of IT, KNU</em>, Korea (Nov 2022)
+        </li>
+      </ul>
 
       <!-- Publications -->
       <h2 style="font-size: 26px; font-weight: 600; margin-top: 40px;">Publications</h2>
-      <ul style="padding-left: 20px; list-style-type: disc;">
-        <li>
+      <ul style="padding-left: 20px; list-style-type: disc; margin: 0;">
+        <li style="margin-bottom: 16px;">
           <strong>Vehicle Type Classification Method for Road Traffic Surveys</strong><br>
           Mi-Seon Kang, <strong>Chan-Ho Kim</strong>, Pyong-Kun Kim<br>
           <em>Journal of Embedded Systems and Applications</em>, Vol. 19(5), pp. 227–234, Oct 2024
         </li>
-        <li style="margin-top: 16px;">
+        <li style="margin-bottom: 16px;">
           <strong>Fall Prevention Techniques for Medical Beds</strong><br>
           <strong>Chan-Ho Kim</strong>, Eunji Kim, Jaehyeon Ha, Chaewon Moon, *Dongkyun Kim<br>
           <em>KICS 2024</em>, Jun 2024
         </li>
-        <li style="margin-top: 16px;">
+        <li style="margin-bottom: 16px;">
           <strong>Vehicle Type Classification Method for Road Traffic Surveys</strong><br>
           <strong>Chan-Ho Kim</strong>, Mi-Seon Kang, Pyong-Kun Kim<br>
           <em>ISET 2024</em>, May 2024
         </li>
-        <li style="margin-top: 16px;">
+        <li style="margin-bottom: 16px;">
           <strong>A Study on Retargeting Application of Realistic Media-Based Dataset for the Metaverse</strong><br>
           Dong-hwi Kim, Aro Kim, Dong-hun Lee, <strong>Chanho Kim</strong>, Eunji Kim, Chaewon Moon, Geonah Kim, Sang-hyo Park*<br>
           <em>CEIC 2023</em>, Dec 2023
@@ -125,6 +124,7 @@ author_profile: false
     </div>
   </div>
 </div>
+
 
 
 
