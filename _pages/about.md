@@ -78,24 +78,24 @@ author_profile: false
 
       <!-- Awards & Honors -->
       <h2 style="font-size: 26px; font-weight: 600; margin-top: 40px;">Awards & Honors</h2>
-        <ul style="padding-left: 20px;">
-      <li style="margin-bottom: 12px;">
-        <strong>Best Paper Presentation Award</strong>, The 19th IeMeK Symposium on Embedded Technology (ISET 2024)<br>
-          <em>Institute of Embedded Engineering of Korea (IeMeK)</em>, Korea (May 2024)
-      </li>
-      <li style="margin-bottom: 12px;">
-        <strong>Encouragement Award</strong>, Daegyeong University Student AI Programming Competition<br>
-        <em>Software Education Center, Kyungpook National University (KNU)</em>, Korea (Dec 2023)
-      </li>
-      <li style="margin-bottom: 12px;">
-        <strong>Excellence Award</strong>, Daegyeong SW Industry-Academia Project Competition<br>
-        <em>Software Education Center, KNU</em>, Korea (Dec 2023)
-      </li>
-      <li style="margin-bottom: 12px;">
-        <strong>Grand Prize</strong>, KNU School of Computer Science Startup Achievement Competition<br>
-        <em>School of Computer Science, College of IT, KNU</em>, Korea (Nov 2022)
-      </li>
-    </ul>
+      <ul>
+          <li>
+            <strong>Best Paper Presentation Award</strong>, The 19th IeMeK Symposium on Embedded Technology (ISET 2024)<br>
+            <em>Institute of Embedded Engineering of Korea (IeMeK)</em>, Korea (May 2024)
+          </li>
+          <li>
+            <strong>Encouragement Award</strong>, Daegyeong University Student AI Programming Competition<br>
+            <em>Software Education Center, Kyungpook National University (KNU)</em>, Korea (Dec 2023)
+          </li>
+          <li>
+            <strong>Excellence Award</strong>, Daegyeong SW Industry-Academia Project Competition<br>
+            <em>Software Education Center, KNU</em>, Korea (Dec 2023)
+          </li>
+          <li>
+            <strong>Grand Prize</strong>, KNU School of Computer Science Startup Achievement Competition<br>
+            <em>School of Computer Science, College of IT, KNU</em>, Korea (Nov 2022)
+          </li>
+      </ul>
 
       <!-- Publications -->
       <h2 style="font-size: 26px; font-weight: 600; margin-top: 40px;">Publications</h2>
