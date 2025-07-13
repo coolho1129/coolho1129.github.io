@@ -78,13 +78,25 @@ author_profile: false
       </ul>
 
       <!-- Awards -->
-      <h2 style="font-size: 26px; font-weight: 600; margin-top: 40px;">Awards & Honors</h2>
-      <ul style="padding-left: 20px;">
-        <li><strong>Best Paper Presentation Award</strong>, ISET 2024 (May 2024)</li>
-        <li><strong>Encouragement Award</strong>, 2023 AI Programming Competition (Dec 2023)</li>
-        <li><strong>Excellence Award</strong>, Industry-Academia SW Project (Dec 2023)</li>
-        <li><strong>Grand Prize</strong>, Startup Achievement Competition (Nov 2022)</li>
-      </ul>
+     <h2 style="font-size: 26px; font-weight: 600; margin-top: 40px;">Awards & Honors</h2>
+        <ul style="padding-left: 20px;">
+          <li>
+            <strong>Best Paper Presentation Award</strong>, ISET 2024 — 
+            <em>Institute of Embedded Engineering of Korea (IEMEK)</em>, Korea (May 2024)
+          </li>
+          <li>
+            <strong>Encouragement Award</strong>, 2023 Daegyeong University Student AI Programming Competition — 
+            <em>Software Education Center, Kyungpook National University (KNU)</em>, Korea (Dec 2023)
+          </li>
+          <li>
+            <strong>Excellence Award</strong>, 2023 Daegyeong SW Industry-Academia Project Competition — 
+            <em>Software Education Center, KNU</em>, Korea (Dec 2023)
+          </li>
+          <li>
+            <strong>Grand Prize</strong>, KNU School of Computer Science Startup Achievement Competition — 
+            <em>School of Computer Science, College of IT, KNU</em>, Korea (Nov 2022)
+          </li>
+        </ul>
 
       <!-- Publications -->
       <h2 style="font-size: 26px; font-weight: 600; margin-top: 40px;">Publications</h2>
