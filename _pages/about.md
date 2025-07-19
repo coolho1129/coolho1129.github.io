@@ -31,7 +31,7 @@ author_profile: false
       <p>
         I am a combined <strong>M.S./Ph.D.</strong> student at the
         <a href="https://aigs.unist.ac.kr/"><u>Artificial Intelligence Graduate School (AIGS)</u></a>,
-        <strong>UNIST</strong>. I received my <strong>B.S.</strong> in
+        <strong>Ulsan National Institute of Science and Technology (UNIST)</strong>. I received my <strong>B.S.</strong> in
         <a href="https://cse.knu.ac.kr/">Computer Science and Engineering</a> from
         <strong>Kyungpook National University (KNU)</strong>. I'm a member of the
         <a href="https://vision.unist.ac.kr">UNIST Vision and Learning Lab (UVLL)</a>, advised by
@@ -53,7 +53,7 @@ author_profile: false
       <ul style="padding-left: 20px; margin: 0;">
         <li>
           <strong>M.S./Ph.D.</strong> in Artificial Intelligence,<br>
-          UNIST, Ulsan, South Korea<br>
+          Ulsan National Institute of Science and Technology (UNIST), Ulsan, South Korea<br>
           <span style="color: gray;">Sep 2025 – Present</span>
         </li>
         <li style="margin-top: 16px;">
