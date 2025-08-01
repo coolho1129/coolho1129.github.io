@@ -1,7 +1,10 @@
 # main links
 main:
+  
   - title: "About Me"
     url: /about/
+  - title: "Blog"
+    url: /
   - title: "Category"
     url: /categories/
   - title: "Tag"
