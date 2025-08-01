@@ -3,6 +3,7 @@ layout: default
 title: "About Me"
 permalink: /about/
 author_profile: false
+header: false
 ---
 
 <!-- Main Wrapper -->
