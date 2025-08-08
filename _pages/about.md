@@ -65,7 +65,7 @@ author_profile: false
 
       <!-- Contact -->
       <h2 style="font-size: 26px; font-weight: 600; margin-top: 40px;">Contact</h2>
-      <p><strong>Email:</strong> <a href="mailto:coolho123@unist.ac.kr">coolho123@unist.ac.kr</a></p>
+      <p><strong>Email:</strong> <a href="mailto:coolho1129@unist.ac.kr">coolho1129@unist.ac.kr</a></p>
       <p><strong>Location:</strong> 50 UNIST-gil, Ulju, Ulsan, Republic of Korea</p>
 
       <!-- Work Experience -->
