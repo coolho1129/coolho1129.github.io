@@ -114,7 +114,7 @@ author_profile: false
           <strong>Vehicle Type Classification Method for Road Traffic Surveys</strong><br>
           <strong>Chan-Ho Kim</strong>, Mi-Seon Kang, Pyong-Kun Kim<br>
           <em>ISET 2024</em>, May 2024 <br>
-          <span style="color: #d4af37;">🏆 Best Presentation Paper</span>
+          <span style="color: #d4af37;">🏆 Best Paper Presentation Award</span>
         </li>
         <li style="margin-bottom: 16px;">
           <strong>A Study on Retargeting Application of Realistic Media-Based Dataset for the Metaverse</strong><br>
