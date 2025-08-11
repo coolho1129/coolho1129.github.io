@@ -71,7 +71,7 @@ author_profile: false
       <!-- Work Experience -->
       <h2 style="font-size: 26px; font-weight: 600; margin-top: 50px;">Work Experience</h2>
       <ul style="padding-left: 20px; margin: 0;">
-        <li><strong>Researcher</strong>, <a href="https://vision.unist.ac.kr">UVLL</a>, UNIST (May 2025 – Present)</li>
+        <li><strong>Assistant Researcher</strong>, <a href="https://vision.unist.ac.kr">UVLL</a>, UNIST (May 2025 – Present)</li>
         <li><strong>Research Intern</strong>, <a href="https://www.etri.re.kr/kor/sub6/sub6_01020101.etri?departCode=150&departInfoCode=265">AI Infrastructure Lab</a>, ETRI (Jan – Feb 2024)</li>
         <li><strong>Undergraduate Researcher</strong>, <a href="https://sites.google.com/view/k-vislab">VIS Lab</a>, KNU (Jul – Dec 2023)</li>
       </ul>
