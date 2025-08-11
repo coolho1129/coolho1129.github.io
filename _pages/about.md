@@ -68,7 +68,7 @@ author_profile: false
       <p><strong>Email:</strong> <a href="mailto:coolho1129@unist.ac.kr">coolho1129@unist.ac.kr</a></p>
       <p><strong>Location:</strong> 50 UNIST-gil, Ulju, Ulsan, Republic of Korea</p>
 
-      <!-- Work Experience -->
+      <!--  Research Experience -->
       <h2 style="font-size: 26px; font-weight: 600; margin-top: 50px;">Work Experience</h2>
       <ul style="padding-left: 20px; margin: 0;">
         <li><strong>Assistant Researcher</strong>, <a href="https://vision.unist.ac.kr">UVLL</a>, UNIST (May 2025 – Present)</li>
