@@ -111,7 +111,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "coolho123@unist.ac.kr"
+      url: "<a href="mailto:coolho1129@unist.ac.kr">coolho1129@unist.ac.kr</a>"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/coolho1129/"
