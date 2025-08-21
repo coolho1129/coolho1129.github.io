@@ -107,11 +107,11 @@ author:
   avatar: images/profile.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "AI, ML, DL, CV를 주로 다룰 예정"
   location: "Republic of Korea"
-  email:
+  email:"mailto:coolho1129@unist.ac.kr"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "<a href="mailto:coolho1129@unist.ac.kr">coolho1129@unist.ac.kr</a>"
+      url: "mailto:coolho1129@unist.ac.kr"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/coolho1129/"
