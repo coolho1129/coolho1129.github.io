@@ -34,7 +34,7 @@ author_profile: false
         <strong>Ulsan National Institute of Science and Technology (UNIST)</strong>. I received my <strong>B.S.</strong> in
         <a href="https://cse.knu.ac.kr/">Computer Science and Engineering</a> from
         <strong>Kyungpook National University (KNU)</strong>. I'm a member of the
-        <a href="https://vision.unist.ac.kr">UNIST Vision and Learning Lab (UVLL)</a>, advised by
+        <a href="https://vision.unist.ac.kr/intro.html">UNIST Vision and Learning Lab (UVLL)</a>, advised by
         <a href="https://sites.google.com/site/bsrvision00/">Prof. Seungryul Baek</a>.
       </p>
 
