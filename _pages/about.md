@@ -43,24 +43,40 @@ classes: wide
 
   <h2 style="font-size: 26px; font-weight: 600; margin-top: 50px;">Research Experience</h2>
   <ul style="padding-left: 20px; margin: 0;">
-    <li>
-      <strong>Assistant Researcher</strong>,
-      <a href="https://vision.unist.ac.kr/intro.html">UNIST Vision and Learning Lab (UVLL)</a>,
-      UNIST<br>
-      <span style="color: gray;">May 2025 – Present</span>
-    </li>
-    <li style="margin-top: 16px;">
-      <strong>Research Intern</strong>,
-      <a href="https://www.etri.re.kr/kor/sub6/sub6_01020101.etri?departCode=150&departInfoCode=265">AI Infrastructure Lab</a>,
-      ETRI<br>
-      <span style="color: gray;">Jan 2024 – Feb 2024</span>
-    </li>
-    <li style="margin-top: 16px;">
-      <strong>Undergraduate Researcher</strong>,
-      <a href="https://sites.google.com/view/k-vislab">VIS Lab</a>,
-      KNU<br>
-      <span style="color: gray;">Jul 2023 – Dec 2023</span>
-    </li>
+    <h2 style="font-size: 26px; font-weight: 600; margin-top: 50px;">Research Experience</h2>
+
+<ul style="padding-left: 20px; margin: 0;">
+
+  <li>
+    <strong>Graduate Researcher</strong>,
+    <a href="https://vision.unist.ac.kr/intro.html">UNIST Vision and Learning Lab (UVLL)</a>,
+    UNIST<br>
+    <span style="color: gray;">Sep 2025 – Present</span>
+  </li>
+
+  <li style="margin-top: 16px;">
+    <strong>Assistant Researcher</strong>,
+    <a href="https://vision.unist.ac.kr/intro.html">UNIST Vision and Learning Lab (UVLL)</a>,
+    UNIST<br>
+    <span style="color: gray;">May 2025 – Aug 2025</span>
+  </li>
+
+  <li style="margin-top: 16px;">
+    <strong>Research Intern</strong>,
+    <a href="https://www.etri.re.kr/kor/sub6/sub6_01020101.etri?departCode=150&departInfoCode=265">AI Infrastructure Lab</a>,
+    ETRI<br>
+    <span style="color: gray;">Jan 2024 – Feb 2024</span>
+  </li>
+
+  <li style="margin-top: 16px;">
+    <strong>Undergraduate Researcher</strong>,
+    <a href="https://sites.google.com/view/k-vislab">VIS Lab</a>,
+    Kyungpook National University (KNU)<br>
+    <span style="color: gray;">Jul 2023 – Dec 2023</span>
+  </li>
+
+</ul>
+
   </ul>
 
   <h2 style="font-size: 26px; font-weight: 600; margin-top: 40px;">Awards & Honors</h2>
