@@ -279,8 +279,14 @@
 
 
 
+```yml
+# Theme
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "contrast"
+
 # Site Settings
 locale: "ko-KR"
+
 title: "Chanho Kim"
 title_separator: "|"
 subtitle: "M.S./Ph.D. Student at AIGS, UNIST"
@@ -309,13 +315,21 @@ atom_feed:
 search: false
 search_full_content: false
 
-# Site Author
+# Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-50TL724Y87"
+    anonymize_ip: false
+
+# Author
 author:
   name: "Chanho Kim"
-  avatar: images/about.jpg
+  avatar: "images/about.jpg"
   bio: "Computer Vision & 3D Vision Researcher"
   location: "Ulsan, Republic of Korea"
-  email:
+  email: ""
+
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
@@ -323,7 +337,7 @@ author:
 
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/coolho1129/"
+      url: "https://github.com/coolho1129"
 
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -337,9 +351,73 @@ author:
       icon: "fas fa-fw fa-code"
       url: "https://solved.ac/profile/coolho123"
 
+# Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/coolho1129"
+
+# Reading Files
+include:
+  - _pages
+
+exclude:
+  - docs
+  - test
+  - vendor
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+# Markdown
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
 # Outputting
 permalink: pretty
 timezone: Asia/Seoul
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-include-cache
+  - jekyll-github-metadata
+  - jekyll-relative-links
+
+# Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: false
+      comments: false
+      share: false
+      related: false
+      show_date: false
+      toc: false
+      use_math: true
+
+date_format: "%Y-%m-%d"
+```
+
 
 
 
