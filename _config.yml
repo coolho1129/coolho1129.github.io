@@ -278,10 +278,9 @@
 # date_format: "%Y-%m-%d"
 
 
+```yml
 # Site Settings
-
 locale: "ko-KR"
-
 title: "Chanho Kim"
 title_separator: "|"
 subtitle: "M.S./Ph.D. Student at AIGS, UNIST"
@@ -299,61 +298,50 @@ breadcrumbs: false
 words_per_minute: 200
 
 # Comments
-
 comments:
-provider: false
+  provider: false
 
 # RSS Feed
-
 atom_feed:
-hide: true
+  hide: true
 
 # Search
-
 search: false
 search_full_content: false
 
 # Site Author
-
 author:
-name: "Chanho Kim"
-avatar: images/about.jpg
-bio: "Computer Vision & 3D Vision Researcher"
-location: "Ulsan, Republic of Korea"
-email:
+  name: "Chanho Kim"
+  avatar: images/about.jpg
+  bio: "Computer Vision & 3D Vision Researcher"
+  location: "Ulsan, Republic of Korea"
+  email:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:coolho1129@unist.ac.kr"
 
-links:
-- label: "Email"
-icon: "fas fa-fw fa-envelope"
-url: "mailto:coolho1129@unist.ac.kr"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/coolho1129/"
 
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/chanho-kim-891a542a2"
 
-- label: "GitHub"
-  icon: "fab fa-fw fa-github"
-  url: "https://github.com/coolho1129/"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=SW-_ah8AAAAJ&hl=ko"
 
-- label: "LinkedIn"
-  icon: "fab fa-fw fa-linkedin"
-  url: "https://www.linkedin.com/in/chanho-kim-891a542a2"
-
-- label: "Google Scholar"
-  icon: "fas fa-fw fa-graduation-cap"
-  url: "https://scholar.google.com/citations?user=SW-_ah8AAAAJ&hl=ko"
-
-- label: "Solved.ac"
-  icon: "fas fa-fw fa-code"
-  url: "https://solved.ac/profile/coolho123"
-
+    - label: "Solved.ac"
+      icon: "fas fa-fw fa-code"
+      url: "https://solved.ac/profile/coolho123"
 
 # Outputting
-
 permalink: pretty
-
-# paginate: 5
-
-# paginate_path: /page:num/
-
 timezone: Asia/Seoul
+```
+
 
 
 
