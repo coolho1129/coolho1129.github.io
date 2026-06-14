@@ -41,11 +41,10 @@ author_profile: false
       <!-- Research Interests -->
       <h2 style="font-size: 26px; font-weight: 600; margin-top: 40px;">Research Interests</h2>
       <ul style="padding-left: 20px; margin: 0;">
-        <li>Deep Learning</li>
         <li>Computer Vision</li>
+        <li>3D Vision & Reconstruction</li>
         <li>Vision-Language Models</li>
-        <li>3D Reconstruction</li>
-        <li>3D Hand Pose Estimation</li>
+        <li>Multimodal AI</li>
       </ul>
 
       <!-- Education -->
