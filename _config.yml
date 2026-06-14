@@ -327,7 +327,7 @@ links:
 icon: "fas fa-fw fa-envelope"
 url: "mailto:coolho1129@unist.ac.kr"
 
-```
+
 - label: "GitHub"
   icon: "fab fa-fw fa-github"
   url: "https://github.com/coolho1129/"
@@ -343,7 +343,7 @@ url: "mailto:coolho1129@unist.ac.kr"
 - label: "Solved.ac"
   icon: "fas fa-fw fa-code"
   url: "https://solved.ac/profile/coolho123"
-```
+
 
 # Outputting
 
