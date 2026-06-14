@@ -499,5 +499,5 @@ defaults:
       use_math: true
 
 date_format: "%Y-%m-%d"
-```
+
 
