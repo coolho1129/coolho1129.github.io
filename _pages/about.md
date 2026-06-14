@@ -74,7 +74,7 @@ classes: wide
 
 </ul>
 
-  </ul>
+
 
   <h2 style="font-size: 26px; font-weight: 600; margin-top: 40px;">Awards & Honors</h2>
   <ul style="padding-left: 20px; margin: 0;">
