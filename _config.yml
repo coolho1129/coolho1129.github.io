@@ -278,7 +278,7 @@
 # date_format: "%Y-%m-%d"
 
 
-```yml
+
 # Site Settings
 locale: "ko-KR"
 title: "Chanho Kim"
@@ -340,7 +340,7 @@ author:
 # Outputting
 permalink: pretty
 timezone: Asia/Seoul
-```
+
 
 
 
