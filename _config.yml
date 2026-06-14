@@ -362,13 +362,32 @@ include:
   - _pages
 
 exclude:
-  - docs
-  - test
+  - "*.sublime-project"
+  - "*.sublime-workspace"
   - vendor
-  - node_modules
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
   - Gemfile
-  - Gemfile.lock
-  - README.md
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
 
 # Markdown
 markdown: kramdown
