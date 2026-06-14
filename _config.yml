@@ -279,7 +279,6 @@
 
 
 
-```yml
 # Theme
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "contrast"
@@ -416,7 +415,7 @@ defaults:
       use_math: true
 
 date_format: "%Y-%m-%d"
-```
+
 
 
 
