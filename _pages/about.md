@@ -41,10 +41,7 @@ classes: wide
     </li>
   </ul>
 
-  <h2 style="font-size: 26px; font-weight: 600; margin-top: 50px;">Research Experience</h2>
-  <ul style="padding-left: 20px; margin: 0;">
-    <h2 style="font-size: 26px; font-weight: 600; margin-top: 50px;">Research Experience</h2>
-
+<h2 style="font-size: 26px; font-weight: 600; margin-top: 50px;">Research Experience</h2>
 <ul style="padding-left: 20px; margin: 0;">
 
   <li>
