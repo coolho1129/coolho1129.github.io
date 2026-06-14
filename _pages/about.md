@@ -1,10 +1,10 @@
--------------
+---
 layout: single
 title: "About Me"
 permalink: /about/
 author_profile: true
 classes: wide
--------------
+---
 
 <div style="max-width: 900px; margin: 0 auto; padding: 20px 10px; font-size: 18px; line-height: 1.75; font-family: 'Segoe UI', sans-serif; color: #222;">
 
