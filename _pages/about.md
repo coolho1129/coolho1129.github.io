@@ -29,7 +29,7 @@ classes: wide
     <li>Computer Vision</li>
     <li>3D Vision & Reconstruction</li>
     <li>Vision-Language Models</li>
-    <li>Multimodal AI</li>
+    <li>Vision-Language-Action Models</li>
   </ul>
 
   <h2 style="font-size: 26px; font-weight: 600; margin-top: 40px;">Education</h2>
