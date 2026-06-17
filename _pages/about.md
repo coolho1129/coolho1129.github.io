@@ -41,13 +41,13 @@ classes: wide
       <span style="color: gray;">Sep 2025 – Present</span>
     </li>
 
-```
+
 <li style="margin-top: 16px;">
   <strong>B.S.</strong> in Computer Science and Engineering,<br>
   KNU, Daegu, South Korea<br>
   <span style="color: gray;">Mar 2021 – Feb 2025</span>
 </li>
-```
+
 
   </ul>
 
@@ -55,7 +55,7 @@ classes: wide
 
   <ul style="padding-left: 20px; margin: 0;">
 
-```
+
 <li>
   <strong>Graduate Researcher</strong>, UVLL, UNIST<br>
   <span style="color: gray;">Sep 2025 – Present</span>
@@ -79,7 +79,7 @@ classes: wide
   KNU<br>
   <span style="color: gray;">Jul 2023 – Dec 2023</span>
 </li>
-```
+
 
   </ul>
 
@@ -87,7 +87,7 @@ classes: wide
 
   <ul style="padding-left: 20px; margin: 0;">
 
-```
+
 <li>
   <strong>Best Paper Presentation Award</strong>,
   The 19th IeMeK Symposium on Embedded Technology (ISET 2024)<br>
@@ -115,7 +115,6 @@ classes: wide
   <em>School of Computer Science, KNU</em>, Korea<br>
   <span style="color: gray;">Nov 2022</span>
 </li>
-```
 
   </ul>
 
@@ -123,7 +122,6 @@ classes: wide
 
   <ul style="padding-left: 20px; list-style-type: disc; margin: 0;">
 
-```
 <li style="margin-bottom: 16px;">
   <strong>Vehicle Type Classification Method for Road Traffic Surveys</strong><br>
   Mi-Seon Kang, <strong>Chan-Ho Kim</strong>, Pyong-Kun Kim<br>
@@ -149,7 +147,7 @@ classes: wide
   Dong-hwi Kim, Aro Kim, Dong-hun Lee, <strong>Chanho Kim</strong>, Eunji Kim, Chaewon Moon, Geonah Kim, Sang-hyo Park*<br>
   <em>CEIC 2023</em>, Dec 2023
 </li>
-```
+
 
   </ul>
 
