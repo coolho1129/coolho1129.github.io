@@ -288,7 +288,7 @@ locale: "ko-KR"
 
 title: "Chanho Kim"
 title_separator: "|"
-subtitle: "M.S./Ph.D. Student at AIGS, UNIST"
+subtitle: "Artificial Intelligence Graduate School, UNIST"
 name: "Chanho Kim"
 description: "Personal academic website of Chanho Kim"
 
@@ -325,7 +325,7 @@ analytics:
 author:
   name: "Chanho Kim"
   avatar: "images/about.jpg"
-  bio: "Computer Vision & 3D Vision Researcher"
+  bio: "Researching Computer Vision, 3D Reconstruction, and Vision-Language-Action Models"
   location: "Ulsan, Republic of Korea"
 
 
