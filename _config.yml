@@ -325,29 +325,29 @@ analytics:
 author:
   name: "Chanho Kim"
   avatar: "images/about.jpg"
-  bio: "Researching Computer Vision, 3D Reconstruction, and Vision-Language-Action Models"
+  bio: "Computer Vision, 3D Reconstruction, and VLAs"
   location: "Ulsan, Republic of Korea"
 
 
-links:
-  - label: "Email"
-    icon: "fas fa-fw fa-envelope"
-    url: "mailto:coolho1129@unist.ac.kr"
-
-  - label: "Google Scholar"
-    icon: "fas fa-fw fa-graduation-cap"
-    url: "https://scholar.google.com/citations?user=SW-_ah8AAAAJ&hl=ko"
-
-  - label: "LinkedIn"
-    icon: "fab fa-fw fa-linkedin"
-    url: "https://www.linkedin.com/in/chanho-kim-891a542a2"
-
-  - label: "GitHub"
-    icon: "fab fa-fw fa-github"
-    url: "https://github.com/coolho1129"
-
-  - label: "Solved.ac"
-    icon: "fas fa-fw fa-code"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:coolho1129@unist.ac.kr"
+  
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=SW-_ah8AAAAJ&hl=ko"
+  
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/chanho-kim-891a542a2"
+  
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/coolho1129"
+  
+    - label: "Solved.ac"
+      icon: "fas fa-fw fa-code"
     url: "https://solved.ac/profile/coolho123"
 
 # Footer
