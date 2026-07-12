@@ -84,7 +84,7 @@ Kyungpook National University<br>
 
 <h2 style="font-size:26px; font-weight:600; margin-top:40px;">Publications</h2>
 
-<h3 style="font-size:20px; font-weight:600; margin-top:24px;">Domestic Journal</h3>
+<h3 style="font-size:20px; font-weight:600; margin-top:24px;">Domestic Journals</h3>
 
 <ul style="padding-left:20px; list-style-type:disc; margin:0;">
 
@@ -102,29 +102,31 @@ Vol. 19(5), pp. 227–234, Oct. 2024
 <ul style="padding-left:20px; list-style-type:disc; margin:0;">
 
 <li style="margin-bottom:16px;">
-<strong>실시간 손 메시 복원을 위한 미분 가능한 고속 해석적 병렬 역기구학 모듈의 설계 및 최적화</strong><br>
-<strong>Chanho Kim</strong>, Seungryul Baek<br>
-<em>IPIU 2026</em>, Feb. 2026
+  <strong>실시간 손 메시 복원을 위한 미분 가능한 고속 해석적 병렬 역기구학 모듈의 설계 및 최적화</strong><br>
+  <strong>Chanho Kim</strong>, Seungryul Baek<br>
+  <em>IPIU 2026</em>, Feb. 2026
 </li>
 
 <li style="margin-bottom:16px;">
-<strong>의료용 침대 낙상 방지 기법</strong><br>
-<strong>Chan-Ho Kim</strong>, Eunji Kim, Jaehyeon Ha, Chaewon Moon, Dongkyun Kim*<br>
-<em>KICS 2024</em>, Jun. 2024
+  <strong>비전 기술을 활용한 의료용 침대 낙상 방지 기법</strong><br>
+  <strong>Chan-Ho Kim</strong>, Eunji Kim, Jaehyeon Ha, Chaewon Moon, Dongkyun Kim*<br>
+  <em>KICS 2024</em>, Jun. 2024
 </li>
 
 <li style="margin-bottom:16px;">
-<strong>도로교통량 조사를 위한 12종 차종 분류 방법</strong><br>
-<strong>Chan-Ho Kim</strong>, Mi-Seon Kang, Pyong-Kun Kim<br>
-<em>ISET 2024</em>, May. 2024<br>
-<span style="color:#d4af37;">🏆 Best Paper Presentation Award</span>
+  <strong>도로교통량 조사를 위한 12종 차종 분류 방법</strong><br>
+  <strong>Chan-Ho Kim</strong>, Mi-Seon Kang, Pyong-Kun Kim<br>
+  <em>ISET 2024</em>, May. 2024<br>
+  <span style="color:#d4af37;">🏆 Best Paper Presentation Award</span>
 </li>
 
 <li style="margin-bottom:16px;">
-<strong>실감미디어 기반 데이터셋의 메타버스 리타게팅 적용 연구</strong><br>
-Dong-hwi Kim, Aro Kim, Dong-hun Lee, <strong>Chanho Kim</strong>, Eunji Kim, Chaewon Moon, Geonah Kim, Sang-hyo Park*<br>
-<em>CEIC 2023</em>, Dec. 2023
+  <strong>메타버스를 위한 실감형 미디어 기반 데이터셋의 리타게팅 적용 연구</strong><br>
+  Dong-hwi Kim, Aro Kim, Dong-hun Lee, <strong>Chanho Kim</strong>, Eunji Kim, Chaewon Moon, Geonah Kim, Sang-hyo Park*<br>
+  <em>CEIC 2023</em>, Dec. 2023
 </li>
+
+</ul>
 
 </ul>
 
