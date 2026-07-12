@@ -118,35 +118,51 @@ classes: wide
 
   </ul>
 
-  <h2 style="font-size: 26px; font-weight: 600; margin-top: 40px;">Publications</h2>
+<h2 style="font-size: 26px; font-weight: 600; margin-top: 40px;">Publications</h2>
 
-  <ul style="padding-left: 20px; list-style-type: disc; margin: 0;">
+<h3 style="font-size: 20px; font-weight: 600; margin-top: 24px;">Domestic Journal</h3>
+
+<ul style="padding-left: 20px; list-style-type: disc; margin: 0;">
 
 <li style="margin-bottom: 16px;">
-  <strong>Vehicle Type Classification Method for Road Traffic Surveys</strong><br>
+  <strong>도로교통량 조사를 위한 12종 차종 분류 방법</strong><br>
   Mi-Seon Kang, <strong>Chan-Ho Kim</strong>, Pyong-Kun Kim<br>
   <em>Journal of Embedded Systems and Applications</em>,
-  Vol. 19(5), pp. 227–234, Oct 2024
+  Vol. 19(5), pp. 227–234, Oct. 2024
+</li>
+
+</ul>
+
+<h3 style="font-size: 20px; font-weight: 600; margin-top: 24px;">Domestic Conferences</h3>
+
+<ul style="padding-left: 20px; list-style-type: disc; margin: 0;">
+
+<li style="margin-bottom: 16px;">
+  <strong>실시간 손 메시 복원을 위한 미분 가능한 고속 해석적 병렬 역기구학 모듈의 설계 및 최적화</strong><br>
+  <strong>Chanho Kim</strong>, Seungryul Baek<br>
+  <em>IPIU 2026</em>, Feb. 2026
 </li>
 
 <li style="margin-bottom: 16px;">
-  <strong>Fall Prevention Techniques for Medical Beds</strong><br>
-  <strong>Chan-Ho Kim</strong>, Eunji Kim, Jaehyeon Ha, Chaewon Moon, *Dongkyun Kim<br>
-  <em>KICS 2024</em>, Jun 2024
+  <strong>의료용 침대 낙상 방지 기법</strong><br>
+  <strong>Chan-Ho Kim</strong>, Eunji Kim, Jaehyeon Ha, Chaewon Moon, Dongkyun Kim*<br>
+  <em>KICS 2024</em>, Jun. 2024
 </li>
 
 <li style="margin-bottom: 16px;">
-  <strong>Vehicle Type Classification Method for Road Traffic Surveys</strong><br>
+  <strong>도로교통량 조사를 위한 12종 차종 분류 방법</strong><br>
   <strong>Chan-Ho Kim</strong>, Mi-Seon Kang, Pyong-Kun Kim<br>
-  <em>ISET 2024</em>, May 2024<br>
+  <em>ISET 2024</em>, May. 2024<br>
   <span style="color: #d4af37;">🏆 Best Paper Presentation Award</span>
 </li>
 
 <li style="margin-bottom: 16px;">
-  <strong>A Study on Retargeting Application of Realistic Media-Based Dataset for the Metaverse</strong><br>
+  <strong>실감미디어 기반 데이터셋의 메타버스 리타게팅 적용 연구</strong><br>
   Dong-hwi Kim, Aro Kim, Dong-hun Lee, <strong>Chanho Kim</strong>, Eunji Kim, Chaewon Moon, Geonah Kim, Sang-hyo Park*<br>
-  <em>CEIC 2023</em>, Dec 2023
+  <em>CEIC 2023</em>, Dec. 2023
 </li>
+
+</ul>
 
 
   </ul>
