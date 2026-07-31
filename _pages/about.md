@@ -128,8 +128,6 @@ Vol. 19(5), pp. 227–234, Oct. 2024
 
 </ul>
 
-</ul>
-
 <h2 style="font-size:26px; font-weight:600; margin-top:40px;">Awards & Honors</h2>
 
 <ul style="padding-left:20px; margin:0;">
