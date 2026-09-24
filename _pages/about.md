@@ -1,10 +1,11 @@
 ---
+
 layout: single
 title: ""
 permalink: /about/
 author_profile: true
 classes: wide
----
+-------------
 
 <div style="max-width: 900px; margin: 0 auto; padding: 20px 10px; font-size: 18px; line-height: 1.75; font-family: 'Segoe UI', sans-serif; color: #222;">
 
@@ -89,9 +90,9 @@ Kyungpook National University<br>
 <ul style="padding-left:20px; list-style-type:disc; margin:0;">
 
 <li style="margin-bottom:16px;">
-  <strong>InstantHand: Feed-Forward Animatable Gaussian Hand Avatars from a Single Image</strong><br>
-  <strong>Chanho Kim</strong>, Kyeonghwan Gwak, Muhammad Salman Ali, Muhammad Shaheryar, Incheol Park, Jeongwan On, Seungryul Baek<br>
-  <em>NeurIPS 2026</em>
+<strong>Chanho Kim</strong>, Kyeonghwan Gwak, Muhammad Salman Ali, Muhammad Shaheryar, Incheol Park, Jeongwan On, Seungryul Baek,
+<em>"Feed-Forward 3D Gaussian Splatting for High-Fidelity Animatable Hand Avatar Reconstruction from a Single Image"</em>,
+in Proc. of Neural Information Processing Systems (<strong>NeurIPS</strong>), Sydney, Australia, 2026 (accepted).
 </li>
 
 </ul>
