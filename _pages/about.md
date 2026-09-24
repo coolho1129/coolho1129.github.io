@@ -84,6 +84,18 @@ Kyungpook National University<br>
 
 <h2 style="font-size:26px; font-weight:600; margin-top:40px;">Publications</h2>
 
+<h3 style="font-size:20px; font-weight:600; margin-top:24px;">International Conferences</h3>
+
+<ul style="padding-left:20px; list-style-type:disc; margin:0;">
+
+<li style="margin-bottom:16px;">
+  <strong>InstantHand: Feed-Forward Animatable Gaussian Hand Avatars from a Single Image</strong><br>
+  <strong>Chanho Kim</strong>, Kyeonghwan Gwak, Muhammad Salman Ali, Muhammad Shaheryar, Incheol Park, Jeongwan On, Seungryul Baek<br>
+  <em>NeurIPS 2026</em>
+</li>
+
+</ul>
+
 <h3 style="font-size:20px; font-weight:600; margin-top:24px;">Domestic Journals</h3>
 
 <ul style="padding-left:20px; list-style-type:disc; margin:0;">
