@@ -90,7 +90,7 @@ Publications
 
 <div style="border-top:1px solid #d8d8d8; padding-top:14px; margin-top:8px;">
 
-<h3 style="font-size:20px; font-weight:600; margin:0 0 14px 0;">
+<!-- <h3 style="font-size:20px; font-weight:600; margin:0 0 14px 0;"> -->
 International Conferences
 </h3>
 
