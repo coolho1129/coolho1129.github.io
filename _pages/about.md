@@ -63,7 +63,7 @@ I received my <strong>B.S.</strong> in <a href="https://cse.knu.ac.kr/">Computer
     <div class="pub-venue"><span class="venue-pill">NeurIPS 2026</span> Sydney, Australia</div>
     <div class="pub-links">
       <!-- Replace each span with <a href="...">Label</a> when the link is public -->
-      <span class="pending">Paper</span><span class="pending">Project Page</span><span class="pending">Code</span><span class="soon">coming soon</span>
+      <a href="https://coolho1129.github.io/InstantHand-page/">Project Page</a><a href="https://github.com/coolho1129/InstantHand">Code</a><span class="pending">Paper</span><span class="soon">coming soon</span>
     </div>
   </div>
 </div>
