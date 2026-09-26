@@ -1,30 +1,8 @@
-# main links
+# main links (sections of the home page)
 main:
-  
-  - title: "About Me"
-    url: /about/
-  # - title: "Blog"
-  #   url: /
-  # - title: "Category"
-  #   url: /categories/
-  # - title: "Tag"
-  #   url: /tags/
-  # - title: "Search"
-  #   url: /search/
-  
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
-# docs:
-#   - title: "대목차"
-#     children:
-#       - title: "Category"
-#         url: /categories/test
-# counts:
-#   - title: "Category"
-#     use: true
-#   - title: "tags"
-#     use: false
+  - title: "About"
+    url: /#about
+  - title: "News"
+    url: /#news
+  - title: "Publications"
+    url: /#publications

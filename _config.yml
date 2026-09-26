@@ -284,13 +284,14 @@ remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "contrast"
 
 # Site Settings
-locale: "ko-KR"
+locale: "en-US"
 
 title: "Chanho Kim"
 title_separator: "|"
 subtitle: "Artificial Intelligence Graduate School, UNIST"
 name: "Chanho Kim"
-description: "Personal academic website of Chanho Kim"
+description: "M.S./Ph.D. student at UNIST AIGS (Vision and Learning Lab, advised by Prof. Seungryul Baek), working on computer vision, 3D hand reconstruction, and vision-language-action models."
+og_image: "/images/about.jpg" # link-preview image (Slack, KakaoTalk, X, ...)
 
 url: "https://coolho1129.github.io"
 baseurl:
@@ -333,29 +334,35 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:coolho1129@unist.ac.kr"
+      svg: "email"
   
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=SW-_ah8AAAAJ&hl=ko"
+      svg: "scholar"
+      short: "Scholar"
   
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/chanho-kim-891a542a2"
+      svg: "linkedin"
   
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/coolho1129"
+      svg: "github"
   
-    - label: "Solved.ac"
-      icon: "fas fa-fw fa-code"
-      url: "https://solved.ac/profile/coolho123"
+    # - label: "Solved.ac"
+    #   icon: "fas fa-fw fa-code"
+    #   url: "https://solved.ac/profile/coolho123"
 
 # Footer
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/coolho1129"
+# footer links hidden: the same links are in the sidebar
+# footer:
+#   links:
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/coolho1129"
 
 # Reading Files
 include:
@@ -409,6 +416,7 @@ timezone: Asia/Seoul
 # Plugins
 plugins:
   - jekyll-sitemap
+  - jekyll-redirect-from # keeps the old /about/ address working
   - jekyll-include-cache
   - jekyll-github-metadata
   - jekyll-relative-links
@@ -433,6 +441,15 @@ defaults:
       toc: false
       use_math: true
 
+  # search-engine verification files stay out of the sitemap
+  - scope:
+      path: "googleb31e82c3f60e356b.html"
+    values:
+      sitemap: false
+  - scope:
+      path: "naver5543c3a712d75652626c0f7e5525ea8c.html"
+    values:
+      sitemap: false
 date_format: "%Y-%m-%d"
 
 

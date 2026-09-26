@@ -27,14 +27,14 @@
     <ul class="author__urls social-icons">
       {% if author.location %}
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">{{ author.location }}</span>
+          {% include social-icon.html name="pin" %} <span itemprop="name" class="p-locality">{{ author.location }}</span>
         </li>
       {% endif %}
 
       {% if author.links %}
         {% for link in author.links %}
           {% if link.label and link.url %}
-            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer me"{% if link.url contains 'http' %} itemprop="sameAs"{% endif %}><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a></li>
+            <li><a class="profile-btn" href="{{ link.url }}" rel="nofollow noopener noreferrer me"{% if link.url contains 'http' %} itemprop="sameAs"{% endif %} title="{{ link.label }}">{% if link.svg %}{% include social-icon.html name=link.svg %}{% else %}<i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>{% endif %}<span class="label">{{ link.short | default: link.label }}</span></a></li>
           {% endif %}
         {% endfor %}
       {% endif %}

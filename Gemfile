@@ -1,14 +1,6 @@
 source "https://rubygems.org"
-gemspec
+
+# Same versions GitHub Pages uses, for local preview with `bundle exec jekyll serve`
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
 gem "webrick", "~> 1.8"
-
-source "https://rubygems.org"
-gemspec
-
-gem "jekyll-coffeescript"
-gem "jekyll-default-layout"
-gem "jekyll-github-metadata"
-gem "jekyll-optional-front-matter"
-gem "jekyll-readme-index"
-gem "jekyll-titles-from-headings"
-gem "jekyll-relative-links"
