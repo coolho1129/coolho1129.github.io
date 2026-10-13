@@ -1,12 +1,49 @@
+
 <!-- start custom head snippets -->
 
-<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<!-- Favicons -->
 <link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/favicon-32.png' | relative_url }}">
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/apple-touch-icon.png' | relative_url }}">
 
+<!-- MathJax -->
 {% if page.use_math %} {% include mathjax-support.html %} {% endif %}
 
+<!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap">
+
+<!-- Researcher Identity SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://coolho1129.github.io/#person",
+  "name": "Chanho Kim",
+  "alternateName": [
+    "김찬호",
+    "Chan-Ho Kim"
+  ],
+  "url": "https://coolho1129.github.io/",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "Ulsan National Institute of Science and Technology",
+    "alternateName": [
+      "UNIST",
+      "유니스트",
+      "울산과학기술원"
+    ],
+    "url": "https://www.unist.ac.kr/"
+  },
+  "description": "Chanho Kim (김찬호) is a graduate researcher at UNIST (유니스트, 울산과학기술원), specializing in Computer Vision, 3D Vision, and Deep Learning.",
+  "knowsAbout": [
+    "Artificial Intelligence",
+    "Deep Learning",
+    "Computer Vision",
+    "3D Vision",
+    "3D Reconstruction"
+  ]
+}
+</script>
+
 <!-- end custom head snippets -->
