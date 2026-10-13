@@ -156,6 +156,7 @@ I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Com
   <div class="org-main">
     <div class="org-name"><a href="https://www.etri.re.kr/kor/sub6/sub6_01020101.etri?departCode=150&amp;departInfoCode=265">AI Infrastructure Lab</a>, ETRI</div>
     <div class="org-role">Research Intern<span class="org-sep">·</span>Daegu, South Korea</div>
+    <div class="org-detail">Mentor: <a href="https://scholar.google.com/citations?user=5xetTUwAAAAJ">Pyong-Kun Kim</a></div>
   </div>
   <div class="org-date">Jan. 2024 – Feb. 2024</div>
 </div>
@@ -164,6 +165,7 @@ I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Com
   <div class="org-main">
     <div class="org-name"><a href="https://sites.google.com/view/k-vislab">Vision &amp; Intelligent Systems Lab (VIS Lab)</a>, Kyungpook National University</div>
     <div class="org-role">Undergraduate Researcher<span class="org-sep">·</span>Daegu, South Korea</div>
+    <div class="org-detail">Advisor: <a href="https://sites.google.com/site/jongtaeklee/">Prof. Jong Taek Lee</a></div>
   </div>
   <div class="org-date">Jul. 2023 – Dec. 2023</div>
 </div>
