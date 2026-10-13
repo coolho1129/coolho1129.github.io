@@ -24,7 +24,7 @@ under <a href="https://sites.google.com/site/bsrvision00/">Prof. Seungryul Baek<
 My research focuses on <strong>3D computer vision</strong>, in particular fast methods that reconstruct animatable 3D hands and humans from as little as a single image. I am also interested in vision-language models and vision-language-action learning.
 </p>
 <p>
-I received my <strong>B.S.</strong> in <a href="https://cse.knu.ac.kr/">Computer Science and Engineering</a> from <strong>Kyungpook National University</strong>.
+I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Computer Science and Engineering</a> from <strong>Kyungpook National University</strong>.
 </p>
 <div class="interests">
   <span class="interests-label">Research interests</span>
@@ -162,7 +162,7 @@ I received my <strong>B.S.</strong> in <a href="https://cse.knu.ac.kr/">Computer
 <div class="org">
   <div class="org-logo"><img src="/images/logos/knu.png" alt="Kyungpook National University logo" width="240" height="240"></div>
   <div class="org-main">
-    <div class="org-name"><a href="https://sites.google.com/view/k-vislab">VIS Lab</a>, Kyungpook National University</div>
+    <div class="org-name"><a href="https://sites.google.com/view/k-vislab">Vision &amp; Intelligent Systems Lab (VIS Lab)</a>, Kyungpook National University</div>
     <div class="org-role">Undergraduate Researcher<span class="org-sep">·</span>Daegu, South Korea</div>
   </div>
   <div class="org-date">Jul. 2023 – Dec. 2023</div>
@@ -183,29 +183,29 @@ I received my <strong>B.S.</strong> in <a href="https://cse.knu.ac.kr/">Computer
   <div class="org-date">May 2024</div>
 </div>
 <div class="org">
-  <div class="award-icon"><span aria-hidden="true">🏅</span></div>
-  <div class="org-main">
-    <div class="org-name">Encouragement Award</div>
-    <div class="org-role">Daegyeong University Student AI Programming Competition</div>
-    <div class="org-detail">Software Education Center, Kyungpook National University</div>
-  </div>
-  <div class="org-date">Dec. 2023</div>
-</div>
-<div class="org">
-  <div class="award-icon"><span aria-hidden="true">🏅</span></div>
+  <div class="award-icon"><span aria-hidden="true">🥈</span></div>
   <div class="org-main">
     <div class="org-name">Excellence Award</div>
     <div class="org-role">Daegyeong SW Industry-Academia Project Competition</div>
-    <div class="org-detail">Software Education Center, Kyungpook National University</div>
+    <div class="org-detail">Software Education Institute, Kyungpook National University</div>
   </div>
   <div class="org-date">Dec. 2023</div>
 </div>
 <div class="org">
-  <div class="award-icon"><span aria-hidden="true">🏆</span></div>
+  <div class="award-icon"><span aria-hidden="true">🥉</span></div>
   <div class="org-main">
-    <div class="org-name">Grand Prize</div>
-    <div class="org-role">School of Computer Science Startup Achievement Competition</div>
-    <div class="org-detail">School of Computer Science, Kyungpook National University</div>
+    <div class="org-name">Encouragement Award</div>
+    <div class="org-role">Daegyeong University Student AI Programming Competition</div>
+    <div class="org-detail">Software Education Institute, Kyungpook National University</div>
+  </div>
+  <div class="org-date">Dec. 2023</div>
+</div>
+<div class="org">
+  <div class="award-icon"><span aria-hidden="true">🥇</span></div>
+  <div class="org-main">
+    <div class="org-name">Top Excellence Award</div>
+    <div class="org-role">School of Computer Science and Engineering Startup Achievement Competition</div>
+    <div class="org-detail">School of Computer Science and Engineering, Kyungpook National University</div>
   </div>
   <div class="org-date">Nov. 2022</div>
 </div>
