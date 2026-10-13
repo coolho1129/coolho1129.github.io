@@ -21,7 +21,7 @@ working in the <a href="https://vision.unist.ac.kr/">UNIST Vision and Learning L
 under <a href="https://sites.google.com/site/bsrvision00/">Prof. Seungryul Baek</a>.
 </p>
 <p>
-My research focuses on <strong>3D computer vision</strong>, particularly human and hand reconstruction, pose estimation, and animatable 3D representations. I am also interested in vision-language models and vision-language-action learning.
+My research focuses on <strong>3D computer vision</strong>, in particular fast methods that reconstruct animatable 3D hands and humans from as little as a single image. I am also interested in vision-language models and vision-language-action learning.
 </p>
 <p>
 I received my <strong>B.S.</strong> in <a href="https://cse.knu.ac.kr/">Computer Science and Engineering</a> from <strong>Kyungpook National University</strong>.
@@ -41,6 +41,7 @@ I received my <strong>B.S.</strong> in <a href="https://cse.knu.ac.kr/">Computer
   <a href="https://scholar.google.com/citations?user=SW-_ah8AAAAJ&amp;hl=ko">{% include social-icon.html name="scholar" %}Google Scholar</a>
   <a href="https://github.com/coolho1129">{% include social-icon.html name="github" %}GitHub</a>
   <a href="https://www.linkedin.com/in/chanho-kim-891a542a2">{% include social-icon.html name="linkedin" %}LinkedIn</a>
+  <a href="/files/Chanho_Kim_CV.pdf">{% include social-icon.html name="cv" %}CV</a>
 </div>
 </div>
 </section>
@@ -49,6 +50,7 @@ I received my <strong>B.S.</strong> in <a href="https://cse.knu.ac.kr/">Computer
 <h2>News</h2>
 <ul class="news">
 <li><span class="date">Sep. 2026</span><span class="news-text">🎉 Our paper <strong>"InstantHand: Feed-Forward 3D Gaussian Splatting for Animatable Hand Avatar Reconstruction from a Single Image"</strong> has been accepted to <span class="nowrap"><span class="venue-pill">NeurIPS 2026</span>.</span></span></li>
+<li><span class="date">Feb. 2026</span><span class="news-text">📝 Our paper on a fast, differentiable analytical IK module for real-time hand mesh reconstruction appeared at <span class="nowrap"><span class="venue-pill">IPIU 2026</span>.</span></span></li>
 <li><span class="date">Sep. 2025</span><span class="news-text">🎓 Started the combined M.S./Ph.D. program at <strong>UNIST AIGS</strong>.</span></li>
 </ul>
 </section>
@@ -61,7 +63,7 @@ I received my <strong>B.S.</strong> in <a href="https://cse.knu.ac.kr/">Computer
   <img src="/images/pubs/instanthand.webp" loading="lazy" width="960" height="280" alt="A single input hand image, one forward pass, and the reconstructed canonical 3D Gaussian hand avatar rotating.">
   <div>
     <div class="pub-title">InstantHand: Feed-Forward 3D Gaussian Splatting for Animatable Hand Avatar Reconstruction from a Single Image</div>
-    <div><strong>Chanho Kim</strong>, Muhammad Salman Ali, Kyeonghwan Gwak, Muhammad Shaheryar, Incheol Park, Jeongwan On, Seungryul Baek</div>
+    <div><strong>Chanho Kim</strong>, Muhammad Salman Ali, Kyeonghwan Gwak, Muhammad Shaheryar, Incheol Park, Jeongwan On, Seungryul Baek*</div>
     <div class="pub-venue"><span class="venue-pill">NeurIPS 2026</span> Sydney, Australia</div>
     <div class="pub-links">
       <!-- Replace each span with <a href="...">Label</a> when the link is public -->
@@ -89,7 +91,7 @@ I received my <strong>B.S.</strong> in <a href="https://cse.knu.ac.kr/">Computer
 <div class="pub-row">
   <div class="pub-title">실시간 손 메시 복원을 위한 미분 가능한 고속 해석적 병렬 역기구학 모듈의 설계 및 최적화</div>
   <div class="pub-en">Design and Optimization of a Fast, Differentiable, and Parallel Analytical Inverse Kinematics Module for Real-Time Hand Mesh Reconstruction</div>
-  <div class="pub-authors"><strong>Chanho Kim</strong>, Seungryul Baek</div>
+  <div class="pub-authors"><strong>Chanho Kim</strong>, Seungryul Baek*</div>
   <div class="pub-venue"><span class="venue-pill">IPIU 2026</span> Feb. 2026</div>
 </div>
 <div class="pub-row">
@@ -101,7 +103,7 @@ I received my <strong>B.S.</strong> in <a href="https://cse.knu.ac.kr/">Computer
 <div class="pub-row">
   <div class="pub-title">도로교통량 조사를 위한 12종 차종 분류 방법</div>
   <div class="pub-en">Vehicle Type Classification Method for Road Traffic Surveys</div>
-  <div class="pub-authors"><strong>Chan-Ho Kim</strong><sup>†</sup>, Mi-Seon Kang<sup>†</sup>, Pyong-Kun Kim* <span class="pub-note">(† equal contribution)</span></div>
+  <div class="pub-authors"><strong>Chan-Ho Kim</strong><sup>†</sup>, Mi-Seon Kang<sup>†</sup>, Pyong-Kun Kim*</div>
   <div class="pub-venue"><span class="venue-pill">ISET 2024</span> May 2024</div>
   <div class="award-tag"><span aria-hidden="true">🏆</span> Best Paper Presentation Award</div>
 </div>
@@ -112,6 +114,7 @@ I received my <strong>B.S.</strong> in <a href="https://cse.knu.ac.kr/">Computer
   <div class="pub-venue"><span class="venue-pill">CEIC 2023</span> Dec. 2023</div>
 </div>
 </div>
+<p class="pub-legend">* Corresponding author&nbsp;&nbsp;&nbsp;† Equal contribution</p>
 </section>
 
 <section id="education">

@@ -351,6 +351,10 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/coolho1129"
       svg: "github"
+    - label: "CV"
+      icon: "fas fa-fw fa-file-lines"
+      url: "/files/Chanho_Kim_CV.pdf"
+      svg: "cv"
   
     # - label: "Solved.ac"
     #   icon: "fas fa-fw fa-code"

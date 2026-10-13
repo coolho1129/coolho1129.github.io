@@ -131,6 +131,8 @@ $btn-line: #dbe3ec;
   .author__urls { display: grid !important; grid-template-columns: 1fr 1fr; gap: .45em; margin-top: 1em !important; }
   .author__urls li { margin: 0 !important; }
   .author__urls li[itemprop="homeLocation"] { grid-column: 1 / -1; margin-bottom: .3em !important; }
+  /* with an odd number of buttons (now 5, incl. CV) the last one spans both columns */
+  .author__urls li:last-child:nth-child(even) { grid-column: 1 / -1; }
   .author__urls .profile-btn .label { font-size: .95em; }
 }
 .home .about-links a { display: inline-flex; align-items: center; gap: .4em; color: $btn-ink; font-weight: 600; }
@@ -140,4 +142,5 @@ $btn-line: #dbe3ec;
 .page__footer a, .page__footer-copyright { color: $gray; }
 .page__footer-follow { display: none; }
 .home .pub-note { color: $gray; font-size: .85em; margin-left: .3em; }
+.home .pub-legend { margin: .7em 0 0; color: $gray; font-size: .8em; }
 .home .pub-authors sup { font-size: .7em; }
