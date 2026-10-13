@@ -5,7 +5,7 @@ redirect_from:
   - /about/
 author_profile: true
 classes: wide
-description: "M.S./Ph.D. student at UNIST AIGS (Vision and Learning Lab, advised by Prof. Seungryul Baek), working on computer vision, 3D hand reconstruction, and vision-language-action models."
+description: "Chanho Kim (김찬호) is an M.S./Ph.D. student at UNIST AIGS and a researcher at the UNIST Vision and Learning Lab, focusing on 3D human and hand reconstruction, pose estimation, and vision-language-action models."
 ---
 
 <div class="home" markdown="0">
@@ -21,14 +21,16 @@ working in the <a href="https://vision.unist.ac.kr/">UNIST Vision and Learning L
 under <a href="https://sites.google.com/site/bsrvision00/">Prof. Seungryul Baek</a>.
 </p>
 <p>
-My recent work focuses on <strong>3D hand reconstruction</strong>, in particular building animatable hand avatars from a single image.
+My research focuses on <strong>3D computer vision</strong>, particularly human and hand reconstruction, pose estimation, and animatable 3D representations. I am also interested in vision-language models and vision-language-action learning.
+</p>
+<p>
 I received my <strong>B.S.</strong> in <a href="https://cse.knu.ac.kr/">Computer Science and Engineering</a> from <strong>Kyungpook National University</strong>.
 </p>
 <div class="interests">
   <span class="interests-label">Research interests</span>
   <ul class="interest-grid">
-    <li>Computer Vision</li>
-    <li>3D Vision &amp; Reconstruction</li>
+    <li>3D Human &amp; Hand Reconstruction</li>
+    <li>3D Pose &amp; Mesh Estimation</li>
     <li>Vision-Language Models</li>
     <li>Vision-Language-Action Models</li>
   </ul>
@@ -56,7 +58,7 @@ I received my <strong>B.S.</strong> in <a href="https://cse.knu.ac.kr/">Computer
 
 <h3>International Conferences</h3>
 <div class="pub pub--featured">
-  <img src="/images/pubs/instanthand.webp" width="960" height="280" alt="A single input hand image, one forward pass, and the reconstructed canonical 3D Gaussian hand avatar rotating.">
+  <img src="/images/pubs/instanthand.webp" loading="lazy" width="960" height="280" alt="A single input hand image, one forward pass, and the reconstructed canonical 3D Gaussian hand avatar rotating.">
   <div>
     <div class="pub-title">InstantHand: Feed-Forward 3D Gaussian Splatting for Animatable Hand Avatar Reconstruction from a Single Image</div>
     <div><strong>Chanho Kim</strong>, Muhammad Salman Ali, Kyeonghwan Gwak, Muhammad Shaheryar, Incheol Park, Jeongwan On, Seungryul Baek</div>
@@ -75,7 +77,10 @@ I received my <strong>B.S.</strong> in <a href="https://cse.knu.ac.kr/">Computer
   <div class="pub-en">Vehicle Type Classification Method for Road Traffic Surveys</div>
   <div class="pub-authors">Mi-Seon Kang, <strong>Chan-Ho Kim</strong>, Pyong-Kun Kim*</div>
   <div class="pub-venue"><span class="venue-pill">KCI</span> <em>IEMEK Journal of Embedded Systems and Applications</em>, Vol. 19, No. 5, pp. 227–234, Oct. 2024</div>
-  <div class="pub-links"><a href="https://doi.org/10.14372/IEMEK.2024.19.5.227">DOI</a></div>
+  <div class="pub-links">
+    <a href="https://doi.org/10.14372/IEMEK.2024.19.5.227">DOI</a>
+    <a href="https://github.com/coolho1129/Vehicle-Type-Classification-Method-for-Road-Traffic-Surveys">Code</a>
+  </div>
 </div>
 </div>
 
