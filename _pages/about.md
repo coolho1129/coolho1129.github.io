@@ -50,7 +50,6 @@ I received my <strong>B.S.</strong> in <a href="https://cse.knu.ac.kr/">Computer
 <h2>News</h2>
 <ul class="news">
 <li><span class="date">Sep. 2026</span><span class="news-text">🎉 Our paper <strong>"InstantHand: Feed-Forward 3D Gaussian Splatting for Animatable Hand Avatar Reconstruction from a Single Image"</strong> has been accepted to <span class="nowrap"><span class="venue-pill">NeurIPS 2026</span>.</span></span></li>
-<li><span class="date">Feb. 2026</span><span class="news-text">📝 Our paper on a fast, differentiable analytical IK module for real-time hand mesh reconstruction appeared at <span class="nowrap"><span class="venue-pill">IPIU 2026</span>.</span></span></li>
 <li><span class="date">Sep. 2025</span><span class="news-text">🎓 Started the combined M.S./Ph.D. program at <strong>UNIST AIGS</strong>.</span></li>
 </ul>
 </section>
