@@ -6,25 +6,39 @@
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/apple-touch-icon.png' | relative_url }}">
 
 <!-- MathJax -->
-{% if page.use_math %} {% include mathjax-support.html %} {% endif %}
+{% if page.use_math %}
+  {% include mathjax-support.html %}
+{% endif %}
 
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap">
 
-<!-- Researcher Identity SEO -->
+<!-- Researcher Identity Structured Data -->
+{% if page.url == "/" %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
   "@id": "https://coolho1129.github.io/#person",
   "name": "Chanho Kim",
+  "givenName": "Chanho",
+  "familyName": "Kim",
   "alternateName": [
     "김찬호",
-    "Chan-Ho Kim"
+    "Kim Chanho",
+    "Chan-Ho Kim",
+    "Kim Chan-Ho",
+    "Chan Ho Kim",
+    "Kim Chan Ho"
   ],
   "url": "https://coolho1129.github.io/",
+  "sameAs": [
+    "https://github.com/coolho1129",
+    "https://scholar.google.com/citations?user=SW-_ah8AAAAJ",
+    "https://www.linkedin.com/in/chanho-kim-891a542a2"
+  ],
   "affiliation": {
     "@type": "CollegeOrUniversity",
     "name": "Ulsan National Institute of Science and Technology",
@@ -35,15 +49,20 @@
     ],
     "url": "https://www.unist.ac.kr/"
   },
-  "description": "Chanho Kim (김찬호) is a graduate researcher at UNIST (유니스트, 울산과학기술원), specializing in Computer Vision, 3D Vision, and Deep Learning.",
+  "description": "Chanho Kim (김찬호), also known as Kim Chanho and Chan-Ho Kim, is an M.S./Ph.D. student at the Artificial Intelligence Graduate School of UNIST, conducting research in the UNIST Vision and Learning Lab under Prof. Seungryul Baek.",
   "knowsAbout": [
     "Artificial Intelligence",
     "Deep Learning",
     "Computer Vision",
     "3D Vision",
-    "3D Reconstruction"
+    "3D Reconstruction",
+    "3D Hand Reconstruction",
+    "3D Gaussian Splatting",
+    "Vision-Language Models",
+    "Vision-Language-Action Models"
   ]
 }
 </script>
+{% endif %}
 
 <!-- end custom head snippets -->
