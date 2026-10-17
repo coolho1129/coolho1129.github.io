@@ -2,7 +2,7 @@
 layout: single
 permalink: /
 redirect_from:
-/about/
+  - /about/
 author_profile: true
 classes: wide
 description: "Chanho Kim (김찬호) is an M.S./Ph.D. student at UNIST AIGS and a researcher at the UNIST Vision and Learning Lab, focusing on 3D human and hand reconstruction, pose estimation, and vision-language-action models."
@@ -15,6 +15,7 @@ description: "Chanho Kim (김찬호) is an M.S./Ph.D. student at UNIST AIGS and 
 @media (max-width: 1099px) {
   .instanthand-title-break { display: none; }
 }
+</style>
 <div class="home" markdown="0">
 <section id="about">
 <h2>About Me</h2>
