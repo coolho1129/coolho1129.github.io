@@ -2,14 +2,20 @@
 layout: single
 permalink: /
 redirect_from:
-  - /about/
+/about/
 author_profile: true
 classes: wide
 description: "Chanho Kim (김찬호) is an M.S./Ph.D. student at UNIST AIGS and a researcher at the UNIST Vision and Learning Lab, focusing on 3D human and hand reconstruction, pose estimation, and vision-language-action models."
 ---
-
+<style>
+/* Balanced InstantHand title on desktop; natural wrapping on narrow screens. */
+@media (min-width: 1100px) {
+  .instanthand-title-break { display: inline; }
+}
+@media (max-width: 1099px) {
+  .instanthand-title-break { display: none; }
+}
 <div class="home" markdown="0">
-
 <section id="about">
 <h2>About Me</h2>
 <div class="about-card">
@@ -45,7 +51,6 @@ I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Com
 </div>
 </div>
 </section>
-
 <section id="news">
 <h2>News</h2>
 <ul class="news">
@@ -53,15 +58,13 @@ I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Com
 <li><span class="date">Sep. 2025</span><span class="news-text">🎓 Started the combined M.S./Ph.D. program at <strong>UNIST AIGS</strong>.</span></li>
 </ul>
 </section>
-
 <section id="publications">
 <h2>Publications</h2>
-
 <h3>International Conferences</h3>
 <div class="pub pub--featured">
   <img src="/images/pubs/instanthand.webp" loading="lazy" width="960" height="280" alt="A single input hand image, one forward pass, and the reconstructed canonical 3D Gaussian hand avatar rotating.">
   <div>
-    <div class="pub-title">InstantHand: Feed-Forward 3D Gaussian Splatting for Animatable Hand Avatar Reconstruction from a Single Image</div>
+    <div class="pub-title">InstantHand: Feed-Forward 3D Gaussian Splatting<span class="instanthand-title-break"><br></span> for Animatable Hand Avatar Reconstruction from a Single Image</div>
     <div><strong>Chanho Kim</strong>, Muhammad Salman Ali, Kyeonghwan Gwak, Muhammad Shaheryar, Incheol Park, Jeongwan On, Seungryul Baek*</div>
     <div class="pub-venue"><span class="venue-pill">NeurIPS 2026</span> Sydney, Australia</div>
     <div class="pub-links">
@@ -70,7 +73,6 @@ I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Com
     </div>
   </div>
 </div>
-
 <h3>Domestic Journals</h3>
 <div class="card">
 <div class="pub-row">
@@ -84,7 +86,6 @@ I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Com
   </div>
 </div>
 </div>
-
 <h3>Domestic Conferences</h3>
 <div class="card">
 <div class="pub-row">
@@ -115,7 +116,6 @@ I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Com
 </div>
 <p class="pub-legend">* Corresponding author&nbsp;&nbsp;&nbsp;† Equal contribution</p>
 </section>
-
 <section id="education">
 <h2>Education</h2>
 <div class="orgs">
@@ -138,7 +138,6 @@ I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Com
 </div>
 </div>
 </section>
-
 <section id="experience">
 <h2>Research Experience</h2>
 <div class="orgs">
@@ -171,7 +170,6 @@ I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Com
 </div>
 </div>
 </section>
-
 <section id="awards">
 <h2>Awards &amp; Honors</h2>
 <div class="orgs">
@@ -213,5 +211,4 @@ I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Com
 </div>
 </div>
 </section>
-
 </div>
