@@ -58,7 +58,7 @@ I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Com
     <img src="/images/pubs/instanthand.webp" loading="lazy" width="960" height="280" alt="A single input hand image, one forward pass, and the reconstructed canonical 3D Gaussian hand avatar rotating.">
   </a>
   <div class="pub-body">
-    <div class="pub-meta"><span class="venue-pill venue-pill--intl">NeurIPS 2026</span><span class="pub-date">Dec 2026</span></div>
+    <div class="pub-meta"><span class="venue-pill venue-pill--intl">NeurIPS 2026</span><span class="pub-when"><span class="pub-place">{% include social-icon.html name="pin" %}Sydney, Australia</span><span class="pub-date">Dec 2026</span></span></div>
     <h4 class="pub-title"><a href="https://coolho1129.github.io/InstantHand-page/">InstantHand: Feed-Forward 3D Gaussian Splatting for Animatable Hand Avatar Reconstruction from a Single Image</a></h4>
     <p class="pub-authors"><strong>Chanho Kim</strong>, Muhammad Salman Ali, Kyeonghwan Gwak, Muhammad Shaheryar, Incheol Park, Jeongwan On, Seungryul Baek*</p>
     <div class="pub-links">
