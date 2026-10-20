@@ -180,7 +180,8 @@ $pub-faint: $ink-faint;
 
 /* Journal / conference versions of the same work point at each other */
 .home .pub-related { display: flex; flex-wrap: wrap; align-items: center; gap: .35em .6em; margin: .45em 0 0; font-size: .86em; color: $pub-faint; }
-.home .pub-related a { font-weight: 600; }
+.home .pub-related a { color: $btn-ink; font-weight: 600; text-decoration: underline; text-decoration-thickness: 1px; text-decoration-color: #b9c7d6; text-underline-offset: .2em; }
+.home .pub-related a:hover { text-decoration-color: currentColor; }
 .home .pub-row:target { background: #f3f8fd; transition: background .4s; }
 .home .pub-row { scroll-margin-top: 5em; }
 
