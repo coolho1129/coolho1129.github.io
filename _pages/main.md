@@ -46,8 +46,8 @@ I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Com
 <section id="news">
 <h2>News</h2>
 <ul class="news">
-<li><span class="date">Sep. 2026</span><span class="news-text">🎉 Our paper <strong>"InstantHand: Feed-Forward 3D Gaussian Splatting for Animatable Hand Avatar Reconstruction from a Single Image"</strong> has been accepted to <span class="nowrap"><span class="venue-pill venue-pill--intl">NeurIPS 2026</span>.</span></span></li>
-<li><span class="date">Sep. 2025</span><span class="news-text">🎓 Started the combined M.S./Ph.D. program at <strong>UNIST AIGS</strong>.</span></li>
+<li><span class="date">Sep 2026</span><span class="news-text">🎉 Our paper <strong>"InstantHand: Feed-Forward 3D Gaussian Splatting for Animatable Hand Avatar Reconstruction from a Single Image"</strong> has been accepted to <span class="nowrap"><span class="venue-pill venue-pill--intl">NeurIPS 2026</span>.</span></span></li>
+<li><span class="date">Sep 2025</span><span class="news-text">🎓 Started the combined M.S./Ph.D. program at <strong>UNIST AIGS</strong>.</span></li>
 </ul>
 </section>
 <section id="publications">
@@ -58,7 +58,7 @@ I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Com
     <img src="/images/pubs/instanthand.webp" loading="lazy" width="960" height="280" alt="A single input hand image, one forward pass, and the reconstructed canonical 3D Gaussian hand avatar rotating.">
   </a>
   <div class="pub-body">
-    <div class="pub-meta"><span class="venue-pill venue-pill--intl">NeurIPS 2026</span><span class="pub-place">{% include social-icon.html name="pin" %}Sydney, Australia</span></div>
+    <div class="pub-meta"><span class="venue-pill venue-pill--intl">NeurIPS 2026</span><span class="pub-date">Dec 2026</span></div>
     <h4 class="pub-title"><a href="https://coolho1129.github.io/InstantHand-page/">InstantHand: Feed-Forward 3D Gaussian Splatting for Animatable Hand Avatar Reconstruction from a Single Image</a></h4>
     <p class="pub-authors"><strong>Chanho Kim</strong>, Muhammad Salman Ali, Kyeonghwan Gwak, Muhammad Shaheryar, Incheol Park, Jeongwan On, Seungryul Baek*</p>
     <div class="pub-links">
@@ -73,7 +73,7 @@ I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Com
 <h3>Domestic Journals</h3>
 <div class="card">
 <article class="pub-row" id="pub-vtc-journal">
-  <div class="pub-meta"><span class="venue-pill">KCI</span><span class="pub-date">Oct. 2024</span></div>
+  <div class="pub-meta"><span class="venue-pill">KCI</span><span class="pub-date">Oct 2024</span></div>
   <h4 class="pub-title">도로교통량 조사를 위한 12종 차종 분류 방법</h4>
   <p class="pub-en">Vehicle Type Classification Method for Road Traffic Surveys</p>
   <p class="pub-authors">Mi-Seon Kang, <strong>Chan-Ho Kim</strong>, Pyong-Kun Kim*</p>
@@ -89,26 +89,26 @@ I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Com
 <h3>Domestic Conferences</h3>
 <div class="card">
 <article class="pub-row">
-  <div class="pub-meta"><span class="venue-pill">IPIU 2026</span><span class="pub-date">Feb. 2026</span></div>
+  <div class="pub-meta"><span class="venue-pill">IPIU 2026</span><span class="pub-date">Feb 2026</span></div>
   <h4 class="pub-title">실시간 손 메시 복원을 위한 미분 가능한 고속 해석적 병렬 역기구학 모듈의 설계 및 최적화</h4>
   <p class="pub-en">Design and Optimization of a Fast, Differentiable, and Parallel Analytical Inverse Kinematics Module for Real-Time Hand Mesh Reconstruction</p>
   <p class="pub-authors"><strong>Chanho Kim</strong>, Seungryul Baek*</p>
 </article>
 <article class="pub-row">
-  <div class="pub-meta"><span class="venue-pill">KICS 2024</span><span class="pub-date">Jun. 2024</span></div>
+  <div class="pub-meta"><span class="venue-pill">KICS 2024</span><span class="pub-date">Jun 2024</span></div>
   <h4 class="pub-title">비전 기술을 활용한 의료용 침대 낙상 방지 기법</h4>
   <p class="pub-en">Fall Prevention Techniques for Medical Beds Using Vision Technology</p>
   <p class="pub-authors"><strong>Chan-Ho Kim</strong>, Eunji Kim, Jaehyeon Ha, Chaewon Moon, Dongkyun Kim*</p>
 </article>
 <article class="pub-row" id="pub-vtc-iset">
-  <div class="pub-meta"><span class="venue-pill">ISET 2024</span><span class="pub-date">May 2024</span><span class="award-tag"><span aria-hidden="true">🏆</span> Best Paper Presentation Award</span></div>
+  <div class="pub-meta"><span class="venue-pill">ISET 2024</span><span class="award-tag"><span aria-hidden="true">🏆</span> Best Paper Presentation Award</span><span class="pub-date">May 2024</span></div>
   <h4 class="pub-title">도로교통량 조사를 위한 12종 차종 분류 방법</h4>
   <p class="pub-en">Vehicle Type Classification Method for Road Traffic Surveys</p>
   <p class="pub-authors"><strong>Chan-Ho Kim</strong><sup>†</sup>, Mi-Seon Kang<sup>†</sup>, Pyong-Kun Kim*</p>
   <p class="pub-related">Conference version of the <a href="#pub-vtc-journal">KCI journal paper</a></p>
 </article>
 <article class="pub-row">
-  <div class="pub-meta"><span class="venue-pill">CEIC 2023</span><span class="pub-date">Dec. 2023</span></div>
+  <div class="pub-meta"><span class="venue-pill">CEIC 2023</span><span class="pub-date">Dec 2023</span></div>
   <h4 class="pub-title">메타버스를 위한 실감형 미디어 기반 데이터셋의 리타겟팅 적용 연구</h4>
   <p class="pub-en">A Study on Retargeting Via Realistic Media-based Datasets for Metaverse</p>
   <p class="pub-authors">Dong-hwi Kim, Aro Kim, Dong-hun Lee, <strong>Chanho Kim</strong>, Eunji Kim, Chaewon Moon, Geonah Kim, Sang-hyo Park*</p>
@@ -126,7 +126,7 @@ I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Com
     <div class="org-role">M.S./Ph.D. in Artificial Intelligence<span class="org-sep">·</span>Ulsan, South Korea</div>
     <div class="org-detail">Artificial Intelligence Graduate School (AIGS)</div>
   </div>
-  <div class="org-date">Sep. 2025 – Present</div>
+  <div class="org-date">Sep 2025 – Present</div>
 </div>
 <div class="org">
   <div class="org-logo"><img src="/images/logos/knu.png" alt="Kyungpook National University logo" width="240" height="240"></div>
@@ -134,7 +134,7 @@ I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Com
     <div class="org-name">Kyungpook National University</div>
     <div class="org-role">B.S. in Computer Science and Engineering<span class="org-sep">·</span>Daegu, South Korea</div>
   </div>
-  <div class="org-date">Mar. 2021 – Feb. 2025</div>
+  <div class="org-date">Mar 2021 – Feb 2025</div>
 </div>
 </div>
 </section>
@@ -157,7 +157,7 @@ I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Com
     <div class="org-role">Research Intern<span class="org-sep">·</span>Daegu, South Korea</div>
     <div class="org-detail">Mentor: <a href="https://scholar.google.com/citations?user=5xetTUwAAAAJ">Pyong-Kun Kim</a></div>
   </div>
-  <div class="org-date">Jan. 2024 – Feb. 2024</div>
+  <div class="org-date">Jan 2024 – Feb 2024</div>
 </div>
 <div class="org">
   <div class="org-logo"><img src="/images/logos/knu.png" alt="Kyungpook National University logo" width="240" height="240"></div>
@@ -166,7 +166,7 @@ I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Com
     <div class="org-role">Undergraduate Researcher<span class="org-sep">·</span>Daegu, South Korea</div>
     <div class="org-detail">Advisor: <a href="https://sites.google.com/site/jongtaeklee/">Prof. Jong Taek Lee</a></div>
   </div>
-  <div class="org-date">Jul. 2023 – Dec. 2023</div>
+  <div class="org-date">Jul 2023 – Dec 2023</div>
 </div>
 </div>
 </section>
@@ -189,7 +189,7 @@ I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Com
     <div class="org-role">Daegyeong SW Industry-Academia Project Competition</div>
     <div class="org-detail">Software Education Institute, Kyungpook National University</div>
   </div>
-  <div class="org-date">Dec. 2023</div>
+  <div class="org-date">Dec 2023</div>
 </div>
 <div class="org">
   <div class="award-icon"><span aria-hidden="true">🥉</span></div>
@@ -198,7 +198,7 @@ I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Com
     <div class="org-role">Daegyeong University Student AI Programming Competition</div>
     <div class="org-detail">Software Education Institute, Kyungpook National University</div>
   </div>
-  <div class="org-date">Dec. 2023</div>
+  <div class="org-date">Dec 2023</div>
 </div>
 <div class="org">
   <div class="award-icon"><span aria-hidden="true">🥇</span></div>
@@ -207,7 +207,7 @@ I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Com
     <div class="org-role">School of Computer Science and Engineering Startup Achievement Competition</div>
     <div class="org-detail">School of Computer Science and Engineering, Kyungpook National University</div>
   </div>
-  <div class="org-date">Nov. 2022</div>
+  <div class="org-date">Nov 2022</div>
 </div>
 </div>
 </section>
