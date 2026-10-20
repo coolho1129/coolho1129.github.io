@@ -64,7 +64,7 @@ I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Com
     <div class="pub-links">
       <a class="pub-btn" href="https://coolho1129.github.io/InstantHand-page/">{% include social-icon.html name="globe" %}Project</a>
       <a class="pub-btn" href="https://github.com/coolho1129/InstantHand">{% include social-icon.html name="github" %}Code</a>
-      <!-- When the paper is public, replace this span with: <a class="pub-btn" href="...">{% include social-icon.html name="paper" %}Paper</a> -->
+      <!-- When the paper is public, turn this span into a link: change <span ... aria-disabled="true"> to <a class="pub-btn" href="PAPER_URL">, drop "is-pending" and the <small>, and close with </a>. -->
       <span class="pub-btn is-pending" aria-disabled="true">{% include social-icon.html name="paper" %}Paper <small>soon</small></span>
     </div>
   </div>
