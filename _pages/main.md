@@ -62,10 +62,10 @@ I received my <strong>B.S.</strong> in <a href="https://computer.knu.ac.kr/">Com
     <h4 class="pub-title"><a href="https://coolho1129.github.io/InstantHand-page/">InstantHand: Feed-Forward 3D Gaussian Splatting for Animatable Hand Avatar Reconstruction from a Single Image</a></h4>
     <p class="pub-authors"><strong>Chanho Kim</strong>, Muhammad Salman Ali, Kyeonghwan Gwak, Muhammad Shaheryar, Incheol Park, Jeongwan On, Seungryul Baek*</p>
     <div class="pub-links">
-      <a class="pub-btn" href="https://coolho1129.github.io/InstantHand-page/">{% include social-icon.html name="globe" %}Project</a>
-      <a class="pub-btn" href="https://github.com/coolho1129/InstantHand">{% include social-icon.html name="github" %}Code</a>
       <!-- When the paper is public, turn this span into a link: change <span ... aria-disabled="true"> to <a class="pub-btn" href="PAPER_URL">, drop "is-pending" and the <small>, and close with </a>. -->
       <span class="pub-btn is-pending" aria-disabled="true">{% include social-icon.html name="paper" %}Paper <small>soon</small></span>
+      <a class="pub-btn" href="https://coolho1129.github.io/InstantHand-page/">{% include social-icon.html name="globe" %}Project</a>
+      <a class="pub-btn" href="https://github.com/coolho1129/InstantHand">{% include social-icon.html name="github" %}Code</a>
     </div>
   </div>
 </article>
