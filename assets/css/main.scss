@@ -11,6 +11,10 @@ search: false
 /* shared tokens */
 $page-tint: #f6f8fa;
 $card-shadow: 0 1px 2px rgba(15, 23, 42, .04), 0 4px 14px rgba(15, 23, 42, .05);
+$ink: #1f2937;          // card titles, own name
+$ink-muted: #5b6673;    // second line: role, authors, English subtitle
+$ink-faint: #7a8594;    // third line and dates: details, journal, advisor
+$row-line: #edf0f4;     // divider between rows inside one card
 
 /* ---- Home page (_pages/about.md) ---------------------------------------- */
 .home { max-width: 860px; }
@@ -26,7 +30,7 @@ $card-shadow: 0 1px 2px rgba(15, 23, 42, .04), 0 4px 14px rgba(15, 23, 42, .05);
 .home .news::before { content: ""; position: absolute; left: .5em; top: .6em; bottom: .6em; width: 2px; background: #d9e6f0; }
 .home .news li { position: relative; display: flex; gap: 1.4em; padding-left: 2.1em; margin-bottom: 1.1em; }
 .home .news li::before { content: ""; position: absolute; left: 0; top: .32em; width: 1.05em; height: 1.05em; box-sizing: border-box; border: 2px solid #2e9a6a; border-radius: 50%; background: radial-gradient(circle, #2e9a6a 0 28%, #fff 32%); }
-.home .news .date { flex: none; width: 6.3em; font-weight: 700; color: #4b5b6b; font-variant-numeric: tabular-nums; }
+.home .news .date { flex: none; width: 6.3em; font-weight: 700; color: $ink-muted; font-variant-numeric: tabular-nums; }
 .home .news .news-text { flex: 1; min-width: 0; }
 .home .nowrap { white-space: nowrap; }
 .home .venue-pill { display: inline-block; padding: .05em .65em; border: 1px solid #cfe0f1; background: #eaf3fc; color: #1f4f7a; border-radius: 999px; font-weight: 700; font-size: .85em; line-height: 1.5; white-space: nowrap; }
@@ -44,16 +48,16 @@ $card-shadow: 0 1px 2px rgba(15, 23, 42, .04), 0 4px 14px rgba(15, 23, 42, .05);
 /* ---- Education / Research Experience: logo rows ------------------------- */
 .home .orgs { border: 1px solid $border-color; border-radius: 8px; overflow: hidden; }
 .home .org { display: flex; gap: 1.2em; align-items: flex-start; padding: 1.1em 1.3em; }
-.home .org + .org { border-top: 1px solid $border-color; }
+.home .org + .org { border-top: 1px solid $row-line; }
 .home .org-logo { flex: none; width: 64px; height: 64px; display: flex; align-items: center; justify-content: center; }
 .home .org-logo img { width: 100%; height: 100%; object-fit: contain; }
 .home .org-main { flex: 1; min-width: 0; }
-.home .org-name { font-weight: 700; font-size: 1.05em; line-height: 1.35; }
+.home .org-name { font-weight: 700; font-size: 1.05em; line-height: 1.35; color: $ink; }
 .home .org-name a { color: inherit; }
-.home .org-role { color: $gray; margin-top: .15em; }
+.home .org-role { color: $ink-muted; margin-top: .15em; }
 .home .org-sep { margin: 0 .45em; }
-.home .org-detail { color: $gray; font-size: .9em; margin-top: .25em; }
-.home .org-date { flex: none; color: $gray; font-size: .85em; white-space: nowrap; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; padding-top: .15em; }
+.home .org-detail { color: $ink-faint; font-size: .9em; margin-top: .25em; }
+.home .org-date { flex: none; color: $ink-faint; font-size: .9em; font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; padding-top: .1em; }
 
 @include breakpoint(max-width $medium - 1px) {
   .home .news li { flex-direction: column; gap: .15em; }
@@ -72,6 +76,7 @@ body { background: $page-tint; }
 .masthead { background: #fff; }
 .home h2 { font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-weight: 700; font-size: 1.55em; letter-spacing: -.01em; }
 .home h3 { font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-weight: 600; }
+.home .orgs, .home .card, .home .pub--featured { background: #fff; border-color: #e5e9ef; border-radius: 10px; box-shadow: $card-shadow; }
 .home .card { border: 1px solid #e5e9ef; overflow: hidden; }
 
 /* About */
@@ -128,9 +133,9 @@ $btn-line: #dbe3ec;
 
 
 /* ---- Publications -------------------------------------------------------- */
-$pub-ink: #1f2937;      // titles, own name
-$pub-muted: #5b6673;    // co-authors, English subtitle (AA contrast on white)
-$pub-faint: #7a8594;    // dates, place, journal details
+$pub-ink: $ink;
+$pub-muted: $ink-muted;
+$pub-faint: $ink-faint;
 
 .home .pub-title, .home .pub-authors { word-break: keep-all; overflow-wrap: anywhere; }
 .home .pub-title { margin: .35em 0 .3em; font-size: 1.08em; font-weight: 700; line-height: 1.4; color: $pub-ink; }
@@ -145,23 +150,28 @@ $pub-faint: #7a8594;    // dates, place, journal details
 
 .home .pub-meta { display: flex; flex-wrap: wrap; align-items: center; gap: .35em .7em; font-size: .9em; }
 .home .pub-meta .venue-pill { font-size: .92em; }
-.home .pub-place, .home .pub-date { display: inline-flex; align-items: center; gap: .3em; color: $pub-faint; font-weight: 600; }
+.home .pub-place, .home .pub-date { display: inline-flex; align-items: center; gap: .3em; color: $pub-faint; font-weight: 600; font-variant-numeric: tabular-nums; }
+/* Venue (and award) on the left, where/when pushed to the right edge of the same row */
+.home .pub-meta .pub-place, .home .pub-meta .pub-date { margin-left: auto; }
 .home .pub-place .si { width: .9em; height: .9em; color: #9aa5b2; }
 .home .award-tag { display: inline-block; font-size: .92em; font-weight: 700; color: #8a5f0e; background: #fff6e0; border: 1px solid #f3dfa9; border-radius: 999px; padding: .05em .7em; }
 
 /* Link buttons: same shape as the sidebar's profile buttons */
-.home .pub-links { margin-top: .85em; display: flex; flex-wrap: wrap; gap: .45em; }
-.home .pub-btn { display: inline-flex; align-items: center; gap: .45em; padding: .38em .9em; font-size: .84em; font-weight: 700; line-height: 1.2; color: $btn-ink; background: $btn-bg; border: 1px solid $btn-line; border-radius: 8px; text-decoration: none; }
+.home .pub-links { margin-top: .9em; display: flex; flex-wrap: wrap; gap: .5em; }
+.home .pub-btn { display: inline-flex; align-items: center; gap: .5em; padding: .55em 1.1em; font-size: .92em; font-weight: 700; line-height: 1.2; color: $btn-ink; background: $btn-bg; border: 1px solid $btn-line; border-radius: 8px; text-decoration: none; }
 .home a.pub-btn:hover { background: #fff; border-color: #b9c7d6; }
 .home a.pub-btn:focus-visible { outline: 2px solid #3b82c4; outline-offset: 2px; }
 .home .pub-btn.is-pending { color: #98a2ae; background: #fafbfc; border-style: dashed; cursor: default; }
 .home .pub-btn small { font-size: .82em; font-weight: 600; }
+.home .pub-btn .si { width: 1.1em; height: 1.1em; }
 
-/* Featured paper: the original wide banner spans the card top, text below */
-.home .pub--featured { margin-bottom: 1.2em; overflow: hidden; border: 1px solid #e5e9ef; }
-.home .pub-thumb { display: block; background: #000; }
-.home .pub-thumb img { display: block; width: 100%; height: auto; }
-.home .pub--featured .pub-body { padding: 1.05em 1.35em 1.25em; }
+/* Featured paper: thumbnail left, text right (stacks on phones).
+   The original banner is shown whole inside a black frame; its own background is black, so the letterbox is seamless. */
+.home .pub--featured { display: grid; grid-template-columns: minmax(0, 40%) minmax(0, 1fr); gap: 1.5em; align-items: center; margin-bottom: 1.2em; padding: 1.4em; border: 1px solid #e5e9ef; }
+.home .pub-thumb { display: flex; align-items: center; aspect-ratio: 16 / 10; overflow: hidden; background: #000; border: 1px solid #d9dee5; border-radius: 8px; }
+.home .pub-thumb img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.home .pub--featured .pub-body { padding: 0; min-width: 0; }
+.home .pub--featured .pub-title { font-size: 1.15em; margin: .45em 0 .4em; }
 
 /* International venues read as the heavier tier: filled pill vs. the light outline used for domestic ones */
 .home .venue-pill--intl { background: #1f4f7a; border-color: #1f4f7a; color: #fff; }
@@ -173,16 +183,19 @@ $pub-faint: #7a8594;    // dates, place, journal details
 .home .pub-row { scroll-margin-top: 5em; }
 
 /* Text-only rows (domestic) */
-.home .pub-row { padding: 1.05em 1.35em 1.1em; }
-.home .pub-row + .pub-row { border-top: 1px solid #edf0f4; }
-.home .pub-row .pub-title { font-size: 1em; }
+.home .pub-row { padding: 1.1em 1.3em; }
+.home .pub-row + .pub-row { border-top: 1px solid $row-line; }
+.home .pub-row .pub-title { font-size: 1.05em; }
 
 @include breakpoint(max-width $medium - 1px) {
   .home .pub--featured .pub-body, .home .pub-row { padding: .9em 1em 1em; }
   .home .pub-title { font-size: 1em; }
   /* Featured card runs to the screen edges (cancels #main's 1em side padding) so the wide banner is as large as possible */
-  .home .pub--featured { margin-left: -1em; margin-right: -1em; border-radius: 0; border-left: 0; border-right: 0; }
-  .home .pub--featured .pub-body { padding-left: 1em; padding-right: 1em; }
+  .home .pub--featured { grid-template-columns: 1fr; gap: 0; padding: 0; margin-left: -1em; margin-right: -1em; border-radius: 0; border-left: 0; border-right: 0; }
+  .home .pub-thumb { aspect-ratio: auto; border: 0; border-radius: 0; }
+  .home .pub-thumb img { height: auto; }
+  .home .pub--featured .pub-body { padding: .9em 1em 1em; }
+  .home .pub--featured .pub-title { font-size: 1.02em; }
   /* The not-yet-public paper becomes a quiet text label so it stays on the same row as the real buttons */
   .home .pub-btn.is-pending { padding-left: .2em; padding-right: .2em; background: none; border-color: transparent; }
   .home .pub-btn.is-pending .si { display: none; }
